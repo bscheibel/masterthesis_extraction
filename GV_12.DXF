@@ -2569,7 +2569,7 @@ SLDTEXTSTYLE0
  73
      1
  44
-1.0
+1.0f
   0
 MTEXT
   5
@@ -5247,7 +5247,7 @@ AcDbMText
  72
      1
   1
-±0,05
+?0,05
   7
 SLDTEXTSTYLE0
  73
