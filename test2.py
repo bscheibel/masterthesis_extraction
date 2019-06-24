@@ -1,10 +1,28 @@
+import csv
+
 def printsection(b):
-    print(b)
+    #print(b)
     obj = dict(zip(b[::2], b[1::2]))
     for keys, values in obj.items():
         if keys == '1':
-            print(values)
-            print("\n")
+            try:
+                #print(values)
+                #print('{},{}'.format(obj['10'], obj['20']))
+                #print("\n")
+
+                row = [values,obj['10'],obj['20']]
+                with open('text.csv', 'a') as csvFile:
+                    writer = csv.writer(csvFile, delimiter =';')
+                    if row[0] != '':
+                        writer.writerow(row)
+
+                csvFile.close()
+
+
+
+            except:
+                print("ERROR")
+                #print(b)
 
     #if obj.get('1'):
     #    print('{}'.format(obj['1']))
