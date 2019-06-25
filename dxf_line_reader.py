@@ -27,7 +27,7 @@ with open(filepath,'r', errors="replace") as fp:
     #buffer = []  # and start a new one
     #buffer.append(line)
     cnt += 1
-f.close()
+#f.close()
 
 #printpoint(buffer)        # buffer left over from last pass through loop
 

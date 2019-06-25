@@ -1,4 +1,5 @@
 import csv
+import math
 
 def printsection(b):
     #print(b)
@@ -10,7 +11,7 @@ def printsection(b):
                 #print('{},{}'.format(obj['10'], obj['20']))
                 #print("\n")
 
-                row = [values,obj['10'],obj['20']]
+                row = [values,math.floor(float(obj['10'])),math.floor(float(obj['20']))]
                 with open('text.csv', 'a') as csvFile:
                     writer = csv.writer(csvFile, delimiter =';')
                     if row[0] != '':
