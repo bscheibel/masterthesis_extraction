@@ -30,7 +30,7 @@ def printsection(b):
 
 
 buffer = []
-file = open("GV_12.DXF", "r")
+file = open("Stahl_Adapterplatte.DXF", "r")
 for line in file:
     line = line.strip()
     #print(line)
