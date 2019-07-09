@@ -4,15 +4,17 @@ import re
 
 def read_dimensions(file_out, num):
     with open(file_out) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
+        csv_reader = csv.reader(csv_file, delimiter=';')
         line_count = 0
         durchmesser = False
-        vorzeichen = "nix"
+        vorzeichen1 = "nix"
+        is2vorzeichen = False
+        vorzeichen2 = "nix"
         isos = []
         dimensions = []
+
         for row in csv_reader:
             line_count += 1
-
             if "ISO" in row[num]:
                 isos.append(row[num])
             if durchmesser:
@@ -22,23 +24,30 @@ def read_dimensions(file_out, num):
                 continue
             if row[num] == "%%c":
                 durchmesser = True
+            if vorzeichen1 != "nix" and (row[num] == "-" or row[num] == "+"):
+                is2vorzeichen = True
+                vorzeichen2 = row[num]
+                continue
             if row[num] == "-" or row[num] == "+":
-                vorzeichen = row[num]
-            isnumber = re.findall(r"\d*\,\d+", row[num])
+                vorzeichen1 = row[num]
+                continue
+            isnumber = re.findall(r"\d*\,\.\d+", row[num]) #regex to get number out of line
             if isnumber:
-                if vorzeichen != "nix":
+                if vorzeichen1 != "nix":
                     #print(vorzeichen + isnumber[0])
-                    dimensions.append(vorzeichen + isnumber[0])
+                    dimensions.append(vorzeichen1 + isnumber[0])
                 else:
                     if row[num][0]!="?":
                         #print(isnumber[0])
                         dimensions.append(isnumber[0])
-                vorzeichen = "nix"
+                if is2vorzeichen == True:
+                    vorzeichen1 = "nix"
             if row[num][0] == "?":
                 #print("+/- " + row[1][1:])
                 dimensions.append("+/- " + row[num][1:])
 
         print(isos)
+        print(dimensions)
         print(f'Processed {line_count} lines.')
 
         dim = []
@@ -53,7 +62,7 @@ def read_dimensions(file_out, num):
                 dim_count += 1
                 continue
             if dim_count == 1:
-                print ("Toleranzen: " + "\n" + x)
+                print("Toleranzen: " + "\n" + x)
                 dim_count += 1
                 if "+/-" in x:
                     dim_count += 1
