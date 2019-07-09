@@ -14,25 +14,35 @@ def read_dimensions(file_out, num):
         dimensions = []
 
         for row in csv_reader:
+            #print(row)
             line_count += 1
+
             if "ISO" in row[num]:
                 isos.append(row[num])
+
             if durchmesser:
                 #print("Durchmesser: " + row[1])
                 dimensions.append("Durchmesser: " + row[num])
                 durchmesser = False
                 continue
+
             if row[num] == "%%c":
                 durchmesser = True
+                continue
+
             if vorzeichen1 != "nix" and (row[num] == "-" or row[num] == "+"):
                 is2vorzeichen = True
                 vorzeichen2 = row[num]
                 continue
+
             if row[num] == "-" or row[num] == "+":
                 vorzeichen1 = row[num]
                 continue
-            isnumber = re.findall(r"\d*\,\.\d+", row[num]) #regex to get number out of line
+
+            isnumber = re.findall(r"\d*\,\d+", row[num]) #regex to get number out of line
+
             if isnumber:
+                print(isnumber)
                 if vorzeichen1 != "nix":
                     #print(vorzeichen + isnumber[0])
                     dimensions.append(vorzeichen1 + isnumber[0])
@@ -40,13 +50,15 @@ def read_dimensions(file_out, num):
                     if row[num][0]!="?":
                         #print(isnumber[0])
                         dimensions.append(isnumber[0])
-                if is2vorzeichen == True:
-                    vorzeichen1 = "nix"
+                if is2vorzeichen is True:
+                    vorzeichen1 = vorzeichen2
+                    is2vorzeichen = False
+
             if row[num][0] == "?":
                 #print("+/- " + row[1][1:])
                 dimensions.append("+/- " + row[num][1:])
 
-        print(isos)
+        #print(isos)
         print(dimensions)
         print(f'Processed {line_count} lines.')
 
