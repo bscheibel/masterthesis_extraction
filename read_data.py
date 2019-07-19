@@ -4,6 +4,7 @@ import re
 
 def read_dimensions(file_out, num):
     toleranzen_included = False
+    
     with open(file_out) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
         for row in csv_reader:

@@ -1,0 +1,92 @@
+,Text,x,y
+0,LAYOUT,420,297
+1,Concepts principales and rules according to:ISO 8015,0,2
+2,Dimensions according to:ISO 14405 1-3,0,-1
+3,"Tolerances of form, orientation, location and run-out:ISO 1101",0,-3
+4,Edge finish according to:ISO 13715,0,-6
+5,Surface texture according to:ISO 1302,0,-9
+6,Limits according to:ISO 286-2,0,-12
+7,16% rule:not applicable,0,-15
+8,Concepts principales and rules according to:ISO 8015,0,2
+9,Dimensions according to:ISO 14405 1-3,0,-1
+10,"Tolerances of form, orientation, location and run-out:ISO 1101",0,-3
+11,Edge finish according to:ISO 13715,0,-6
+12,Surface texture according to:ISO 1302,0,-9
+13,Limits according to:ISO 286-2,0,-12
+14,16% rule:not applicable,0,-15
+15,Rz 16,4,3
+16,2x,163,195
+17,%%c,163,199
+18,"19,20",163,203
+20,"0,00",160,211
+19,-,163,210
+21,"0,05",163,211
+22,%%c,152,197
+23,"15,15",152,200
+24,+,149,208
+25,"0,05",149,209
+26,"0,00",152,209
+27,"1,5",87,182
+28,+,92,185
+29,"0,1",93,185
+30,"0,0",93,182
+31,"4,8",86,170
+32,"?0,05",91,170
+33,"2,0",113,179
+34,+,116,182
+35,"0,1",117,182
+36,"0,0",117,179
+37,"9,3",112,170
+38,+,117,173
+39,"0,1",119,173
+40,"0,0",119,170
+41,%%c,140,158
+42,"4,5",140,161
+43,+,137,167
+44,+,140,167
+45,"0,040",137,168
+46,"0,028",140,168
+47,A,17,31
+48,A,202,31
+49,B,17,75
+50,B,202,75
+51,C,17,125
+52,C,202,125
+53,D,17,175
+54,D,202,175
+55,E,17,225
+56,E,202,225
+57,F,17,269
+58,F,202,269
+59,4,39,9
+60,4,39,291
+61,3,84,9
+62,3,84,291
+63,2,134,9
+64,2,134,291
+65,1,179,9
+66,1,179,291
+67,BEATE GV12,160,42
+68,GV_12,152,22
+69,A4,191,24
+70,Page 1/1,164,12
+71,Scale: 2:1,120,12
+72,Drawing nr.:,120,25
+73,Designation:,120,46
+74,Surface material/treatment:,21,47
+75,Material: 1.4021,20,64
+76,Surface Texture:,65,64
+77,Hardened to 48 HRC +2/-0,86,47
+78,Quality Standard: EN 10095,20,17
+79,A,130,108
+80,A,91,107
+81,2x %%c <>,165,225
+82,%%c<>,155,221
+83,<>,101,180
+84,<><>,108,167
+85,<>,105,177
+86,<><>,108,167
+87,%%c<>,143,210
+88,Layout1Layout2Model,0,0
+89,Layout1Layout2Model,0,0
+90,Layout1Layout2Model,0,0
