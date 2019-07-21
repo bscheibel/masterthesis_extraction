@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/drawings/GV_12.DXF" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/drawings/GV_12.DXF" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/drawings/Laeufer.DXF" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/drawings/Stahl_Adapterplatte.DXF" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/temporary/extracted_Stahladapter.csv" charset="UTF-8" />
   </component>
 </project>
