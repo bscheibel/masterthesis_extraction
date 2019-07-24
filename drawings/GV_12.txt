@@ -28,7 +28,7 @@ D                                                                               
                                                                                                           +0,040
                                                                                                       4,5 +0,028
                                                                                +0,1
-                                                        4,8 ±0,05           9,3 0,0
+                                                        4,8 0,05            9,3 0,0
 
 
 
@@ -44,7 +44,7 @@ C                                                                               
 B                                                                                                                                                           B
     Material: 1.4021         Surface Texture:
 
-                                                                    Rz 16
+                                                                   Rz 16
 
 
     Surface material/treatment:         Hardened to 48 HRC +2/-0                   Designation:

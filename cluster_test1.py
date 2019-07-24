@@ -9,14 +9,11 @@
 
 
 import csv
-#csvfile = open('values.csv','r')
-#spamreader1 = list(csv.reader(csvfile, dialect='excel', delimiter=','))
-#csvFileArray = []
+
 csvfile1 = open('values.csv', 'r')
 spamreader1 = list(csv.reader(csvfile1, dialect='excel', delimiter=','))
 csvfile1.close()
-#print(spamreader1)
-#csvfile = open('values.csv', 'r+')
+already_merged=False
 new_rows_list = []
 with open("values.csv", "r") as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
@@ -33,19 +30,18 @@ with open("values.csv", "r") as csvfile:
             y1 = row1[6]
             #print(abs(float(x1) - float(x)))
             #print(abs(float(y1) - float(y)))
-            if (abs(float(x1) - float(x)) < 21.0) and (abs(float(y1) - float(y)) < 40.0): # and row[7] == False:
+            if (abs(float(x1) - float(x)) < 30.0) and (abs(float(y1) - float(y)) < 5.0): # and row[7] == False:
                 #print(row)
                 row[4] = row[4] + " " + row1[4]
-                print(row[4])
+                #print(row[4])
                 row[7] = True
-                writer = csv.writer(csvfile)
-                writer.writerow(row)
-            new_row = [row[0], row[1], row[2],row[3],row[4],row[5],row[6]] #write all values, including new merged text
-            new_rows_list.append(new_row)
+                new_row = [row[0], row[1], row[2],row[3],row[4],row[5],row[6]] #write all values, including new merged text
+                print(new_row)
+                new_rows_list.append(new_row)
 csvfile.close()
 
 
-file2 = open("merged_values.csv", 'wb')
+file2 = open("merged_values.csv", 'w')
 writer = csv.writer(file2)
 writer.writerows(new_rows_list)
 file2.close()

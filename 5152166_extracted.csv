@@ -1,0 +1,759 @@
+CELLSTYLEMAP;1188;840
+"\fArial|b0|i0;\H2.0000;Cleanliness:";0;11
+"\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -";0;3
+"\fArial|b0|i0;\H2.0000;Packaging:";0;18
+"\fArial|b0|i0;\H2.0000;Surface texture:";0;42
+"\fArial|b0|i0;\H2.0000;Edge finish:";51;42
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";59;21
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";0;55
+"\fArial|b0|i0;\H2.0000;Corresponding CAD-file:";0;49
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";1;21
+"\fArial|b0|i0;\H2.0000;Cleanliness:";0;11
+"\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -";0;3
+"\fArial|b0|i0;\H2.0000;Packaging:";0;18
+"\fArial|b0|i0;\H2.0000;Surface texture:";0;42
+"\fArial|b0|i0;\H2.0000;Edge finish:";51;42
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";59;21
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";0;55
+"\fArial|b0|i0;\H2.0000;Corresponding CAD-file:";0;49
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";1;21
+"\fArial|b0|i0;\H2.0000;0,4";-22;2
+"\fArial|b0|i0;\H2.0000;A1";36;2
+"\fArial|b0|i0;\H2.0000;≤ 0,4";22;-10
+"\fArial|b0|i0;\H2.0000;≤ 0,2";22;2
+"\fArial|b0|i0;\H2.0000;8,0";1;2
+"\fArial|b0|i0;\H2.0000;8,0";1;14
+"\fArial|b0|i0;\H2.0000;15,0";1;-10
+"\fArial|b0|i0;\H2.0000;0,7";-22;-10
+"{\H0.57143x;General tolerances according to: \P\H0.81496x; \H0.12271x;\P\H12.5x;DIN EN ISO 8062-3 - DCTG\H1.11277x; }";-44;39
+"\fArial|b0|i0;\H2.0000;A3";36;-22
+"\fArial|b0|i0;\H2.0000;A4";36;-34
+"\fArial|b0|i0;\H2.0000;A2";36;-10
+"\fArial|b0|i0;\H2.0000;-";36;15
+"\fArial|b0|i0;\H2.0000;Exceptions";36;24
+"\fArial|b0|i0;\H2.0000;Cleanliness:";-44;46
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";-43;71
+"\fArial|b0|i0;\H2.0000;General mold drafts:";-44;67
+"\fArial|b0|i0;\H2.0000;Packaging:";-44;53
+"\fArial|b0|i0;\H2.0000;Edge finish:";7;91
+"\fArial|b0|i0;\H2.0000;General pore class:";7;67
+"\fArial|b0|i0;\H2.0000;Surface texture:";-44;91
+"\fArial|b0|i0;\H2.0000;This is an auxiliary drawing, the missing dimensions have to be sourced from the corresponding CAD-file:";-44;101
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";-44;108
+"\fArial|b0|i0;\H2.5000;2";-38;2
+"\fArial|b0|i0;\H2.5600;3";-38;-10
+"\fArial|b0|i0;\H2.0000;≤ 0,6";22;-22
+"\fArial|b0|i0;\H2.0000;30,0";1;-22
+"\fArial|b0|i0;\H2.0000;1,0";-22;-22
+"\fArial|b0|i0;\H2.0000;2,0";-22;-34
+"\fArial|b0|i0;\H2.0000;Pore\P\fArial|b0|i0;\H2.0000;class";-38;24
+"\fArial|b0|i0;\H2.5000;1";-38;14
+"\fArial|b0|i0;\H2.0000;0,4";-22;14
+"\fArial|b0|i0;\H2.0000;≤ 1,0";22;-34
+"\fArial|b0|i0;\H2.0000;≤ 0,2";22;14
+"\fArial|b0|i0;\H2.5000;4";-38;-22
+"\fArial|b0|i0;\H2.5000;5";-38;-34
+"\fArial|b0|i0;\H2.0000;30,0";1;-34
+P  distance to other pores of 5 mm.};-42;-42
+"\fArial|b0|i0;\H2.0000;Min. distance between\P\fArial|b0|i0;\H2.0000;pores [mm]";1;24
+"\fArial|b0|i0;\H2.0000;Casting defects:";-44;31
+"\fArial|b0|i0;\H2.0000;Max. size of\P\fArial|b0|i0;\H2.0000;pores [mm]";-22;24
+"\fArial|b0|i0;\H2.0000;|X| [mm]";22;24
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";15;71
+"\fArial|b0|i0;\H2.0000;0,4";-22;2
+"\fArial|b0|i0;\H2.0000;A1";36;2
+"\fArial|b0|i0;\H2.0000;≤ 0,4";22;-10
+"\fArial|b0|i0;\H2.0000;≤ 0,2";22;2
+"\fArial|b0|i0;\H2.0000;8,0";1;2
+"\fArial|b0|i0;\H2.0000;8,0";1;14
+"\fArial|b0|i0;\H2.0000;15,0";1;-10
+"\fArial|b0|i0;\H2.0000;0,7";-22;-10
+"{\H0.57143x;General tolerances according to: \P\H0.81496x; \H0.12271x;\P\H12.5x;DIN EN ISO 8062-3 - DCTG\H1.11277x; }";-44;39
+"\fArial|b0|i0;\H2.0000;A3";36;-22
+"\fArial|b0|i0;\H2.0000;A4";36;-34
+"\fArial|b0|i0;\H2.0000;A2";36;-10
+"\fArial|b0|i0;\H2.0000;-";36;15
+"\fArial|b0|i0;\H2.0000;Exceptions";36;24
+"\fArial|b0|i0;\H2.0000;Cleanliness:";-44;46
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";-43;71
+"\fArial|b0|i0;\H2.0000;General mold drafts:";-44;67
+"\fArial|b0|i0;\H2.0000;Packaging:";-44;53
+"\fArial|b0|i0;\H2.0000;Edge finish:";7;91
+"\fArial|b0|i0;\H2.0000;General pore class:";7;67
+"\fArial|b0|i0;\H2.0000;Surface texture:";-44;91
+"\fArial|b0|i0;\H2.0000;This is an auxiliary drawing, the missing dimensions have to be sourced from the corresponding CAD-file:";-44;101
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";-44;108
+"\fArial|b0|i0;\H2.5000;2";-38;2
+"\fArial|b0|i0;\H2.5600;3";-38;-10
+"\fArial|b0|i0;\H2.0000;≤ 0,6";22;-22
+"\fArial|b0|i0;\H2.0000;30,0";1;-22
+"\fArial|b0|i0;\H2.0000;1,0";-22;-22
+"\fArial|b0|i0;\H2.0000;2,0";-22;-34
+"\fArial|b0|i0;\H2.0000;Pore\P\fArial|b0|i0;\H2.0000;class";-38;24
+"\fArial|b0|i0;\H2.5000;1";-38;14
+"\fArial|b0|i0;\H2.0000;0,4";-22;14
+"\fArial|b0|i0;\H2.0000;≤ 1,0";22;-34
+"\fArial|b0|i0;\H2.0000;≤ 0,2";22;14
+"\fArial|b0|i0;\H2.5000;4";-38;-22
+"\fArial|b0|i0;\H2.5000;5";-38;-34
+"\fArial|b0|i0;\H2.0000;30,0";1;-34
+P  distance to other pores of 5 mm.};-42;-42
+"\fArial|b0|i0;\H2.0000;Min. distance between\P\fArial|b0|i0;\H2.0000;pores [mm]";1;24
+"\fArial|b0|i0;\H2.0000;Casting defects:";-44;31
+"\fArial|b0|i0;\H2.0000;Max. size of\P\fArial|b0|i0;\H2.0000;pores [mm]";-22;24
+"\fArial|b0|i0;\H2.0000;|X| [mm]";22;24
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";15;71
+"\fArial|b0|i0;\H2.0000;Cleanliness:";1;10
+"\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -";1;3
+"\fArial|b0|i0;\H2.0000;Packaging:";1;17
+"{\H0.57143x;Surface texture:\P\H0.7493x;valid for machined surfaces\H1.41752x; }";0;42
+"{\H0.57143x;Edge finish:\P\H0.7493x;valid for machined surfaces\H1.41752x; }";52;42
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";59;21
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";1;56
+"\fArial|b0|i0;\H2.0000;Corresponding CAD-file:";1;49
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";1;21
+"\fArial|b0|i0;\H2.0000;Cleanliness:";1;11
+"\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -";1;3
+"\fArial|b0|i0;\H2.0000;Packaging:";1;17
+"{\H0.57143x;Surface texture:\P\H0.7493x;valid for machined surfaces\H1.41752x; }";0;43
+"{\H0.57143x;Edge finish:\P\H0.7493x;valid for machined surfaces\H1.41752x; }";52;43
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";59;21
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";1;56
+"\fArial|b0|i0;\H2.0000;Corresponding CAD-file:";1;50
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";1;21
+"\fArial|b0|i0;\H6.0000;TBD";-9;3
+"\fArial|b0|i0;\H2.0000;Cleanliness:";0;6
+"\fArial|b0|i0;\H2.0000;Packaging:";0;13
+"\fArial|b0|i0;\H2.0000;Part has to be assembled.\P\fArial|b0|i0;\H2.0000;All dimensions apply to the assembled part.";0;26
+"\fArial|b0|i0;\H2.0000;Corresponding CAD-file:";0;20
+1936306_Rev10.stp;37;16
+-;51;9
+Cleaned and degreased;33;2
+"\fArial|b0|i0;\H2.0000;Cleanliness:";1;27
+"\fArial|b0|i0;\H2.0000;Concepts, principales and rules according to:^IISO 8015\P\fArial|b0|i0;\H2.0000;Dimensions according to:^I^I^IISO 14405 1-3";1;20
+"\fArial|b0|i0;\H2.0000;Packaging:";1;34
+"\fArial|b0|i0;\H2.0000;Surface texture:";0;58
+"\fArial|b0|i0;\H2.0000;Edge finish:";51;58
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";59;38
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";0;65
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";1;38
+"\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:";1;13
+"\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing";14;3
+"\fArial|b0|i0;1";8;5
+"\fArial|b0|i0;\H2.0000;Cleanliness:";1;27
+"\fArial|b0|i0;\H2.0000;Concepts, principales and rules according to:^IISO 8015\P\fArial|b0|i0;\H2.0000;Dimensions according to:^I^I^IISO 14405 1-3";1;20
+"\fArial|b0|i0;\H2.0000;Packaging:";1;34
+"\fArial|b0|i0;\H2.0000;Surface texture:";0;58
+"\fArial|b0|i0;\H2.0000;Edge finish:";51;58
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";59;38
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";0;65
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";1;38
+"\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:";1;13
+"\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing";14;3
+"\fArial|b0|i0;1";8;5
+xvcxv;1;-6
+Kantenbruch;1;2
+Kantenbruch;-29;-6
+Kantenbruch;-29;2
+1;-1;-2
+"\fArial|b1|i0;\H2.0000;Angelehnt an HN810";1;-2
+"\fArial|b1|i0;\H2.0000;Losgröße (Stk.)";12;-6
+"\fArial|b1|i0;\H2.0000;von";6;-10
+"\fArial|b1|i0;\H2.0000;bis";18;-10
+"\fArial|b1|i0;\H2.0000;Stichprobengröße (Stk.)";36;-8
+"\fArial|b0|i0;\H2.0000;9";6;-14
+"\fArial|b0|i0;\H2.0000;15";18;-14
+"\fArial|b0|i0;\H2.0000;Vollprüfung";36;-14
+"\fArial|b0|i0;\H2.0000;16";6;-18
+"\fArial|b0|i0;\H2.0000;26";6;-22
+"\fArial|b0|i0;\H2.0000;51";6;-26
+"\fArial|b0|i0;\H2.0000;25";18;-18
+"\fArial|b0|i0;\H2.0000;50";18;-22
+"\fArial|b0|i0;\H2.0000;90";18;-26
+"\fArial|b0|i0;\H2.0000;13";36;-18
+"\fArial|b0|i0;\H2.0000;13";36;-22
+"\fArial|b0|i0;\H2.0000;13";36;-26
+"\fArial|b0|i0;\H2.0000;150";18;-30
+"\fArial|b0|i0;\H2.0000;91";6;-30
+"\fArial|b0|i0;\H2.0000;13";36;-30
+"\fArial|b0|i0;\H2.0000;280";18;-34
+"\fArial|b0|i0;\H2.0000;151";6;-34
+"\fArial|b0|i0;\H2.0000;50";36;-34
+"\fArial|b0|i0;\H2.0000;500";18;-38
+"\fArial|b0|i0;\H2.0000;281";6;-38
+"\fArial|b0|i0;\H2.0000;50";36;-38
+"\fArial|b0|i0;\H2.0000;1200";18;-42
+"\fArial|b0|i0;\H2.0000;501";6;-42
+"\fArial|b0|i0;\H2.0000;80";36;-42
+"\fArial|b0|i0;\H2.0000;3200";18;-46
+"\fArial|b0|i0;\H2.0000;1201";6;-46
+"\fArial|b0|i0;\H2.0000;125";36;-46
+"\fArial|b0|i0;\H2.0000;1000";18;-50
+"\fArial|b0|i0;\H2.0000;3201";6;-50
+"\fArial|b0|i0;\H2.0000;200";36;-50
+"\fArial|b0|i0;\H6.0000;Wareneingangszeichnung";-49;3
+"\fArial|b0|i0;1";0;0
+"\fArial|b0|i0;\H2.2000;Only for inquiry";0;-2
+KB;-15;0
+24.04.2018;-1;0
+"\fArial|b0|i0;\H2.2000;Incoming inspection release";0;-2
+"\fArial|b0|i0;\H2.2000;Design Freeze Release    -Sample";0;-2
+"\fArial|b0|i0;\H2.2000;Ready for production release";0;-2
+"\fArial|b0|i0;\H2.2000;Equipment release";0;-2
+"\fArial|b0|i0;\H2.5000;Projektleiter";15;3
+"\fArial|b0|i0;\H2.5000;Techn. Projektleiter";15;-6
+"\fArial|b0|i0;\H2.2000;Production release";0;-2
+"\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.";2;38
+"\fArial|b0|i0;\H2.0000;Surface texture:";2;15
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 1302";2;-5
+"\fArial|b0|i0;\H1.4986;according to DIN ISO 13715";60;-5
+"\fArial|b0|i0;\H2.0000;Edge finish:";53;15
+"\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:";2;-9
+"{\H0.57143x;Cleanliness:\P\H0.15x;\P\H7.66667x;Part has to be degreased and free of deposits, detachable burrs and visual detectable particles.}";2;-19
+"\fArial|b0|i0;\H2.0000;Material:";2;30
+3.2315;13;28
+"\fArial|b0|i0;\H2.0000;Quality standard:";42;30
+"\fArial|b0|i0;\H2.0000;Raw part No:";2;20
+"\fArial|b0|i0;\H2.0000;Surface/material treatment:";2;25
+"\fArial|b0|i0;\H2.0000;Delivery conditions:";2;-31
+"\fArial|b0|i0;\H2.0000;General tolerances according to:";2;-36
+"\fArial|b0|i0;\H2.5000;ISO 2768 -";46;-37
+EN 755-2;67;28
+Ra 12,5;12;5
+-0,2;63;9
+-0,05;63;5
++0,2;76;5
+5152166_Rev04.stp;30;-16
+-;31;-34
+mH;63;-38
+"\fArial|b0|i0;\H2.2000;Prototype release      -Sample";0;-2
+KB;-15;0
+21.06.2018;-1;0
+B2;4;-5
+4;406;77
+Redesign;412;77
+-;512;78
+20.06.2018;526;77
+KB;546;77
+26.06.2018;556;77
+KG;575;77
+3;406;73
+Tolernaces changed;412;72
+-;512;73
+08.06.2018;526;73
+KB;546;73
+08.06.2018;556;73
+DF;575;73
+2;406;68
+Tolerances changed;412;68
+-;512;69
+03.05.2018;526;68
+KB;546;68
+03.05.2018;556;68
+DF;575;68
+1;407;64
+Start drawing, anodization removed, layout update;412;64
+-;512;65
+18.04.2018;526;64
+KB;546;64
+18.04.2018;556;64
+DF;575;64
+REVISION HISTORY;482;56
+REV.;404;60
+DESCRIPTION;447;60
+SECTION;507;60
+DATE;529;60
+DRAWN BY;541;60
+INSP. DATE;556;60
+INSP. BY;572;60
+A;17;385
+B;17;335
+C;17;285
+D;17;235
+E;17;184
+F;17;134
+G;17;84
+H;17;34
+1;22;7
+2;72;7
+3;122;7
+4;172;7
+5;222;7
+6;272;7
+7;322;7
+8;372;7
+9;422;7
+10;472;7
+11;522;7
+B;586;335
+A;586;385
+D;586;235
+C;586;285
+G;586;85
+H;586;35
+F;586;135
+E;586;185
+3;122;412
+2;72;412
+1;21;412
+5;222;412
+7;321;412
+6;272;412
+4;172;412
+8;371;412
+10;471;412
+9;421;412
+12;572;412
+11;522;412
+A2;569;5
+A;334;284
+A;334;164
+"\A1;12,5{\H5;±2}";839;340
+Z;444;197
+"\A1;45\U+00B0{\H5;±45\U+00B0}";860;623
+Y;463;198
+"\A1;45\U+00B0{\H5;±45\U+00B0}";862;785
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;90 H10 (\S+0,14^ +0,;)";963;402
+X;457;235
+"\A1;45\U+00B0{\H5;±45\U+00B0}";581;716
+W;448;249
+"\A1;1{\H5;\S+0,1^ -0,5;}";400;719
+"\A1;60\U+00B0{\H5;±30\U+00B0}";389;772
+"\A1;0,8";496;762
+"\A1;30\U+00B0";461;731
+V;447;259
+"\A1;1";353;752
+"\A1;30\U+00B0";313;738
+A;491;251
+"\A1;80{\H5;±0,3}";901;300
+B;256;283
+B;257;167
+U;457;197
+"\A1;45\U+00B0{\H5;±45\U+00B0}";209;743
+T;467;188
+"\A1;0,8{\H5;±0,1}";46;713
+"\A1;1{\H5;\S+0,1^ -0,5;}";142;766
+"\A1;60\U+00B0{\H5;±30\U+00B0}";161;708
+"\A1;30\U+00B0";96;717
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;35 M7 (\S+0,^ -0,025;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É";118;639
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;125";263;649
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;29{\H5;±0,5}";83;699
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;29{\H5;±0,5}";458;707
+"\A1;55";113;461
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;21 H7 (\S+0,021^ +0,;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É";116;608
+B;28;306
+r;173;293
+Ø0,05;182;293
+B;197;294
+g;173;286
+0,03;184;286
+r;173;309
+Ø0,05;182;309
+B-C;197;309
+g;172;302
+0,03;184;302
+"\A1;21,3{\H5;\S+0^ -0,1;}";167;452
+"\A1;39,3{\H5;\S+5^ -0;}";128;500
+"\A1;54{\H5;±0,1}";113;509
+d;26;262
+0,2;36;261
+A;46;262
+b;26;254
+0,05;35;254
+B;47;255
+c;25;248
+0,05;35;247
+4x;25;286
+b;26;278
+0,1 CZ;35;278
+B;52;279
+c;26;272
+0,1 CZ;35;271
+"\A1;55";113;406
+"\A1;24,74{\H5;\S+0,1^ -0;}";164;395
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;21 H7 (\S+0,021^ +0,;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É";155;328
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;35 H8 (\S+0,039^ +0,;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É\fArial|b0|i0;\H7.0000; J\fAIGDT|b0|i0;\H7.0000;#\fArial|b0|i0;\H7.0000;K";114;295
+C;31;134
+r;167;137
+Ø0,05;176;137
+B-C;191;137
+g;167;129
+0,03;178;130
+J;166;123
+#;169;124
+K;180;123
+r;167;153
+Ø0,05;176;153
+C;191;154
+g;167;146
+0,03;178;146
+d;27;185
+0,2;38;185
+A;48;185
+b;27;177
+0,05;36;178
+C;48;178
+c;27;171
+0,05;36;171
+"\A1;4";180;563
+"\A1;69,5";583;137
+"\A1;69,5";696;227
+"\A1;\fArial|b0|i0;\H7.0000;5{\H5;\S+0,03^ -0;} \fAIGDT|b0|i0;\H7.0000;É";982;656
+D;498;383
+f;460;345
+0,03;468;345
+D;480;346
+c;459;339
+0,05;468;338
+i;473;325
+0,05;480;324
+B;492;325
+i;473;318
+0,1;482;317
+A;492;318
+c;470;363
+0,05;479;362
+R;345;83
+"\A1;\fArial|b0|i0;\H7.0000;B.C. ∅42,5{\H5;±0,1}";997;606
+"\A1;10\U+00B0";1145;727
+"\A1;\fArial|b0|i0;\H7.0000;4x 90\U+00B0";1103;794
+"\A1;∅37{\H5;±0,1}";1127;678
+C;519;389
+C;534;390
+"\A1;13 MIN";1082;565
+Rz 6,3;45;313
+Rz 6,3;45;298
+Ra 0,8;493;381
+Rz 6,3;64;158
+Rz 6,3;49;141
+Ra 1,6;431;138
+"\A1;0,15{\H5;\S+0^ -0,15;}";885;700
+"\A1;0,15{\H5;\S+0^ -0,15;}";833;667
+"\A1;0,25{\H5;\S+0^ -0,25;}";260;733
+"\A1;0,25{\H5;\S+0^ -0,25;}";585;781
+Ra 1,6;29;237
+Ra 1,6;57;182
+"\A1;\fArial|b0|i0;\H7.0000;2x 15";184;339
+"\A1;\fArial|b0|i0;\H7.0000;2x 25,25";369;420
+"\A1;\fArial|b0|i0;\H7.0000;2x 25,25";411;424
+"\A1;\fArial|b0|i0;\H7.0000;2x 15";342;339
+"\A1;15";450;331
+"\A1;15";515;331
+"\A1;\fAIGDT|b0|i0;\H7.0000;o\fArial|b0|i0;\H7.0000;70";478;599
+Ra 3,2;241;145
+Ra 3,2;250;147
+"\A1;\fArial|b0|i0;\H7.0000;2x 140{\H5;±0,5}";569;417
+c;272;165
+0,1;281;165
+E;273;152
+"\A1;\fArial|b0|i0;\H7.0000;8x R15";805;512
+"\A1;110";606;439
+"\A1;110";690;295
+4x;398;296
+j;399;288
+Ø0,1;406;288
+A;419;289
+B-C;424;289
+Ø9 - Thru;398;282
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;51";697;317
+"\A1;\fArial|b0|i0;\H7.0000;2x 140{\H5;±0,5}";684;275
+Ra 1,6;21;402
+Ra 1,6;184;352
+Ra 1,6;258;349
+"\A1;\fArial|b0|i0;\H7.0000;2x 13,8";389;519
+Ra 1,6;487;180
+f;488;157
+0,1;496;157
+E;505;158
+c;486;151
+0,1;496;150
+i;487;143
+0,2;494;142
+B-C;503;143
+"\A1;17{\H5;±2}";1015;536
+4x M5x0.8;534;241
+D;343;41
+D;343;51
+"\A1;10 MIN";532;66
+"\A1;15,1{\H5;±2}";536;47
+4x M6x1;240;21
+b;497;184
+0,1;506;185
+B-C;515;185
+i;498;178
+0,1;506;178
+B-C;515;178
+2;204;113
+"\A1;12,5{\H5;±2}";838;320
+Ra 1,6;486;113
+"\A1;\fArial|b0|i0;\H7.0000;2x R5";1112;662
+"\A1;\fArial|b0|i0;\H7.0000;2x R5";1143;708
+"\A1;50\U+00B0";1013;736
+"\A1;50\U+00B0";1106;691
+"\A1;(209,74)";588;437
+"\A1;16";356;535
+"\A1;∅60";1030;622
+"\A1;\fArial|b0|i0;\H7.0000;2x 15,25";391;420
+"\A1;\fArial|b0|i0;\H7.0000;2x 10";356;440
+"\A1;27";258;460
+"\A1;27";285;460
+S;119;165
+"\A1;3,5";404;182
+"\A1;20\U+00B0";422;158
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;37 H12 (\S+0,25^ +0,;)";460;257
+"\A1;1,6 H13 (\S+0,14^ +0,;)";468;117
+"\A1;88,24";785;382
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;137";476;623
+"\A1;86,3";785;472
+Q;110;283
+"\A1;1";347;159
+"\A1;4{\H5;\S+0,25^ -0;}";228;91
+"\A1;3,5";366;87
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;35{\H5;\S+0,2^ +0,01;}\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É\fArial|b0|i0;\H7.0000; K\fAIGDT|b0|i0;\H7.0000;#\fArial|b0|i0;\H7.0000;L";134;265
+"\A1;\fArial|b0|i0;\H7.0000;2x {\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;134{\H5;\S+0^ -0,2;}\fArial|b0|i0;\H7.0000; CT";337;58
+"\A1;{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;132{\H5;±0,1}";317;71
+"\A1;45\U+00B0";569;179
+"\A1;\fArial|b0|i0;\H7.0000;4x 90\U+00B0";692;255
+4x;271;134
+j;271;126
+Ø0,2;279;126
+A;291;127
+B;297;127
+M5x0,8 - Thru;271;119
+"\A1;\fArial|b0|i0;\H7.0000;B.C. ∅155";782;177
+4x;298;33
+j;298;25
+Ø0,2;306;25
+B;319;26
+"\A1;\fArial|b0|i0;\H7.0000;4x ∅143";551;113
+"\A1;\fArial|b0|i0;\H7.0000;2 (circular)";251;46
+"\A1;\fArial|b0|i0;\H7.0000;4x R50";593;91
+"\A1;\fArial|b0|i0;\H7.0000;4x R50";606;190
+"\A1;\fArial|b0|i0;\H7.0000;4x R6";607;209
+Ra 3,2;218;26
+Ra 3,2;74;279
+Ra 3,2;202;61
+Ra 1,6;194;35
+Ra 1,6;128;85
+"\A1;11,7";569;510
+"\A1;\fArial|b0|i0;\H7.0000;8x R5";534;483
+"\A1;\fArial|b0|i0;\H7.0000;4x R5";532;467
+"\A1;\fArial|b0|i0;\H7.0000;4x R5";529;420
+"\A1;\fArial|b0|i0;\H7.0000;4x R5";683;735
+OLE;136;131
+"\fArial|b0|i0;\H2.2000;Part Number:";174;122
+for the payment of damages. All rights reserved in the event of the grant of a patent, utility model or design. (ISO 16016);79;157
+"\fArial|b0|i0;\H2.2000;Page:";244;122
+"\fArial|b0|i0;\H1.5217;Drawing Approval Stamp";105;115
+"\fArial|b0|i0;\H2.2000;ENGINE Division";152;115
+"\fArial|b0|i0;\H2.5000;Document type:";174;142
+"\fArial|b0|i0;\H2.5000;Description:";174;132
+"\fArial|b0|i0;\H2.0000;Weight:";79;142
+"\fArial|b0|i0;\H2.0000;Projection:";139;142
+"\fArial|b0|i0;\H2.0000;ISO 128\P\fArial|b0|i0;\H2.0000;Method 1";139;138
+"\fArial|b0|i0;\H2.0000;Scale:";99;142
+"\fArial|b0|i0;\H2.0000;Unit:";119;142
+"\fArial|b0|i0;\H2.5000;mm";128;136
+"\fArial|b0|i0;\H3.0000;/";250;117
+5152166;202;115
+Lower Housing AC+90;200;126
+-;88;135
+1 : 2;105;135
+1;247;115
+1;252;115
+Component drawing;200;136
+"\A1;\fArial|b0|i0;\H7.0000;1 (circular)";760;60
+"\A1;7,5 MIN";843;441
+"\A1;7,5 MIN";843;402
+Ra 3,2;259;110
+A2;1138;11
+A-A;900;570
+<>;913;330
+Z ( 10 : 1 );830;706
+<>;829;646
+Y ( 10 : 1 );829;789
+<>;881;743
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<> H10 (\S+0,14^ +0,;)";986;393
+X ( 10 : 1 );537;784
+<>;553;715
+W ( 5 : 1 );428;777
+<>;415;750
+<>;408;785
+<>;506;750
+<>;487;716
+V ( 5 : 1 );285;773
+<>;362;758
+<>;340;722
+<>;953;290
+B-B;263;658
+U ( 10 : 1 );198;779
+<>;241;774
+T ( 5 : 1 );96;784
+<>;56;752
+<>;157;742
+<>;171;709
+<>;101;710
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<> M7 (\S+0,^ -0,025;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É";257;616
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>";212;636
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>";-158;687
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>";728;695
+<>;123;438
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<> H7 (\S+0,021^ +0,;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É";264;585
+<>;183;493
+<>;143;533
+<>;123;547
+<>;123;383
+<>;179;359
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<> H7 (\S+0,021^ +0,;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É";264;305
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<> H8 (\S+0,039^ +0,;)\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É\fArial|b0|i0;\H7.0000; J\fAIGDT|b0|i0;\H7.0000;#\fArial|b0|i0;\H7.0000;K";257;272
+<>;189;551
+<>;595;96
+<>;740;216
+"\fArial|b0|i0;\H7.0000;<> \fAIGDT|b0|i0;\H7.0000;É";999;711
+R ( 1 : 1 );1029;797
+"\fArial|b0|i0;\H7.0000;B.C. <>";1085;754
+<>;1137;717
+"\fArial|b0|i0;\H7.0000;4x <>";1124;766
+<>;1037;740
+C-C ( 1 : 1 );1002;576
+<> MIN;1091;554
+<>;901;753
+<>;848;653
+<>;248;717
+<>;568;766
+"\fArial|b0|i0;\H7.0000;2x <>";219;330
+"\fArial|b0|i0;\H7.0000;2x <>";379;468
+"\fArial|b0|i0;\H7.0000;2x <>";421;409
+"\fArial|b0|i0;\H7.0000;2x <>";329;330
+<>;462;323
+<>;527;323
+"\fAIGDT|b0|i0;\H7.0000;o\fArial|b0|i0;\H7.0000;<>";522;591
+"\fArial|b0|i0;\H7.0000;2x <>";579;368
+"\fArial|b0|i0;\H7.0000;8x <>";760;493
+<>;616;383
+<>;760;285
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>";731;305
+"\fArial|b0|i0;\H7.0000;2x <>";775;265
+"\fArial|b0|i0;\H7.0000;2x <>";399;507
+<>;1024;528
+D-D;505;109
+<> MIN;520;57
+<>;525;37
+<>;926;310
+"\fArial|b0|i0;\H7.0000;2x <>";1089;672
+"\fArial|b0|i0;\H7.0000;2x <>";1115;721
+<>;1027;744
+<>;1111;684
+(<>);599;350
+<>;364;547
+<>;1081;774
+"\fArial|b0|i0;\H7.0000;2x <>";401;409
+"\fArial|b0|i0;\H7.0000;2x <>";364;493
+<>;246;451
+<>;302;451
+S ( 2 : 1 );418;253
+<>;414;196
+<>;444;137
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<> H12 (\S+0,25^ +0,;)";594;234
+"<> H13 (\S+0,14^ +0,;)";491;202
+<>;795;350
+"{\fArial|b0|i0;K}";305;360
+"{\fArial|b0|i0;J}";306;379
+"{\fArial|b0|i0;L}";307;349
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>";419;611
+<>;795;438
+Q ( 2 : 1 );293;168
+<>;356;141
+<>;242;125
+<>;376;111
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>\fArial|b0|i0;\H7.0000; \fAIGDT|b0|i0;\H7.0000;É\fArial|b0|i0;\H7.0000; K\fAIGDT|b0|i0;\H7.0000;#\fArial|b0|i0;\H7.0000;L";257;247
+"\fArial|b0|i0;\H7.0000;2x {\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>\fArial|b0|i0;\H7.0000; CT";836;41
+"{\fAIGDT|b0|i0;\H7.0000;\ln}\fArial|b0|i0;\H7.0000;<>";832;59
+<>;589;198
+"\fArial|b0|i0;\H7.0000;4x <>";735;241
+"\fArial|b0|i0;\H7.0000;B.C. <>";634;99
+"\fArial|b0|i0;\H7.0000;4x <>";775;143
+"\fArial|b0|i0;\H7.0000;<> (circular)";262;103
+"\fArial|b0|i0;\H7.0000;4x <>";594;80
+"\fArial|b0|i0;\H7.0000;4x <>";594;181
+"\fArial|b0|i0;\H7.0000;4x <>";650;185
+<>;579;540
+"\fArial|b0|i0;\H7.0000;8x <>";507;488
+"\fArial|b0|i0;\H7.0000;4x <>";507;473
+"\fArial|b0|i0;\H7.0000;4x <>";507;404
+"\fArial|b0|i0;\H7.0000;4x <>";682;713
+3.2315;64;155
+EN 755-2;173;154
+Ra 12,5;61;108
+-0,2;164;117
+-0,05;164;109
++0,2;190;109
+5152166_Rev04.stp;98;68
+-;99;32
+mH;165;22
+5152166;1056;24
+Lower Housing AC+90;1051;45
+-;827;63
+1 : 2;862;63
+1;1146;24
+1;1155;24
+Component drawing;1051;65
+"\fArial|b0|i0;\H7.0000;<> (circular)";748;69
+KB;833;40
+21.06.2018;861;40
+B2;872;31
+<> MIN;853;486
+<> MIN;853;391
+1936306_Rev10.stp;37;18
+-;52;10
+Cleaned and degreased;52;3
+xvcxv;1;-3
+Kantenbruch;1;1
+Kantenbruch;-2;-2
+Kantenbruch;-2;1
+1;0;0
+KB;-12;2
+24.04.2018;10;2
+3.2315;13;30
+EN 755-2;75;29
+Ra 12,5;12;8
+-0,2;63;8
+-0,05;63;4
++0,2;76;4
+5152166_Rev04.stp;46;-15
+-;31;-32
+mH;64;-37
+KB;-12;2
+21.06.2018;10;2
+B2;4;-2
+A2;572;7
+5152166;212;117
+Lower Housing AC+90;200;129
+-;88;136
+1 : 2;108;136
+1;249;117
+1;252;117
+Component drawing;200;139
+A2;1144;14
+3.2315;65;159
+EN 755-2;188;157
+Ra 12,5;62;115
+-0,2;165;115
+-0,05;165;107
++0,2;191;107
+5152166_Rev04.stp;130;69
+-;100;34
+mH;166;24
+5152166;1075;27
+Lower Housing AC+90;1052;52
+-;828;65
+1 : 2;868;65
+1;1149;27
+1;1156;27
+Component drawing;1052;72
+KB;840;43
+21.06.2018;882;43
+B2;872;35
+Layout1;0;0
+Layout2;0;0
+Model;0;0
