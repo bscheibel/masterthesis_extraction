@@ -13,5 +13,10 @@ for match in matches:
         extracted_dimensions.append(match.strip())
 
 
+#next part replaces everything you do not need with whitespace
+string = "<font x=''>test</font> <font y=''>test2</font> <font z=''>test3</font>"
+if re.search("(<font .*?>)", string, re.IGNORECASE):
+        r = re.compile(r"</?font.*?>", re.IGNORECASE)
+        string = r.sub(r'', string)
 
 print(extracted_dimensions)
