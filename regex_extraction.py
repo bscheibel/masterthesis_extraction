@@ -2,7 +2,7 @@
 import re
 
 regex = r"(\S+\s{1,3}?\S*\s?\S*\S*\s?\S*\S*\s?\S*\S*\s?\S*\S*\s+)" #alle gruppen von zahlen raus
-regex1 = r"([A-Z]\s?\W\s?\d\d?\s?\s?\W\s?\d\d?\s?\W)" #ti get the bezeichnungen raus
+regex1 = r"([A-Z]\s?\W\s?\d\d?\s?\s?:\s?\d\d?\s?\W)" #ti get the bezeichnungen raus
 regex2= r"([a-zA-Z]{3,})" #alle wörter raus???
 regex_isos = r"(ISO\s\d\d\d\d?\W?\d?\W?\d?\W?\d?)" #get iso standards
 reg = r"(^\d{1}$)" #einzelne Zahlen raus
@@ -35,4 +35,37 @@ for dim in extracted_dimensions:
 
 print(isos)
 for dim in new_dims:
-        print(dim)
+        if b:
+                print("Rechtwinkligkeit")
+                print(dim)
+        if g:
+                print("Zylinderform")
+                print(dim)
+        if f:
+                print("Parallelität")
+                print(dim)
+        if c:
+                print("Zylinderform")
+                print(dim)
+        if r:
+                print("Konzentrizität oder Durchmesser?")
+                print(dim)
+        if i:
+                print("Symmetrie")
+                print(dim)
+        if j:
+                print("Ortstoleranz/Mittelpunkt")
+                print(dim)
+        if n:
+                print("Durchmesser")
+                print(dim)
+        if É:
+                print("Modifikator")
+                print(dim)
+        ####nicht dabei: neigungswinkel und lauftoleranzen
+        if R:
+                print("Radius")
+
+        if °:
+                print("Grad")
+
