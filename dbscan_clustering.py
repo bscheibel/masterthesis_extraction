@@ -10,15 +10,15 @@ from sklearn.preprocessing import StandardScaler
 
 
 # #############################################################################
-data_df = pandas.read_csv("values.csv", sep=",")
+data_df = pandas.read_csv("temporary/5129275_extracted.csv", sep=";")
 data_df.head(3)
-data = data_df[["X1","Y1","X2","Y2"]]
+data = data_df[["X","Y"]]
 print(data)
 data = StandardScaler().fit_transform(data)
 
 # #############################################################################
 # Compute DBSCAN
-db = DBSCAN(eps=0.15, min_samples=1).fit(data)
+db = DBSCAN(eps=0.2, min_samples=1).fit(data)
 core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
 core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
@@ -61,5 +61,5 @@ plt.title('Estimated number of clusters: %d' % n_clusters_)
 plt.show()
 
 print(data_df.head(3))
-data_df.to_csv("values_clustered.csv")
-data_df.groupby('cluster')['Text'].apply(' '.join).reset_index().to_csv("text_merged.csv")
+data_df.to_csv("values_clustered_GV12.csv")
+data_df.groupby('cluster')['Text'].apply(' '.join).reset_index().to_csv("text_merged_GV12.csv")
