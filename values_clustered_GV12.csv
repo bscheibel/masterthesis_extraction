@@ -1,0 +1,1317 @@
+,Text,X,Y,cluster
+0,CELLSTYLEMAP,210,148,0
+1,\fArial|b1|i0;\H2.0000;Angelehnt an HN810,-134,50,1
+2,\fArial|b1|i0;\H2.0000;Losgröße (Stk.),-123,45,1
+3,\fArial|b1|i0;\H2.0000;von,-129,42,1
+4,\fArial|b1|i0;\H2.0000;bis,-117,41,1
+5,\fArial|b1|i0;\H2.0000;Stichprobengröße (Stk.),-98,44,1
+6,\fArial|b0|i0;\H2.0000;9,-129,37,1
+7,\fArial|b0|i0;\H2.0000;15,-117,37,1
+8,\fArial|b0|i0;\H2.0000;Vollprüfung,-98,37,1
+9,\fArial|b0|i0;\H2.0000;16,-129,33,1
+10,\fArial|b0|i0;\H2.0000;26,-129,29,1
+11,\fArial|b0|i0;\H2.0000;51,-129,25,1
+12,\fArial|b0|i0;\H2.0000;25,-117,33,1
+13,\fArial|b0|i0;\H2.0000;50,-117,29,1
+14,\fArial|b0|i0;\H2.0000;90,-117,25,1
+15,\fArial|b0|i0;\H2.0000;13,-98,33,1
+16,\fArial|b0|i0;\H2.0000;13,-98,29,1
+17,\fArial|b0|i0;\H2.0000;13,-98,25,1
+18,\fArial|b0|i0;\H2.0000;150,-117,21,1
+19,\fArial|b0|i0;\H2.0000;91,-129,21,1
+20,\fArial|b0|i0;\H2.0000;13,-98,21,1
+21,\fArial|b0|i0;\H2.0000;280,-117,17,1
+22,\fArial|b0|i0;\H2.0000;151,-129,17,1
+23,\fArial|b0|i0;\H2.0000;50,-98,17,1
+24,\fArial|b0|i0;\H2.0000;500,-117,13,1
+25,\fArial|b0|i0;\H2.0000;281,-129,13,1
+26,\fArial|b0|i0;\H2.0000;50,-98,13,1
+27,\fArial|b0|i0;\H2.0000;1200,-117,9,1
+28,\fArial|b0|i0;\H2.0000;501,-129,9,1
+29,\fArial|b0|i0;\H2.0000;80,-98,9,1
+30,\fArial|b0|i0;\H2.0000;3200,-117,5,1
+31,\fArial|b0|i0;\H2.0000;1201,-129,5,1
+32,\fArial|b0|i0;\H2.0000;125,-98,5,1
+33,\fArial|b0|i0;\H2.0000;1000,-117,1,1
+34,\fArial|b0|i0;\H2.0000;3201,-129,1,1
+35,\fArial|b0|i0;\H2.0000;200,-98,1,1
+36,\fArial|b1|i0;\H2.5000;Zu überprüfender Anlieferungszustand:,-84,26,1
+37,\fArial|b0|i0;\H2.5000;Reinheitsanforderung:,-84,20,1
+38,\fArial|b0|i0;\H2.5000;Verpackungsvorschrift:,-84,14,1
+39,"entfettet, ultraschallgereinigt",-47,17,2
+40,separat verpackt,-47,11,2
+41,\fArial|b0|i0;\H2.5000;Allg. Anforderungen:,-84,8,1
+42,"alle Kanten entgratet,",-47,5,2
+43,gehärtet auf 48 HRC +2/-0,-47,1,2
+44,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,54,2
+45,\fArial|b0|i0;\H2.0000;Surface texture:,-44,31,2
+46,\fArial|b0|i0;\H1.4986;valid for machined surface,-44,11,2
+47,\fArial|b0|i0;\H1.4986;valid for machined surface,15,11,2
+48,\fArial|b0|i0;\H2.0000;Edge finish:,7,31,2
+49,\fArial|b0|i0;1,-33,-24,2
+50,\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing,-27,-27,2
+51,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-44,-16,2
+52,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-44,7,2
+53,except for fiber\P\fArial|b0|i0;\H2.0000;Residue classification                                    acc. to table 01,-44,-32,2
+54,\fArial|b0|i0;\H2.0000;Material:,-44,46,2
+55,1.4021,-28,44,2
+56,\fArial|b0|i0;\H2.0000;Quality standard:,-4,46,2
+57,\fArial|b0|i0;\H2.0000;Raw part No:,-44,36,2
+58,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-44,41,2
+59,\fArial|b0|i0;\H2.0000;Packaging:,-44,-52,2
+60,\fArial|b0|i0;\H2.0000;16% - rule,-44,-12,2
+61,EN 10095,21,44,2
+62,Hardened to 48 HRC +2/-0,-9,38,2
+63,-,-9,34,2
+64,Rz 16,-34,21,2
+65,"-0,2",18,25,2
+66,"-0,05",18,21,2
+67,"+0,4",34,21,2
+68,not applicable,22,-14,2
+69,5129275_Rev01.stp,-9,-23,2
+70,-,14,-44,2
+71,stored separately,-9,-54,2
+72,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,56,2
+73,\fArial|b0|i0;\H2.0000;Surface texture:,-44,34,2
+74,\fArial|b0|i0;\H1.4986;valid for machined surface,-44,13,2
+75,\fArial|b0|i0;\H1.4986;valid for machined surface,15,13,2
+76,\fArial|b0|i0;\H2.0000;Edge finish:,7,34,2
+77,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-44,-13,2
+78,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-44,10,2
+79,except for fiber\P\fArial|b0|i0;\H2.0000;Residue classification                                    acc. to table 01,-44,-34,2
+80,\fArial|b0|i0;\H2.0000;Material:,-44,49,2
+81,1.4021,-33,46,2
+82,\fArial|b0|i0;\H2.0000;Quality standard:,-4,49,2
+83,\fArial|b0|i0;\H2.0000;Raw part No:,-44,39,2
+84,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-44,44,2
+85,\fArial|b0|i0;\H2.0000;Packaging:,-44,-54,2
+86,\fArial|b0|i0;\H2.0000;16% - rule,-44,-9,2
+87,EN 10095,21,46,2
+88,Hardened to 48 HRC +2/-0,-9,41,2
+89,-,-9,36,2
+90,Rz 16,-34,23,2
+91,"-0,2",18,27,2
+92,"-0,05",18,23,2
+93,"+0,4",34,23,2
+94,not applicable,22,-11,2
+95,5129275_Rev01.stp,-15,-20,2
+96,-,14,-47,2
+97,-,-9,-57,2
+98,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-44,-24,2
+99,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,44,2
+100,\fArial|b0|i0;\H2.0000;Surface texture:,-44,21,2
+101,\fArial|b0|i0;\H1.4986;valid for machined surface,-44,1,2
+102,\fArial|b0|i0;\H1.4986;valid for machined surface,15,1,2
+103,\fArial|b0|i0;\H2.0000;Edge finish:,7,21,2
+104,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-44,-26,2
+105,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-44,-3,2
+106,\fArial|b0|i0;\H2.0000;Material:,-44,36,2
+107,1.4021,-33,34,2
+108,\fArial|b0|i0;\H2.0000;Quality standard:,-4,36,2
+109,\fArial|b0|i0;\H2.0000;Raw part No:,-44,26,2
+110,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-44,31,2
+111,\fArial|b0|i0;\H2.0000;16% - rule,-44,-22,2
+112,EN 10095,21,34,2
+113,Hardened to 48 HRC +2/-0,-9,28,2
+114,-,-9,24,2
+115,Rz 16,-34,11,2
+116,"-0,2",18,15,2
+117,"-0,05",18,11,2
+118,"+0,4",34,11,2
+119,not applicable,22,-24,2
+120,5129275_Rev01.stp,-15,-33,2
+121,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-44,-37,2
+122,\fArial|b0|i0;\H2.0000;Cleanliness:,0,11,2
+123,\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -,0,3,2
+124,\fArial|b0|i0;\H2.0000;Packaging:,0,18,2
+125,\fArial|b0|i0;\H2.0000;Surface texture:,0,42,2
+126,\fArial|b0|i0;\H2.0000;Edge finish:,51,42,2
+127,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,21,2
+128,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,55,2
+129,\fArial|b0|i0;\H2.0000;Corresponding CAD-file:,0,49,2
+130,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,21,2
+131,\fArial|b0|i0;\H2.0000;Cleanliness:,0,11,2
+132,\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -,0,3,2
+133,\fArial|b0|i0;\H2.0000;Packaging:,0,18,2
+134,\fArial|b0|i0;\H2.0000;Surface texture:,0,42,2
+135,\fArial|b0|i0;\H2.0000;Edge finish:,51,42,2
+136,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,21,2
+137,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,55,2
+138,\fArial|b0|i0;\H2.0000;Corresponding CAD-file:,0,49,2
+139,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,21,2
+140,3865240_Rev03.stp,37,45,2
+141,Rz 16,10,31,2
+142,"-0,2",62,35,2
+143,"-0,05",62,31,2
+144,"+0,4",78,31,2
+145,stored separately,38,14,2
+146,ultrasonically cleaned and degreased,23,7,2
+147,mH,62,1,2
+148,"\fArial|b0|i0;\H2.0000;0,4",-22,2,2
+149,\fArial|b0|i0;\H2.0000;A1,36,2,2
+150,"\fArial|b0|i0;\H2.0000;≤ 0,4",22,-10,2
+151,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,2,2
+152,"\fArial|b0|i0;\H2.0000;8,0",1,2,2
+153,"\fArial|b0|i0;\H2.0000;8,0",1,14,2
+154,"\fArial|b0|i0;\H2.0000;15,0",1,-10,2
+155,"\fArial|b0|i0;\H2.0000;0,7",-22,-10,2
+156,{\H0.57143x;General tolerances according to: \P\H0.81496x; \H0.12271x;\P\H12.5x;DIN EN ISO 8062-3 - DCTG\H1.11277x; },-44,39,2
+157,\fArial|b0|i0;\H2.0000;A3,36,-22,2
+158,\fArial|b0|i0;\H2.0000;A4,36,-34,2
+159,\fArial|b0|i0;\H2.0000;A2,36,-10,2
+160,\fArial|b0|i0;\H2.0000;-,36,15,2
+161,\fArial|b0|i0;\H2.0000;Exceptions,36,24,2
+162,\fArial|b0|i0;\H2.0000;Cleanliness:,-44,46,2
+163,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,-43,71,2
+164,\fArial|b0|i0;\H2.0000;General mold drafts:,-44,67,2
+165,\fArial|b0|i0;\H2.0000;Packaging:,-44,53,2
+166,\fArial|b0|i0;\H2.0000;Edge finish:,7,91,3
+167,\fArial|b0|i0;\H2.0000;General pore class:,7,67,2
+168,\fArial|b0|i0;\H2.0000;Surface texture:,-44,91,4
+169,"\fArial|b0|i0;\H2.0000;This is an auxiliary drawing, the missing dimensions have to be sourced from the corresponding CAD-file:",-44,101,4
+170,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,108,4
+171,\fArial|b0|i0;\H2.5000;2,-38,2,2
+172,\fArial|b0|i0;\H2.5600;3,-38,-10,2
+173,"\fArial|b0|i0;\H2.0000;≤ 0,6",22,-22,2
+174,"\fArial|b0|i0;\H2.0000;30,0",1,-22,2
+175,"\fArial|b0|i0;\H2.0000;1,0",-22,-22,2
+176,"\fArial|b0|i0;\H2.0000;2,0",-22,-34,2
+177,\fArial|b0|i0;\H2.0000;Pore\P\fArial|b0|i0;\H2.0000;class,-38,24,2
+178,\fArial|b0|i0;\H2.5000;1,-38,14,2
+179,"\fArial|b0|i0;\H2.0000;0,4",-22,14,2
+180,"\fArial|b0|i0;\H2.0000;≤ 1,0",22,-34,2
+181,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,14,2
+182,\fArial|b0|i0;\H2.5000;4,-38,-22,2
+183,\fArial|b0|i0;\H2.5000;5,-38,-34,2
+184,"\fArial|b0|i0;\H2.0000;30,0",1,-34,2
+185,P  distance to other pores of 5 mm.},-42,-42,2
+186,\fArial|b0|i0;\H2.0000;Min. distance between\P\fArial|b0|i0;\H2.0000;pores [mm],1,24,2
+187,\fArial|b0|i0;\H2.0000;Casting defects:,-44,31,2
+188,\fArial|b0|i0;\H2.0000;Max. size of\P\fArial|b0|i0;\H2.0000;pores [mm],-22,24,2
+189,\fArial|b0|i0;\H2.0000;|X| [mm],22,24,2
+190,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,15,71,2
+191,"\fArial|b0|i0;\H2.0000;0,4",-22,2,2
+192,\fArial|b0|i0;\H2.0000;A1,36,2,2
+193,"\fArial|b0|i0;\H2.0000;≤ 0,4",22,-10,2
+194,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,2,2
+195,"\fArial|b0|i0;\H2.0000;8,0",1,2,2
+196,"\fArial|b0|i0;\H2.0000;8,0",1,14,2
+197,"\fArial|b0|i0;\H2.0000;15,0",1,-10,2
+198,"\fArial|b0|i0;\H2.0000;0,7",-22,-10,2
+199,{\H0.57143x;General tolerances according to: \P\H0.81496x; \H0.12271x;\P\H12.5x;DIN EN ISO 8062-3 - DCTG\H1.11277x; },-44,39,2
+200,\fArial|b0|i0;\H2.0000;A3,36,-22,2
+201,\fArial|b0|i0;\H2.0000;A4,36,-34,2
+202,\fArial|b0|i0;\H2.0000;A2,36,-10,2
+203,\fArial|b0|i0;\H2.0000;-,36,15,2
+204,\fArial|b0|i0;\H2.0000;Exceptions,36,24,2
+205,\fArial|b0|i0;\H2.0000;Cleanliness:,-44,46,2
+206,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,-43,71,2
+207,\fArial|b0|i0;\H2.0000;General mold drafts:,-44,67,2
+208,\fArial|b0|i0;\H2.0000;Packaging:,-44,53,2
+209,\fArial|b0|i0;\H2.0000;Edge finish:,7,91,3
+210,\fArial|b0|i0;\H2.0000;General pore class:,7,67,2
+211,\fArial|b0|i0;\H2.0000;Surface texture:,-44,91,4
+212,"\fArial|b0|i0;\H2.0000;This is an auxiliary drawing, the missing dimensions have to be sourced from the corresponding CAD-file:",-44,101,4
+213,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,108,4
+214,\fArial|b0|i0;\H2.5000;2,-38,2,2
+215,\fArial|b0|i0;\H2.5600;3,-38,-10,2
+216,"\fArial|b0|i0;\H2.0000;≤ 0,6",22,-22,2
+217,"\fArial|b0|i0;\H2.0000;30,0",1,-22,2
+218,"\fArial|b0|i0;\H2.0000;1,0",-22,-22,2
+219,"\fArial|b0|i0;\H2.0000;2,0",-22,-34,2
+220,\fArial|b0|i0;\H2.0000;Pore\P\fArial|b0|i0;\H2.0000;class,-38,24,2
+221,\fArial|b0|i0;\H2.5000;1,-38,14,2
+222,"\fArial|b0|i0;\H2.0000;0,4",-22,14,2
+223,"\fArial|b0|i0;\H2.0000;≤ 1,0",22,-34,2
+224,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,14,2
+225,\fArial|b0|i0;\H2.5000;4,-38,-22,2
+226,\fArial|b0|i0;\H2.5000;5,-38,-34,2
+227,"\fArial|b0|i0;\H2.0000;30,0",1,-34,2
+228,P  distance to other pores of 5 mm.},-42,-42,2
+229,\fArial|b0|i0;\H2.0000;Min. distance between\P\fArial|b0|i0;\H2.0000;pores [mm],1,24,2
+230,\fArial|b0|i0;\H2.0000;Casting defects:,-44,31,2
+231,\fArial|b0|i0;\H2.0000;Max. size of\P\fArial|b0|i0;\H2.0000;pores [mm],-22,24,2
+232,\fArial|b0|i0;\H2.0000;|X| [mm],22,24,2
+233,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,15,71,2
+234,\fArial|b0|i0;\H6.0000;TBD,-9,3,2
+235,\fArial|b0|i0;\H2.0000;Cleanliness:,1,27,2
+236,"\fArial|b0|i0;\H2.0000;Concepts, principales and rules according to:^IISO 8015\P\fArial|b0|i0;\H2.0000;Dimensions according to:^I^I^IISO 14405 1-3",1,20,2
+237,\fArial|b0|i0;\H2.0000;Packaging:,1,34,2
+238,\fArial|b0|i0;\H2.0000;Surface texture:,0,58,2
+239,\fArial|b0|i0;\H2.0000;Edge finish:,51,58,2
+240,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,38,2
+241,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,65,2
+242,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,38,2
+243,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,1,13,2
+244,\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing,14,3,2
+245,\fArial|b0|i0;1,8,5,2
+246,\fArial|b0|i0;\H2.0000;Cleanliness:,1,27,2
+247,"\fArial|b0|i0;\H2.0000;Concepts, principales and rules according to:^IISO 8015\P\fArial|b0|i0;\H2.0000;Dimensions according to:^I^I^IISO 14405 1-3",1,20,2
+248,\fArial|b0|i0;\H2.0000;Packaging:,1,34,2
+249,\fArial|b0|i0;\H2.0000;Surface texture:,0,58,2
+250,\fArial|b0|i0;\H2.0000;Edge finish:,51,58,2
+251,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,38,2
+252,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,65,2
+253,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,38,2
+254,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,1,13,2
+255,\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing,14,3,2
+256,\fArial|b0|i0;1,8,5,2
+257,xvcxv,1,-6,2
+258,"-0,05",1,2,2
+259,Kantenbruch,-29,-6,2
+260,"-0,1",-10,2,2
+261,1,-1,-2,2
+262,\fArial|b1|i0;\H2.0000;Angelehnt an HN810,1,-2,2
+263,\fArial|b1|i0;\H2.0000;Losgröße (Stk.),12,-6,2
+264,\fArial|b1|i0;\H2.0000;von,6,-10,2
+265,\fArial|b1|i0;\H2.0000;bis,18,-10,2
+266,\fArial|b1|i0;\H2.0000;Stichprobengröße (Stk.),36,-8,2
+267,\fArial|b0|i0;\H2.0000;9,6,-14,2
+268,\fArial|b0|i0;\H2.0000;15,18,-14,2
+269,\fArial|b0|i0;\H2.0000;Vollprüfung,36,-14,2
+270,\fArial|b0|i0;\H2.0000;16,6,-18,2
+271,\fArial|b0|i0;\H2.0000;26,6,-22,2
+272,\fArial|b0|i0;\H2.0000;51,6,-26,2
+273,\fArial|b0|i0;\H2.0000;25,18,-18,2
+274,\fArial|b0|i0;\H2.0000;50,18,-22,2
+275,\fArial|b0|i0;\H2.0000;90,18,-26,2
+276,\fArial|b0|i0;\H2.0000;13,36,-18,2
+277,\fArial|b0|i0;\H2.0000;13,36,-22,2
+278,\fArial|b0|i0;\H2.0000;13,36,-26,2
+279,\fArial|b0|i0;\H2.0000;150,18,-30,2
+280,\fArial|b0|i0;\H2.0000;91,6,-30,2
+281,\fArial|b0|i0;\H2.0000;13,36,-30,2
+282,\fArial|b0|i0;\H2.0000;280,18,-34,2
+283,\fArial|b0|i0;\H2.0000;151,6,-34,2
+284,\fArial|b0|i0;\H2.0000;50,36,-34,2
+285,\fArial|b0|i0;\H2.0000;500,18,-38,2
+286,\fArial|b0|i0;\H2.0000;281,6,-38,2
+287,\fArial|b0|i0;\H2.0000;50,36,-38,2
+288,\fArial|b0|i0;\H2.0000;1200,18,-42,2
+289,\fArial|b0|i0;\H2.0000;501,6,-42,2
+290,\fArial|b0|i0;\H2.0000;80,36,-42,2
+291,\fArial|b0|i0;\H2.0000;3200,18,-46,2
+292,\fArial|b0|i0;\H2.0000;1201,6,-46,2
+293,\fArial|b0|i0;\H2.0000;125,36,-46,2
+294,\fArial|b0|i0;\H2.0000;1000,18,-50,2
+295,\fArial|b0|i0;\H2.0000;3201,6,-50,2
+296,\fArial|b0|i0;\H2.0000;200,36,-50,2
+297,\fArial|b0|i0;\H6.0000;Wareneingangszeichnung,-49,3,2
+298,\fArial|b0|i0;1,0,0,2
+299,\fArial|b0|i0;\H2.2000;Only for inquiry,0,-2,2
+300,LKA,-17,0,2
+301,24.10.2017,-1,0,2
+302,\fArial|b0|i0;\H2.2000;Prototype release      -Sample,0,-2,2
+303,HUM,-17,0,2
+304,15.11.2017,-1,0,2
+305,B4,4,-5,2
+306,\fArial|b0|i0;\H2.2000;Incoming inspection release,0,-2,2
+307,LKA,-17,0,2
+308,11.01.2018,-1,0,2
+309,\fArial|b0|i0;\H2.2000;Design Freeze Release      -Sample,0,-2,2
+310,HUM,-17,0,2
+311,11.07.2018,-1,0,2
+312,B1,8,-5,2
+313,\fArial|b0|i0;\H2.2000;Ready for production release,0,-2,2
+314,\fArial|b0|i0;\H2.2000;Equipment release,0,-2,2
+315,Freigabe für A-Sample Bestellung,-40,7,2
+316,\fArial|b0|i0;\H2.5000;Projektleiter,15,3,2
+317,Gerhard Ranegger,14,-3,2
+318,Matthias Huschenbett,14,-12,2
+319,\fArial|b0|i0;\H2.5000;Techn. Projektleiter,15,-6,2
+320,\fArial|b0|i0;\H2.2000;Production release,0,-2,2
+321,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-43,52,2
+322,\fArial|b0|i0;\H2.0000;Surface texture:,-43,30,2
+323,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,-43,9,2
+324,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,15,9,2
+325,\fArial|b0|i0;\H2.0000;Edge finish:,8,30,2
+326,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-43,-17,2
+327,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-43,6,2
+328,\fArial|b0|i0;\H2.0000;Material:,-43,45,2
+329,1.4021,-32,42,2
+330,\fArial|b0|i0;\H2.0000;Quality standard:,-3,45,2
+331,\fArial|b0|i0;\H2.0000;Raw part No:,-43,35,2
+332,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-43,40,2
+333,\fArial|b0|i0;\H2.0000;16% - rule,-43,-13,2
+334,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-43,-28,2
+335,"{\H0.57143x;Cleanliness:\P\H0.15x;\P\H7.66667x;Part has to be degreased and free of deposits, detachable burrs and visual detectable particles.}",-43,-38,2
+336,\fArial|b0|i0;\H2.0000;Delivery conditions:,-43,-50,2
+337,\fArial|b0|i0;\H1.4986;valid for machined surface,-43,11,2
+338,EN 10095,22,42,2
+339,Hardened to 48 HRC +2/-0,-8,37,2
+340,-,-8,32,2
+341,Rz 16,-33,19,2
+342,"-0,2",18,23,2
+343,"-0,05",18,19,2
+344,"+0,2",32,19,2
+345,not applicable,23,-15,2
+346,5129275_Rev01.stp,-15,-24,2
+347,tbd,-14,-53,2
+348,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-43,51,2
+349,\fArial|b0|i0;\H2.0000;Surface texture:,-43,28,2
+350,\fArial|b0|i0;\H2.0000;Edge finish:,8,28,2
+351,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-43,-16,2
+352,1302\H1.25429x; \H0.79726x;\PTolerances on linear sizes according to:                     \H0.5x;  \H2x;ISO 286\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-43,4,2
+353,\fArial|b0|i0;\H2.0000;Material:,-43,43,2
+354,1.4021,-32,41,2
+355,\fArial|b0|i0;\H2.0000;Quality standard:,-3,43,2
+356,\fArial|b0|i0;\H2.0000;Raw part No:,-43,33,2
+357,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-43,38,2
+358,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-43,-27,2
+359,"{\H0.57143x;Cleanliness:\P\H0.15x;\P\H7.66667x;Part has to be degreased and free of deposits, detachable burrs and visual detectable particles.}",-43,-37,2
+360,\fArial|b0|i0;\H2.0000;Delivery conditions:,-43,-49,2
+361,EN 10095,22,41,2
+362,Hardened to 48 HRC +2/-0,-8,35,2
+363,-,-8,31,2
+364,Rz 16,-33,17,2
+365,"-0,2",18,22,2
+366,"-0,05",18,18,2
+367,"+0,2",31,18,2
+368,5129275_Rev01.stp,-15,-23,2
+369,acc. to LV123 - 6.2.1.,-14,-51,2
+370,"\A1;R0,5",184,92,0
+371,"\A1;R0,5",152,89,0
+372,A,156,39,5
+373,A,203,39,6
+374,"\A1;2{\H1.25;\S+0,1^ -0;}",89,59,2
+375,"\A1;4,8{\H1.25;±0,05}",75,53,2
+376,A,127,132,7
+377,c,116,105,0
+378,"0,005",126,105,0
+379,"\A1;\fArial|b0|i0;\H1.7500;2x Ø19,2{\H1.25;\S+0^ -0,05;} CT",131,92,0
+380,B,231,74,8
+381,"Rz 0,25",141,81,0
+382,"Rz 1,6",87,168,7
+383,"Rpk 0,2",87,163,7
+384,"\A1;\fArial|b0|i0;\H1.7500;Ø15,15{\H1.25;\S+0,05^ -0;}",125,95,0
+385,2x,275,268,9
+386,r,275,260,9
+387,"Ø0,05 CZ",283,260,9
+388,B,306,261,10
+389,"\A1;9,3{\H1.25;\S+0,1^ -0;}",94,54,2
+390,Z,203,220,11
+391,E,77,151,7
+392,#,80,152,7
+393,F,91,151,7
+394,f,78,143,7
+395,"0,01",86,143,7
+396,A,98,144,7
+397,c,77,137,7
+398,"0,01",86,136,7
+399,A,17,273,12
+400,B,17,223,13
+401,C,17,173,14
+402,D,17,123,15
+403,E,17,73,2
+404,F,17,23,2
+405,1,35,7,2
+406,2,85,7,16
+407,3,135,7,17
+408,4,185,7,18
+409,5,235,7,19
+410,6,285,7,20
+411,7,335,7,21
+412,1,34,289,22
+413,5,235,289,23
+414,6,285,289,24
+415,7,335,289,25
+416,8,385,289,26
+417,2,84,289,27
+418,3,134,289,28
+419,4,184,289,29
+420,A,412,273,30
+421,B,412,223,31
+422,C,412,173,32
+423,D,412,123,33
+424,E,412,73,34
+425,F,412,23,35
+426,A3,382,5,36
+427,b,263,144,37
+428,"0,01",274,144,37
+429,A,287,144,37
+430,r,264,137,37
+431,"Ø0,05",272,137,37
+432,B,288,137,37
+433,X,171,259,38
+434,Y,181,144,0
+435,"\A1;0,7",66,74,2
+436,"\A1;1,5{\H1.25;\S+0,1^ -0;}",64,64,2
+437,OLE,136,131,7
+438,\fArial|b0|i0;\H2.2000;Part Number:,174,122,0
+439,"for the payment of damages. All rights reserved in the event of the grant of a patent, utility model or design. (ISO 16016)",79,157,7
+440,\fArial|b0|i0;\H2.2000;Page:,244,122,39
+441,\fArial|b0|i0;\H1.5217;Drawing Approval Stamp,105,115,0
+442,\fArial|b0|i0;\H2.2000;ENGINE Division,152,115,0
+443,\fArial|b0|i0;\H2.5000;Document type:,174,142,0
+444,\fArial|b0|i0;\H2.5000;Description:,174,132,0
+445,\fArial|b0|i0;\H2.0000;Weight:,79,142,7
+446,\fArial|b0|i0;\H2.0000;Projection:,139,142,7
+447,\fArial|b0|i0;\H2.0000;ISO 128\P\fArial|b0|i0;\H2.0000;Method 1,139,138,7
+448,\fArial|b0|i0;\H2.0000;Scale:,99,142,7
+449,\fArial|b0|i0;\H2.0000;Unit:,119,142,7
+450,\fArial|b0|i0;\H2.5000;mm,128,136,7
+451,\fArial|b0|i0;\H3.0000;/,250,117,39
+452,5129275,202,115,0
+453,Valve Lifter GV12.2,200,126,0
+454,-,88,135,7
+455,2 : 1,105,135,7
+456,1,247,115,39
+457,1,252,115,39
+458,Component Drawing,200,136,0
+459,1,233,64,8
+460,Start drawing,238,64,8
+461,-,338,65,34
+462,04.04.2018,352,64,34
+463,LKA,371,64,34
+464,10.07.2018,382,64,34
+465,KB,401,64,34
+466,REVISION HISTORY,308,56,40
+467,REV.,230,60,8
+468,DESCRIPTION,273,60,41
+469,SECTION,333,60,34
+470,DATE,355,60,34
+471,DRAWN BY,367,60,34
+472,INSP. DATE,382,60,34
+473,INSP. BY,398,60,34
+474,\A1;5\U+00B0,51,117,42
+475,"\A1;1,65",37,106,43
+476,\A1;R2,30,126,15
+477,"\A1;\fArial|b0|i0;\H1.7500;Ø4,5 x7 (\S+0,04^ +0,028;) \fAIGDT|b0|i0;\H1.7500;È",110,54,2
+478,"Ra 0,8",227,93,44
+479,"\A1;R0,8",87,113,0
+480,b,203,265,45
+481,"0,01",213,265,45
+482,A,224,266,45
+483,d,71,30,2
+484,"0,2",81,29,2
+485,A,89,30,2
+486,B,95,30,2
+487,"\A1;\fArial|b0|i0;\H1.7500;Ø4,1",94,110,0
+488,\A1;45\U+00B0,66,80,2
+489,g,200,255,45
+490,"0,01",209,255,45
+491,\A1;{\fAIGDT|b0|i0;\H1.7500;\ln}\fArial|b0|i0;\H1.7500;11,119,99,0
+492,<>,171,95,0
+493,<>,166,95,0
+494,A-A ( 5 : 1 ),85,137,7
+495,<>,82,56,2
+496,<>,73,50,2
+497,\fArial|b0|i0;\H1.7500;2x Ø<> CT,135,77,0
+498,\fArial|b0|i0;\H1.7500;Ø<>,129,82,0
+499,<>,108,50,2
+500,Z ( 20 : 1 ),30,133,15
+501,A3,191,2,18
+502,X ( 10 : 1 ),161,116,0
+503,{\fArial|b0|i0;E},34,87,3
+504,{\fArial|b0|i0;F},34,64,2
+505,"-0,1",165,106,0
+506,"-0,05",182,106,0
+507,"-0,1",166,110,0
+508,Y ( 10 : 1 ),27,90,3
+509,<>,75,71,2
+510,<>,77,60,2
+511,5129275,177,6,18
+512,Valve Lifter GV12.2,175,11,18
+513,-,119,15,17
+514,2 : 1,128,15,17
+515,1,199,6,18
+516,1,201,6,18
+517,Component Drawing,175,16,18
+518,<>,55,122,42
+519,<>,48,103,43
+520,<>,30,103,43
+521,"\fArial|b0|i0;\H1.7500;Ø<> x7 (\S+0,04^ +0,028;) \fAIGDT|b0|i0;\H1.7500;È",116,96,0
+522,<>,87,108,0
+523,\fArial|b0|i0;\H1.7500;Ø<>,97,106,0
+524,<>,68,79,2
+525,HUM,120,10,17
+526,11.07.2018,128,10,17
+527,B1,132,8,17
+528,{\fAIGDT|b0|i0;\H1.7500;\ln}\fArial|b0|i0;\H1.7500;<>,122,115,0
+529,1.4021,16,51,2
+530,EN 10095,43,51,2
+531,Hardened to 48 HRC +2/-0,27,48,2
+532,-,27,46,2
+533,Rz 16,15,39,2
+534,"-0,2",41,42,2
+535,"-0,05",41,40,2
+536,"+0,2",47,40,2
+537,5129275_Rev01.stp,24,19,2
+538,acc. to LV123 - 6.2.1.,24,5,2
+539,"entfettet, ultraschallgereinigt",-46,20,2
+540,separat verpackt,-46,14,2
+541,"alle Kanten entgratet,                    gehärtet auf 48 HRC +2/-0",-46,8,2
+542,1.4021,-28,46,2
+543,EN 10095,29,45,2
+544,Hardened to 48 HRC +2/-0,-9,39,2
+545,-,-9,35,2
+546,Rz 16,-33,24,2
+547,"-0,2",18,24,2
+548,"-0,05",18,20,2
+549,"+0,4",34,20,2
+550,not applicable,23,-13,2
+551,5129275_Rev01.stp,6,-23,2
+552,-,14,-43,2
+553,stored separately,-9,-53,2
+554,1.4021,-32,49,2
+555,EN 10095,29,47,2
+556,Hardened to 48 HRC +2/-0,-9,42,2
+557,-,-9,37,2
+558,Rz 16,-33,27,2
+559,"-0,2",18,27,2
+560,"-0,05",18,23,2
+561,"+0,4",34,23,2
+562,not applicable,23,-10,2
+563,5129275_Rev01.stp,0,-20,2
+564,-,14,-46,2
+565,-,-9,-56,2
+566,1.4021,-32,36,2
+567,EN 10095,29,35,2
+568,Hardened to 48 HRC +2/-0,-9,29,2
+569,-,-9,25,2
+570,Rz 16,-33,14,2
+571,"-0,2",18,14,2
+572,"-0,05",18,10,2
+573,"+0,4",34,10,2
+574,not applicable,23,-23,2
+575,5129275_Rev01.stp,0,-32,2
+576,3865240_Rev03.stp,37,48,2
+577,Rz 16,11,35,2
+578,"-0,2",62,35,2
+579,"-0,05",62,31,2
+580,"+0,4",78,31,2
+581,stored separately,52,15,2
+582,ultrasonically cleaned and degreased,52,8,2
+583,mH,62,3,2
+584,xvcxv,1,-3,2
+585,"-0,05",1,1,2
+586,Kantenbruch,-2,-2,2
+587,"-0,1",-2,1,2
+588,1,0,0,2
+589,LKA,-12,2,2
+590,24.10.2017,10,2,2
+591,HUM,-12,2,2
+592,15.11.2017,10,2,2
+593,B4,4,-2,2
+594,LKA,-12,2,2
+595,11.01.2018,10,2,2
+596,HUM,-12,2,2
+597,11.07.2018,10,2,2
+598,B1,8,-2,2
+599,Freigabe für A-Sample Bestellung,0,8,2
+600,Gerhard Ranegger,15,-1,2
+601,Matthias Huschenbett,15,-10,2
+602,1.4021,-32,45,2
+603,EN 10095,30,43,2
+604,Hardened to 48 HRC +2/-0,-8,38,2
+605,-,-8,33,2
+606,Rz 16,-33,23,2
+607,"-0,2",18,23,2
+608,"-0,05",18,19,2
+609,"+0,2",32,19,2
+610,not applicable,23,-14,2
+611,5129275_Rev01.stp,1,-24,2
+612,tbd,-14,-52,2
+613,1.4021,-32,43,2
+614,EN 10095,30,42,2
+615,Hardened to 48 HRC +2/-0,-8,36,2
+616,-,-8,32,2
+617,Rz 16,-33,20,2
+618,"-0,2",18,21,2
+619,"-0,05",18,17,2
+620,"+0,2",31,17,2
+621,5129275_Rev01.stp,1,-22,2
+622,acc. to LV123 - 6.2.1.,-14,-50,2
+623,A3,385,7,36
+624,5129275,212,117,0
+625,Valve Lifter GV12.2,200,129,0
+626,-,88,136,7
+627,2 : 1,108,136,7
+628,1,249,117,39
+629,1,252,117,39
+630,Component Drawing,200,139,0
+631,A3,192,3,18
+632,"-0,1",165,105,0
+633,"-0,05",182,106,0
+634,"-0,1",170,110,0
+635,5129275,181,7,18
+636,Valve Lifter GV12.2,175,13,18
+637,-,120,16,17
+638,2 : 1,130,16,17
+639,1,200,6,18
+640,1,202,6,18
+641,Component Drawing,175,18,18
+642,HUM,122,11,17
+643,11.07.2018,133,11,17
+644,B1,132,9,17
+645,1.4021,16,52,2
+646,EN 10095,46,52,2
+647,Hardened to 48 HRC +2/-0,28,49,2
+648,-,28,47,2
+649,Rz 16,15,41,2
+650,"-0,2",41,41,2
+651,"-0,05",41,39,2
+652,"+0,2",47,39,2
+653,5129275_Rev01.stp,32,20,2
+654,acc. to LV123 - 6.2.1.,25,6,2
+655,Layout1,0,0,2
+656,Layout2,0,0,2
+657,Model,0,0,2
+658,CELLSTYLEMAP,210,148,0
+659,\fArial|b1|i0;\H2.0000;Angelehnt an HN810,-134,50,1
+660,\fArial|b1|i0;\H2.0000;Losgröße (Stk.),-123,45,1
+661,\fArial|b1|i0;\H2.0000;von,-129,42,1
+662,\fArial|b1|i0;\H2.0000;bis,-117,41,1
+663,\fArial|b1|i0;\H2.0000;Stichprobengröße (Stk.),-98,44,1
+664,\fArial|b0|i0;\H2.0000;9,-129,37,1
+665,\fArial|b0|i0;\H2.0000;15,-117,37,1
+666,\fArial|b0|i0;\H2.0000;Vollprüfung,-98,37,1
+667,\fArial|b0|i0;\H2.0000;16,-129,33,1
+668,\fArial|b0|i0;\H2.0000;26,-129,29,1
+669,\fArial|b0|i0;\H2.0000;51,-129,25,1
+670,\fArial|b0|i0;\H2.0000;25,-117,33,1
+671,\fArial|b0|i0;\H2.0000;50,-117,29,1
+672,\fArial|b0|i0;\H2.0000;90,-117,25,1
+673,\fArial|b0|i0;\H2.0000;13,-98,33,1
+674,\fArial|b0|i0;\H2.0000;13,-98,29,1
+675,\fArial|b0|i0;\H2.0000;13,-98,25,1
+676,\fArial|b0|i0;\H2.0000;150,-117,21,1
+677,\fArial|b0|i0;\H2.0000;91,-129,21,1
+678,\fArial|b0|i0;\H2.0000;13,-98,21,1
+679,\fArial|b0|i0;\H2.0000;280,-117,17,1
+680,\fArial|b0|i0;\H2.0000;151,-129,17,1
+681,\fArial|b0|i0;\H2.0000;50,-98,17,1
+682,\fArial|b0|i0;\H2.0000;500,-117,13,1
+683,\fArial|b0|i0;\H2.0000;281,-129,13,1
+684,\fArial|b0|i0;\H2.0000;50,-98,13,1
+685,\fArial|b0|i0;\H2.0000;1200,-117,9,1
+686,\fArial|b0|i0;\H2.0000;501,-129,9,1
+687,\fArial|b0|i0;\H2.0000;80,-98,9,1
+688,\fArial|b0|i0;\H2.0000;3200,-117,5,1
+689,\fArial|b0|i0;\H2.0000;1201,-129,5,1
+690,\fArial|b0|i0;\H2.0000;125,-98,5,1
+691,\fArial|b0|i0;\H2.0000;1000,-117,1,1
+692,\fArial|b0|i0;\H2.0000;3201,-129,1,1
+693,\fArial|b0|i0;\H2.0000;200,-98,1,1
+694,\fArial|b1|i0;\H2.5000;Zu überprüfender Anlieferungszustand:,-84,26,1
+695,\fArial|b0|i0;\H2.5000;Reinheitsanforderung:,-84,20,1
+696,\fArial|b0|i0;\H2.5000;Verpackungsvorschrift:,-84,14,1
+697,"entfettet, ultraschallgereinigt",-47,17,2
+698,separat verpackt,-47,11,2
+699,\fArial|b0|i0;\H2.5000;Allg. Anforderungen:,-84,8,1
+700,"alle Kanten entgratet,",-47,5,2
+701,gehärtet auf 48 HRC +2/-0,-47,1,2
+702,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,54,2
+703,\fArial|b0|i0;\H2.0000;Surface texture:,-44,31,2
+704,\fArial|b0|i0;\H1.4986;valid for machined surface,-44,11,2
+705,\fArial|b0|i0;\H1.4986;valid for machined surface,15,11,2
+706,\fArial|b0|i0;\H2.0000;Edge finish:,7,31,2
+707,\fArial|b0|i0;1,-33,-24,2
+708,\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing,-27,-27,2
+709,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-44,-16,2
+710,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-44,7,2
+711,except for fiber\P\fArial|b0|i0;\H2.0000;Residue classification                                    acc. to table 01,-44,-32,2
+712,\fArial|b0|i0;\H2.0000;Material:,-44,46,2
+713,1.4021,-28,44,2
+714,\fArial|b0|i0;\H2.0000;Quality standard:,-4,46,2
+715,\fArial|b0|i0;\H2.0000;Raw part No:,-44,36,2
+716,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-44,41,2
+717,\fArial|b0|i0;\H2.0000;Packaging:,-44,-52,2
+718,\fArial|b0|i0;\H2.0000;16% - rule,-44,-12,2
+719,EN 10095,21,44,2
+720,Hardened to 48 HRC +2/-0,-9,38,2
+721,-,-9,34,2
+722,Rz 16,-34,21,2
+723,"-0,2",18,25,2
+724,"-0,05",18,21,2
+725,"+0,4",34,21,2
+726,not applicable,22,-14,2
+727,5129275_Rev01.stp,-9,-23,2
+728,-,14,-44,2
+729,stored separately,-9,-54,2
+730,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,56,2
+731,\fArial|b0|i0;\H2.0000;Surface texture:,-44,34,2
+732,\fArial|b0|i0;\H1.4986;valid for machined surface,-44,13,2
+733,\fArial|b0|i0;\H1.4986;valid for machined surface,15,13,2
+734,\fArial|b0|i0;\H2.0000;Edge finish:,7,34,2
+735,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-44,-13,2
+736,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-44,10,2
+737,except for fiber\P\fArial|b0|i0;\H2.0000;Residue classification                                    acc. to table 01,-44,-34,2
+738,\fArial|b0|i0;\H2.0000;Material:,-44,49,2
+739,1.4021,-33,46,2
+740,\fArial|b0|i0;\H2.0000;Quality standard:,-4,49,2
+741,\fArial|b0|i0;\H2.0000;Raw part No:,-44,39,2
+742,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-44,44,2
+743,\fArial|b0|i0;\H2.0000;Packaging:,-44,-54,2
+744,\fArial|b0|i0;\H2.0000;16% - rule,-44,-9,2
+745,EN 10095,21,46,2
+746,Hardened to 48 HRC +2/-0,-9,41,2
+747,-,-9,36,2
+748,Rz 16,-34,23,2
+749,"-0,2",18,27,2
+750,"-0,05",18,23,2
+751,"+0,4",34,23,2
+752,not applicable,22,-11,2
+753,5129275_Rev01.stp,-15,-20,2
+754,-,14,-47,2
+755,-,-9,-57,2
+756,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-44,-24,2
+757,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,44,2
+758,\fArial|b0|i0;\H2.0000;Surface texture:,-44,21,2
+759,\fArial|b0|i0;\H1.4986;valid for machined surface,-44,1,2
+760,\fArial|b0|i0;\H1.4986;valid for machined surface,15,1,2
+761,\fArial|b0|i0;\H2.0000;Edge finish:,7,21,2
+762,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-44,-26,2
+763,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-44,-3,2
+764,\fArial|b0|i0;\H2.0000;Material:,-44,36,2
+765,1.4021,-33,34,2
+766,\fArial|b0|i0;\H2.0000;Quality standard:,-4,36,2
+767,\fArial|b0|i0;\H2.0000;Raw part No:,-44,26,2
+768,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-44,31,2
+769,\fArial|b0|i0;\H2.0000;16% - rule,-44,-22,2
+770,EN 10095,21,34,2
+771,Hardened to 48 HRC +2/-0,-9,28,2
+772,-,-9,24,2
+773,Rz 16,-34,11,2
+774,"-0,2",18,15,2
+775,"-0,05",18,11,2
+776,"+0,4",34,11,2
+777,not applicable,22,-24,2
+778,5129275_Rev01.stp,-15,-33,2
+779,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-44,-37,2
+780,\fArial|b0|i0;\H2.0000;Cleanliness:,0,11,2
+781,\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -,0,3,2
+782,\fArial|b0|i0;\H2.0000;Packaging:,0,18,2
+783,\fArial|b0|i0;\H2.0000;Surface texture:,0,42,2
+784,\fArial|b0|i0;\H2.0000;Edge finish:,51,42,2
+785,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,21,2
+786,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,55,2
+787,\fArial|b0|i0;\H2.0000;Corresponding CAD-file:,0,49,2
+788,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,21,2
+789,\fArial|b0|i0;\H2.0000;Cleanliness:,0,11,2
+790,\fArial|b0|i0;\H2.0000;General tolerances according to:\fArial|b0|i0;\H2.5000;    ISO 2768 -,0,3,2
+791,\fArial|b0|i0;\H2.0000;Packaging:,0,18,2
+792,\fArial|b0|i0;\H2.0000;Surface texture:,0,42,2
+793,\fArial|b0|i0;\H2.0000;Edge finish:,51,42,2
+794,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,21,2
+795,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,55,2
+796,\fArial|b0|i0;\H2.0000;Corresponding CAD-file:,0,49,2
+797,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,21,2
+798,3865240_Rev03.stp,37,45,2
+799,Rz 16,10,31,2
+800,"-0,2",62,35,2
+801,"-0,05",62,31,2
+802,"+0,4",78,31,2
+803,stored separately,38,14,2
+804,ultrasonically cleaned and degreased,23,7,2
+805,mH,62,1,2
+806,"\fArial|b0|i0;\H2.0000;0,4",-22,2,2
+807,\fArial|b0|i0;\H2.0000;A1,36,2,2
+808,"\fArial|b0|i0;\H2.0000;≤ 0,4",22,-10,2
+809,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,2,2
+810,"\fArial|b0|i0;\H2.0000;8,0",1,2,2
+811,"\fArial|b0|i0;\H2.0000;8,0",1,14,2
+812,"\fArial|b0|i0;\H2.0000;15,0",1,-10,2
+813,"\fArial|b0|i0;\H2.0000;0,7",-22,-10,2
+814,{\H0.57143x;General tolerances according to: \P\H0.81496x; \H0.12271x;\P\H12.5x;DIN EN ISO 8062-3 - DCTG\H1.11277x; },-44,39,2
+815,\fArial|b0|i0;\H2.0000;A3,36,-22,2
+816,\fArial|b0|i0;\H2.0000;A4,36,-34,2
+817,\fArial|b0|i0;\H2.0000;A2,36,-10,2
+818,\fArial|b0|i0;\H2.0000;-,36,15,2
+819,\fArial|b0|i0;\H2.0000;Exceptions,36,24,2
+820,\fArial|b0|i0;\H2.0000;Cleanliness:,-44,46,2
+821,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,-43,71,2
+822,\fArial|b0|i0;\H2.0000;General mold drafts:,-44,67,2
+823,\fArial|b0|i0;\H2.0000;Packaging:,-44,53,2
+824,\fArial|b0|i0;\H2.0000;Edge finish:,7,91,3
+825,\fArial|b0|i0;\H2.0000;General pore class:,7,67,2
+826,\fArial|b0|i0;\H2.0000;Surface texture:,-44,91,4
+827,"\fArial|b0|i0;\H2.0000;This is an auxiliary drawing, the missing dimensions have to be sourced from the corresponding CAD-file:",-44,101,4
+828,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,108,4
+829,\fArial|b0|i0;\H2.5000;2,-38,2,2
+830,\fArial|b0|i0;\H2.5600;3,-38,-10,2
+831,"\fArial|b0|i0;\H2.0000;≤ 0,6",22,-22,2
+832,"\fArial|b0|i0;\H2.0000;30,0",1,-22,2
+833,"\fArial|b0|i0;\H2.0000;1,0",-22,-22,2
+834,"\fArial|b0|i0;\H2.0000;2,0",-22,-34,2
+835,\fArial|b0|i0;\H2.0000;Pore\P\fArial|b0|i0;\H2.0000;class,-38,24,2
+836,\fArial|b0|i0;\H2.5000;1,-38,14,2
+837,"\fArial|b0|i0;\H2.0000;0,4",-22,14,2
+838,"\fArial|b0|i0;\H2.0000;≤ 1,0",22,-34,2
+839,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,14,2
+840,\fArial|b0|i0;\H2.5000;4,-38,-22,2
+841,\fArial|b0|i0;\H2.5000;5,-38,-34,2
+842,"\fArial|b0|i0;\H2.0000;30,0",1,-34,2
+843,P  distance to other pores of 5 mm.},-42,-42,2
+844,\fArial|b0|i0;\H2.0000;Min. distance between\P\fArial|b0|i0;\H2.0000;pores [mm],1,24,2
+845,\fArial|b0|i0;\H2.0000;Casting defects:,-44,31,2
+846,\fArial|b0|i0;\H2.0000;Max. size of\P\fArial|b0|i0;\H2.0000;pores [mm],-22,24,2
+847,\fArial|b0|i0;\H2.0000;|X| [mm],22,24,2
+848,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,15,71,2
+849,"\fArial|b0|i0;\H2.0000;0,4",-22,2,2
+850,\fArial|b0|i0;\H2.0000;A1,36,2,2
+851,"\fArial|b0|i0;\H2.0000;≤ 0,4",22,-10,2
+852,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,2,2
+853,"\fArial|b0|i0;\H2.0000;8,0",1,2,2
+854,"\fArial|b0|i0;\H2.0000;8,0",1,14,2
+855,"\fArial|b0|i0;\H2.0000;15,0",1,-10,2
+856,"\fArial|b0|i0;\H2.0000;0,7",-22,-10,2
+857,{\H0.57143x;General tolerances according to: \P\H0.81496x; \H0.12271x;\P\H12.5x;DIN EN ISO 8062-3 - DCTG\H1.11277x; },-44,39,2
+858,\fArial|b0|i0;\H2.0000;A3,36,-22,2
+859,\fArial|b0|i0;\H2.0000;A4,36,-34,2
+860,\fArial|b0|i0;\H2.0000;A2,36,-10,2
+861,\fArial|b0|i0;\H2.0000;-,36,15,2
+862,\fArial|b0|i0;\H2.0000;Exceptions,36,24,2
+863,\fArial|b0|i0;\H2.0000;Cleanliness:,-44,46,2
+864,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,-43,71,2
+865,\fArial|b0|i0;\H2.0000;General mold drafts:,-44,67,2
+866,\fArial|b0|i0;\H2.0000;Packaging:,-44,53,2
+867,\fArial|b0|i0;\H2.0000;Edge finish:,7,91,3
+868,\fArial|b0|i0;\H2.0000;General pore class:,7,67,2
+869,\fArial|b0|i0;\H2.0000;Surface texture:,-44,91,4
+870,"\fArial|b0|i0;\H2.0000;This is an auxiliary drawing, the missing dimensions have to be sourced from the corresponding CAD-file:",-44,101,4
+871,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-44,108,4
+872,\fArial|b0|i0;\H2.5000;2,-38,2,2
+873,\fArial|b0|i0;\H2.5600;3,-38,-10,2
+874,"\fArial|b0|i0;\H2.0000;≤ 0,6",22,-22,2
+875,"\fArial|b0|i0;\H2.0000;30,0",1,-22,2
+876,"\fArial|b0|i0;\H2.0000;1,0",-22,-22,2
+877,"\fArial|b0|i0;\H2.0000;2,0",-22,-34,2
+878,\fArial|b0|i0;\H2.0000;Pore\P\fArial|b0|i0;\H2.0000;class,-38,24,2
+879,\fArial|b0|i0;\H2.5000;1,-38,14,2
+880,"\fArial|b0|i0;\H2.0000;0,4",-22,14,2
+881,"\fArial|b0|i0;\H2.0000;≤ 1,0",22,-34,2
+882,"\fArial|b0|i0;\H2.0000;≤ 0,2",22,14,2
+883,\fArial|b0|i0;\H2.5000;4,-38,-22,2
+884,\fArial|b0|i0;\H2.5000;5,-38,-34,2
+885,"\fArial|b0|i0;\H2.0000;30,0",1,-34,2
+886,P  distance to other pores of 5 mm.},-42,-42,2
+887,\fArial|b0|i0;\H2.0000;Min. distance between\P\fArial|b0|i0;\H2.0000;pores [mm],1,24,2
+888,\fArial|b0|i0;\H2.0000;Casting defects:,-44,31,2
+889,\fArial|b0|i0;\H2.0000;Max. size of\P\fArial|b0|i0;\H2.0000;pores [mm],-22,24,2
+890,\fArial|b0|i0;\H2.0000;|X| [mm],22,24,2
+891,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,15,71,2
+892,\fArial|b0|i0;\H6.0000;TBD,-9,3,2
+893,\fArial|b0|i0;\H2.0000;Cleanliness:,1,27,2
+894,"\fArial|b0|i0;\H2.0000;Concepts, principales and rules according to:^IISO 8015\P\fArial|b0|i0;\H2.0000;Dimensions according to:^I^I^IISO 14405 1-3",1,20,2
+895,\fArial|b0|i0;\H2.0000;Packaging:,1,34,2
+896,\fArial|b0|i0;\H2.0000;Surface texture:,0,58,2
+897,\fArial|b0|i0;\H2.0000;Edge finish:,51,58,2
+898,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,38,2
+899,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,65,2
+900,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,38,2
+901,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,1,13,2
+902,\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing,14,3,2
+903,\fArial|b0|i0;1,8,5,2
+904,\fArial|b0|i0;\H2.0000;Cleanliness:,1,27,2
+905,"\fArial|b0|i0;\H2.0000;Concepts, principales and rules according to:^IISO 8015\P\fArial|b0|i0;\H2.0000;Dimensions according to:^I^I^IISO 14405 1-3",1,20,2
+906,\fArial|b0|i0;\H2.0000;Packaging:,1,34,2
+907,\fArial|b0|i0;\H2.0000;Surface texture:,0,58,2
+908,\fArial|b0|i0;\H2.0000;Edge finish:,51,58,2
+909,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,59,38,2
+910,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,0,65,2
+911,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,1,38,2
+912,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,1,13,2
+913,\fArial|b0|i0;\H2.0000;unless otherwise specified within the drawing,14,3,2
+914,\fArial|b0|i0;1,8,5,2
+915,xvcxv,1,-6,2
+916,"-0,05",1,2,2
+917,Kantenbruch,-29,-6,2
+918,"-0,1",-10,2,2
+919,1,-1,-2,2
+920,\fArial|b1|i0;\H2.0000;Angelehnt an HN810,1,-2,2
+921,\fArial|b1|i0;\H2.0000;Losgröße (Stk.),12,-6,2
+922,\fArial|b1|i0;\H2.0000;von,6,-10,2
+923,\fArial|b1|i0;\H2.0000;bis,18,-10,2
+924,\fArial|b1|i0;\H2.0000;Stichprobengröße (Stk.),36,-8,2
+925,\fArial|b0|i0;\H2.0000;9,6,-14,2
+926,\fArial|b0|i0;\H2.0000;15,18,-14,2
+927,\fArial|b0|i0;\H2.0000;Vollprüfung,36,-14,2
+928,\fArial|b0|i0;\H2.0000;16,6,-18,2
+929,\fArial|b0|i0;\H2.0000;26,6,-22,2
+930,\fArial|b0|i0;\H2.0000;51,6,-26,2
+931,\fArial|b0|i0;\H2.0000;25,18,-18,2
+932,\fArial|b0|i0;\H2.0000;50,18,-22,2
+933,\fArial|b0|i0;\H2.0000;90,18,-26,2
+934,\fArial|b0|i0;\H2.0000;13,36,-18,2
+935,\fArial|b0|i0;\H2.0000;13,36,-22,2
+936,\fArial|b0|i0;\H2.0000;13,36,-26,2
+937,\fArial|b0|i0;\H2.0000;150,18,-30,2
+938,\fArial|b0|i0;\H2.0000;91,6,-30,2
+939,\fArial|b0|i0;\H2.0000;13,36,-30,2
+940,\fArial|b0|i0;\H2.0000;280,18,-34,2
+941,\fArial|b0|i0;\H2.0000;151,6,-34,2
+942,\fArial|b0|i0;\H2.0000;50,36,-34,2
+943,\fArial|b0|i0;\H2.0000;500,18,-38,2
+944,\fArial|b0|i0;\H2.0000;281,6,-38,2
+945,\fArial|b0|i0;\H2.0000;50,36,-38,2
+946,\fArial|b0|i0;\H2.0000;1200,18,-42,2
+947,\fArial|b0|i0;\H2.0000;501,6,-42,2
+948,\fArial|b0|i0;\H2.0000;80,36,-42,2
+949,\fArial|b0|i0;\H2.0000;3200,18,-46,2
+950,\fArial|b0|i0;\H2.0000;1201,6,-46,2
+951,\fArial|b0|i0;\H2.0000;125,36,-46,2
+952,\fArial|b0|i0;\H2.0000;1000,18,-50,2
+953,\fArial|b0|i0;\H2.0000;3201,6,-50,2
+954,\fArial|b0|i0;\H2.0000;200,36,-50,2
+955,\fArial|b0|i0;\H6.0000;Wareneingangszeichnung,-49,3,2
+956,\fArial|b0|i0;1,0,0,2
+957,\fArial|b0|i0;\H2.2000;Only for inquiry,0,-2,2
+958,LKA,-17,0,2
+959,24.10.2017,-1,0,2
+960,\fArial|b0|i0;\H2.2000;Prototype release      -Sample,0,-2,2
+961,HUM,-17,0,2
+962,15.11.2017,-1,0,2
+963,B4,4,-5,2
+964,\fArial|b0|i0;\H2.2000;Incoming inspection release,0,-2,2
+965,LKA,-17,0,2
+966,11.01.2018,-1,0,2
+967,\fArial|b0|i0;\H2.2000;Design Freeze Release      -Sample,0,-2,2
+968,HUM,-17,0,2
+969,11.07.2018,-1,0,2
+970,B1,8,-5,2
+971,\fArial|b0|i0;\H2.2000;Ready for production release,0,-2,2
+972,\fArial|b0|i0;\H2.2000;Equipment release,0,-2,2
+973,Freigabe für A-Sample Bestellung,-40,7,2
+974,\fArial|b0|i0;\H2.5000;Projektleiter,15,3,2
+975,Gerhard Ranegger,14,-3,2
+976,Matthias Huschenbett,14,-12,2
+977,\fArial|b0|i0;\H2.5000;Techn. Projektleiter,15,-6,2
+978,\fArial|b0|i0;\H2.2000;Production release,0,-2,2
+979,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-43,52,2
+980,\fArial|b0|i0;\H2.0000;Surface texture:,-43,30,2
+981,\fArial|b0|i0;\H1.4986;according to DIN ISO 1302,-43,9,2
+982,\fArial|b0|i0;\H1.4986;according to DIN ISO 13715,15,9,2
+983,\fArial|b0|i0;\H2.0000;Edge finish:,8,30,2
+984,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-43,-17,2
+985,1302\H1.25429x; \H0.79726x;\PLimits according to:                                                     \H0.5x; \H2x; ISO 286-2\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-43,6,2
+986,\fArial|b0|i0;\H2.0000;Material:,-43,45,2
+987,1.4021,-32,42,2
+988,\fArial|b0|i0;\H2.0000;Quality standard:,-3,45,2
+989,\fArial|b0|i0;\H2.0000;Raw part No:,-43,35,2
+990,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-43,40,2
+991,\fArial|b0|i0;\H2.0000;16% - rule,-43,-13,2
+992,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-43,-28,2
+993,"{\H0.57143x;Cleanliness:\P\H0.15x;\P\H7.66667x;Part has to be degreased and free of deposits, detachable burrs and visual detectable particles.}",-43,-38,2
+994,\fArial|b0|i0;\H2.0000;Delivery conditions:,-43,-50,2
+995,\fArial|b0|i0;\H1.4986;valid for machined surface,-43,11,2
+996,EN 10095,22,42,2
+997,Hardened to 48 HRC +2/-0,-8,37,2
+998,-,-8,32,2
+999,Rz 16,-33,19,2
+1000,"-0,2",18,23,2
+1001,"-0,05",18,19,2
+1002,"+0,2",32,19,2
+1003,not applicable,23,-15,2
+1004,5129275_Rev01.stp,-15,-24,2
+1005,tbd,-14,-53,2
+1006,\fArial|b0|i0;\H2.0000;All dimensions apply to the finished part including surface/material treatment.,-43,51,2
+1007,\fArial|b0|i0;\H2.0000;Surface texture:,-43,28,2
+1008,\fArial|b0|i0;\H2.0000;Edge finish:,8,28,2
+1009,\fArial|b0|i0;\H2.0000;Nominal geometry (theoretically exact) defined by CAD file:,-43,-16,2
+1010,1302\H1.25429x; \H0.79726x;\PTolerances on linear sizes according to:                     \H0.5x;  \H2x;ISO 286\H1.25429x; \H0.79726x;\P\H1.23656x; \H0.8087x;\P\H1.23236x; },-43,4,2
+1011,\fArial|b0|i0;\H2.0000;Material:,-43,43,2
+1012,1.4021,-32,41,2
+1013,\fArial|b0|i0;\H2.0000;Quality standard:,-3,43,2
+1014,\fArial|b0|i0;\H2.0000;Raw part No:,-43,33,2
+1015,\fArial|b0|i0;\H2.0000;Surface/material treatment:,-43,38,2
+1016,\fArial|b0|i0;\H2.0000;Valid for all untoleranced dimensions:,-43,-27,2
+1017,"{\H0.57143x;Cleanliness:\P\H0.15x;\P\H7.66667x;Part has to be degreased and free of deposits, detachable burrs and visual detectable particles.}",-43,-37,2
+1018,\fArial|b0|i0;\H2.0000;Delivery conditions:,-43,-49,2
+1019,EN 10095,22,41,2
+1020,Hardened to 48 HRC +2/-0,-8,35,2
+1021,-,-8,31,2
+1022,Rz 16,-33,17,2
+1023,"-0,2",18,22,2
+1024,"-0,05",18,18,2
+1025,"+0,2",31,18,2
+1026,5129275_Rev01.stp,-15,-23,2
+1027,acc. to LV123 - 6.2.1.,-14,-51,2
+1028,"\A1;R0,5",184,92,0
+1029,"\A1;R0,5",152,89,0
+1030,A,156,39,5
+1031,A,203,39,6
+1032,"\A1;2{\H1.25;\S+0,1^ -0;}",89,59,2
+1033,"\A1;4,8{\H1.25;±0,05}",75,53,2
+1034,A,127,132,7
+1035,c,116,105,0
+1036,"0,005",126,105,0
+1037,"\A1;\fArial|b0|i0;\H1.7500;2x Ø19,2{\H1.25;\S+0^ -0,05;} CT",131,92,0
+1038,B,231,74,8
+1039,"Rz 0,25",141,81,0
+1040,"Rz 1,6",87,168,7
+1041,"Rpk 0,2",87,163,7
+1042,"\A1;\fArial|b0|i0;\H1.7500;Ø15,15{\H1.25;\S+0,05^ -0;}",125,95,0
+1043,2x,275,268,9
+1044,r,275,260,9
+1045,"Ø0,05 CZ",283,260,9
+1046,B,306,261,10
+1047,"\A1;9,3{\H1.25;\S+0,1^ -0;}",94,54,2
+1048,Z,203,220,11
+1049,E,77,151,7
+1050,#,80,152,7
+1051,F,91,151,7
+1052,f,78,143,7
+1053,"0,01",86,143,7
+1054,A,98,144,7
+1055,c,77,137,7
+1056,"0,01",86,136,7
+1057,A,17,273,12
+1058,B,17,223,13
+1059,C,17,173,14
+1060,D,17,123,15
+1061,E,17,73,2
+1062,F,17,23,2
+1063,1,35,7,2
+1064,2,85,7,16
+1065,3,135,7,17
+1066,4,185,7,18
+1067,5,235,7,19
+1068,6,285,7,20
+1069,7,335,7,21
+1070,1,34,289,22
+1071,5,235,289,23
+1072,6,285,289,24
+1073,7,335,289,25
+1074,8,385,289,26
+1075,2,84,289,27
+1076,3,134,289,28
+1077,4,184,289,29
+1078,A,412,273,30
+1079,B,412,223,31
+1080,C,412,173,32
+1081,D,412,123,33
+1082,E,412,73,34
+1083,F,412,23,35
+1084,A3,382,5,36
+1085,b,263,144,37
+1086,"0,01",274,144,37
+1087,A,287,144,37
+1088,r,264,137,37
+1089,"Ø0,05",272,137,37
+1090,B,288,137,37
+1091,X,171,259,38
+1092,Y,181,144,0
+1093,"\A1;0,7",66,74,2
+1094,"\A1;1,5{\H1.25;\S+0,1^ -0;}",64,64,2
+1095,OLE,136,131,7
+1096,\fArial|b0|i0;\H2.2000;Part Number:,174,122,0
+1097,"for the payment of damages. All rights reserved in the event of the grant of a patent, utility model or design. (ISO 16016)",79,157,7
+1098,\fArial|b0|i0;\H2.2000;Page:,244,122,39
+1099,\fArial|b0|i0;\H1.5217;Drawing Approval Stamp,105,115,0
+1100,\fArial|b0|i0;\H2.2000;ENGINE Division,152,115,0
+1101,\fArial|b0|i0;\H2.5000;Document type:,174,142,0
+1102,\fArial|b0|i0;\H2.5000;Description:,174,132,0
+1103,\fArial|b0|i0;\H2.0000;Weight:,79,142,7
+1104,\fArial|b0|i0;\H2.0000;Projection:,139,142,7
+1105,\fArial|b0|i0;\H2.0000;ISO 128\P\fArial|b0|i0;\H2.0000;Method 1,139,138,7
+1106,\fArial|b0|i0;\H2.0000;Scale:,99,142,7
+1107,\fArial|b0|i0;\H2.0000;Unit:,119,142,7
+1108,\fArial|b0|i0;\H2.5000;mm,128,136,7
+1109,\fArial|b0|i0;\H3.0000;/,250,117,39
+1110,5129275,202,115,0
+1111,Valve Lifter GV12.2,200,126,0
+1112,-,88,135,7
+1113,2 : 1,105,135,7
+1114,1,247,115,39
+1115,1,252,115,39
+1116,Component Drawing,200,136,0
+1117,1,233,64,8
+1118,Start drawing,238,64,8
+1119,-,338,65,34
+1120,04.04.2018,352,64,34
+1121,LKA,371,64,34
+1122,10.07.2018,382,64,34
+1123,KB,401,64,34
+1124,REVISION HISTORY,308,56,40
+1125,REV.,230,60,8
+1126,DESCRIPTION,273,60,41
+1127,SECTION,333,60,34
+1128,DATE,355,60,34
+1129,DRAWN BY,367,60,34
+1130,INSP. DATE,382,60,34
+1131,INSP. BY,398,60,34
+1132,\A1;5\U+00B0,51,117,42
+1133,"\A1;1,65",37,106,43
+1134,\A1;R2,30,126,15
+1135,"\A1;\fArial|b0|i0;\H1.7500;Ø4,5 x7 (\S+0,04^ +0,028;) \fAIGDT|b0|i0;\H1.7500;È",110,54,2
+1136,"Ra 0,8",227,93,44
+1137,"\A1;R0,8",87,113,0
+1138,b,203,265,45
+1139,"0,01",213,265,45
+1140,A,224,266,45
+1141,d,71,30,2
+1142,"0,2",81,29,2
+1143,A,89,30,2
+1144,B,95,30,2
+1145,"\A1;\fArial|b0|i0;\H1.7500;Ø4,1",94,110,0
+1146,\A1;45\U+00B0,66,80,2
+1147,g,200,255,45
+1148,"0,01",209,255,45
+1149,\A1;{\fAIGDT|b0|i0;\H1.7500;\ln}\fArial|b0|i0;\H1.7500;11,119,99,0
+1150,<>,171,95,0
+1151,<>,166,95,0
+1152,A-A ( 5 : 1 ),85,137,7
+1153,<>,82,56,2
+1154,<>,73,50,2
+1155,\fArial|b0|i0;\H1.7500;2x Ø<> CT,135,77,0
+1156,\fArial|b0|i0;\H1.7500;Ø<>,129,82,0
+1157,<>,108,50,2
+1158,Z ( 20 : 1 ),30,133,15
+1159,A3,191,2,18
+1160,X ( 10 : 1 ),161,116,0
+1161,{\fArial|b0|i0;E},34,87,3
+1162,{\fArial|b0|i0;F},34,64,2
+1163,"-0,1",165,106,0
+1164,"-0,05",182,106,0
+1165,"-0,1",166,110,0
+1166,Y ( 10 : 1 ),27,90,3
+1167,<>,75,71,2
+1168,<>,77,60,2
+1169,5129275,177,6,18
+1170,Valve Lifter GV12.2,175,11,18
+1171,-,119,15,17
+1172,2 : 1,128,15,17
+1173,1,199,6,18
+1174,1,201,6,18
+1175,Component Drawing,175,16,18
+1176,<>,55,122,42
+1177,<>,48,103,43
+1178,<>,30,103,43
+1179,"\fArial|b0|i0;\H1.7500;Ø<> x7 (\S+0,04^ +0,028;) \fAIGDT|b0|i0;\H1.7500;È",116,96,0
+1180,<>,87,108,0
+1181,\fArial|b0|i0;\H1.7500;Ø<>,97,106,0
+1182,<>,68,79,2
+1183,HUM,120,10,17
+1184,11.07.2018,128,10,17
+1185,B1,132,8,17
+1186,{\fAIGDT|b0|i0;\H1.7500;\ln}\fArial|b0|i0;\H1.7500;<>,122,115,0
+1187,1.4021,16,51,2
+1188,EN 10095,43,51,2
+1189,Hardened to 48 HRC +2/-0,27,48,2
+1190,-,27,46,2
+1191,Rz 16,15,39,2
+1192,"-0,2",41,42,2
+1193,"-0,05",41,40,2
+1194,"+0,2",47,40,2
+1195,5129275_Rev01.stp,24,19,2
+1196,acc. to LV123 - 6.2.1.,24,5,2
+1197,"entfettet, ultraschallgereinigt",-46,20,2
+1198,separat verpackt,-46,14,2
+1199,"alle Kanten entgratet,                    gehärtet auf 48 HRC +2/-0",-46,8,2
+1200,1.4021,-28,46,2
+1201,EN 10095,29,45,2
+1202,Hardened to 48 HRC +2/-0,-9,39,2
+1203,-,-9,35,2
+1204,Rz 16,-33,24,2
+1205,"-0,2",18,24,2
+1206,"-0,05",18,20,2
+1207,"+0,4",34,20,2
+1208,not applicable,23,-13,2
+1209,5129275_Rev01.stp,6,-23,2
+1210,-,14,-43,2
+1211,stored separately,-9,-53,2
+1212,1.4021,-32,49,2
+1213,EN 10095,29,47,2
+1214,Hardened to 48 HRC +2/-0,-9,42,2
+1215,-,-9,37,2
+1216,Rz 16,-33,27,2
+1217,"-0,2",18,27,2
+1218,"-0,05",18,23,2
+1219,"+0,4",34,23,2
+1220,not applicable,23,-10,2
+1221,5129275_Rev01.stp,0,-20,2
+1222,-,14,-46,2
+1223,-,-9,-56,2
+1224,1.4021,-32,36,2
+1225,EN 10095,29,35,2
+1226,Hardened to 48 HRC +2/-0,-9,29,2
+1227,-,-9,25,2
+1228,Rz 16,-33,14,2
+1229,"-0,2",18,14,2
+1230,"-0,05",18,10,2
+1231,"+0,4",34,10,2
+1232,not applicable,23,-23,2
+1233,5129275_Rev01.stp,0,-32,2
+1234,3865240_Rev03.stp,37,48,2
+1235,Rz 16,11,35,2
+1236,"-0,2",62,35,2
+1237,"-0,05",62,31,2
+1238,"+0,4",78,31,2
+1239,stored separately,52,15,2
+1240,ultrasonically cleaned and degreased,52,8,2
+1241,mH,62,3,2
+1242,xvcxv,1,-3,2
+1243,"-0,05",1,1,2
+1244,Kantenbruch,-2,-2,2
+1245,"-0,1",-2,1,2
+1246,1,0,0,2
+1247,LKA,-12,2,2
+1248,24.10.2017,10,2,2
+1249,HUM,-12,2,2
+1250,15.11.2017,10,2,2
+1251,B4,4,-2,2
+1252,LKA,-12,2,2
+1253,11.01.2018,10,2,2
+1254,HUM,-12,2,2
+1255,11.07.2018,10,2,2
+1256,B1,8,-2,2
+1257,Freigabe für A-Sample Bestellung,0,8,2
+1258,Gerhard Ranegger,15,-1,2
+1259,Matthias Huschenbett,15,-10,2
+1260,1.4021,-32,45,2
+1261,EN 10095,30,43,2
+1262,Hardened to 48 HRC +2/-0,-8,38,2
+1263,-,-8,33,2
+1264,Rz 16,-33,23,2
+1265,"-0,2",18,23,2
+1266,"-0,05",18,19,2
+1267,"+0,2",32,19,2
+1268,not applicable,23,-14,2
+1269,5129275_Rev01.stp,1,-24,2
+1270,tbd,-14,-52,2
+1271,1.4021,-32,43,2
+1272,EN 10095,30,42,2
+1273,Hardened to 48 HRC +2/-0,-8,36,2
+1274,-,-8,32,2
+1275,Rz 16,-33,20,2
+1276,"-0,2",18,21,2
+1277,"-0,05",18,17,2
+1278,"+0,2",31,17,2
+1279,5129275_Rev01.stp,1,-22,2
+1280,acc. to LV123 - 6.2.1.,-14,-50,2
+1281,A3,385,7,36
+1282,5129275,212,117,0
+1283,Valve Lifter GV12.2,200,129,0
+1284,-,88,136,7
+1285,2 : 1,108,136,7
+1286,1,249,117,39
+1287,1,252,117,39
+1288,Component Drawing,200,139,0
+1289,A3,192,3,18
+1290,"-0,1",165,105,0
+1291,"-0,05",182,106,0
+1292,"-0,1",170,110,0
+1293,5129275,181,7,18
+1294,Valve Lifter GV12.2,175,13,18
+1295,-,120,16,17
+1296,2 : 1,130,16,17
+1297,1,200,6,18
+1298,1,202,6,18
+1299,Component Drawing,175,18,18
+1300,HUM,122,11,17
+1301,11.07.2018,133,11,17
+1302,B1,132,9,17
+1303,1.4021,16,52,2
+1304,EN 10095,46,52,2
+1305,Hardened to 48 HRC +2/-0,28,49,2
+1306,-,28,47,2
+1307,Rz 16,15,41,2
+1308,"-0,2",41,41,2
+1309,"-0,05",41,39,2
+1310,"+0,2",47,39,2
+1311,5129275_Rev01.stp,32,20,2
+1312,acc. to LV123 - 6.2.1.,25,6,2
+1313,Layout1,0,0,2
+1314,Layout2,0,0,2
+1315,Model,0,0,2
