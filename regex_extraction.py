@@ -1,12 +1,16 @@
 # coding=utf8
 import re
-import csv_to_pandadf
+import csv_to_text
+import csv
+import pandas
 
 def clean(extracted_dimensions):
     #next part extracts the isos and removes everything we dont need like just text or detail/maßstab, einzelne buchstaben und zahlen
+    isos = []
     for dim in extracted_dimensions:
         if re.match(regex_isos, dim): #isos
             match = re.findall(regex_isos,dim)
+            print(match)
             isos.append(match[0])
             extracted_dimensions.remove(dim)
 
@@ -28,63 +32,43 @@ def clean(extracted_dimensions):
 
 
 def print_clean(dims):
-    mal = "no"
-    vorzeichen = "no"
     for dim in dims:
         if re.match(r"b\s\d*\W?\d*\s.",dim):
-            print("Rechtwinkligkeit")
-            print(dim)
+            dim = dim.replace('b', '⏊')
             continue
         if re.match(r"g\s\d*\W?\d*", dim):
-            print("Zylinderform")
-            print(dim)
+            dim = dim.replace('g', '⌭ ')
             continue
-        if re.match(r"g\s\d*\W?\d*", dim):
-            print("Parallelität")
-            print(dim)
+        if re.match(r"f\s\d*\W?\d*", dim):
+            dim = dim.replace('f',  u"\u2225")
             continue
-        if re.match(r"g\s\d*\W?\d*", dim):
-            print("Zylinderform")
-            print(dim)
-            continue
-        if re.match(r"g\s\d*\W?\d*", dim):
-            print("Konzentrizität")
-            print(dim)
+        if re.match(r"r\s\d*\W?\d*", dim):
+            dim = dim.replace('r', '⌾')
             continue
         if re.match(r"i\s\d*\W?\d*", dim):
-            print("Symmetrie")
-            print(dim)
+            dim = dim.replace('i', '⌯')
             continue
         if re.match(r"j\s\d*\W?\d*", dim):
-            print("Ortstoleranz/Mittelpunkt")
-            print(dim)
-        if re.match(r"n\d*", dim):
-            print("Durchmesser")
-            print(dim)
+            dim = dim.replace('j', '')
+            continue
+        if re.match(r"c\s+\d*", dim):
+            dim = dim.replace('c', '⏥')
+            continue
+        if re.match(r"n\s+\d*", dim):
+            dim = dim.replace('n', '⌀')
+            continue
         if "É" in dim:
-            print("Modifikator")
-            print(dim)
+            dim = dim.replace('É', 'GG')
             continue
+
         ####nicht dabei: neigungswinkel und lauftoleranzen
-        if re.match(r"R\d*$",dim):
-            print("Radius")
-            print(dim)
-            continue
-        if "°" in dim:
-            print("Grad")
-            print(dim)
-            continue
-        if re.match(r"Ø\s*\d*\W?\d*", dim):
-            print("Durchmesser")
-            print(dim)
-            continue
+    return dims
 
 def merge(dims):
     last_item = ""
     i = 0
     new_dims = []
     for dim in dims:
-        dims[i] = dim.replace('È','GG')
         if re.match(r"\d?x$", last_item):
             last_item = last_item + " " + dims[i]
         if re.match(r"R0", dim):
@@ -107,24 +91,24 @@ reg_all = re.compile(r"(^[A-Z]{1}-?[A-Z]?\s*$)|([A-Z]\W?[A-Z]?\s?\W\s?\d\d?\s?\s
 extracted_dimensions = []
 
 
-text = csv_to_pandadf.read_csv('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged_GV12.csv')
+#text = csv_to_text.read_csv('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged_GV12.csv')
 
-"""file = open('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged.csv', 'r')
-text = file.read()
-file.close()
-matches = re.findall(regex, text, re.MULTILINE) """
-for match in text:
-    extracted_dimensions.append(match.strip())
+file = open('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged.csv', 'r')
+#text = file.read()
+#file.close()
+text_df = pandas.read_csv(file)
+text = text_df['Text']
+#print(text)
+#matches = re.findall(regex, text, re.MULTILINE)
+for line in text:
+    extracted_dimensions.append(line.strip())
 #print(extracted_dimensions)
-"""for dim in extracted_dimensions:
-    print( [dim] )"""
-isos = []
+#isos = []
 isos, dims = clean(extracted_dimensions)
-for dim in dims:
-   print(dim)
-#print(isos)
-new_dims = []
+print(isos)
+#new_dims = []
 new_dims = merge(dims)
 print(new_dims)
 
-#print_clean(dims)
+dims = print_clean(dims)
+print(dims)
