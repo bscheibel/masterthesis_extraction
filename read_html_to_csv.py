@@ -2,7 +2,7 @@ import re
 import csv
 
 
-with open("/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html", "r") as f:
+with open("drawings/5152166_Rev04.html", "r") as f:
     with open('values.csv', 'w') as writeFile:
         for line in f.readlines():
             #print(line)
