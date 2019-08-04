@@ -1,0 +1,28 @@
+                                                                                                              DIN ISO 2768 Teil 1 Seite 5
+                 Zitierte Normen
+                 —	in der deutschen Übersetzung
+                 Siehe Abschnitt 3
+                 —	in nationalen Zusätzen
+                  DIN 7167             Zusammenhang zwischen Maß-, Form- und Parallelitätstoleranzen; Hüllbedingung ohne Zeich¬
+                                       nungseintragung
+                  DIN 7168             Allgemeintoleranzen; Nicht für Neukonstruktionen
+                  DIN ISO 2768 Teil 2  Allgemeintoleranzen für Form und Lage; Identisch mit ISO 2768-2 : 1989
+                  DIN ISO 5459         Technische Zeichnungen; Form- und Lagetolerierung; Bezüge und Bezugssysteme für geometrische
+                                       Toleranzen
+                 DIN ISO 8015          Technische Zeichnungen; Tolerierungsgrundsatz; Identisch mit ISO 801 5 : 1 985
+                  ISO 2768-2:1989      General tolerances — Part 2: Geometrical tolerances for features without individual tolerance indica¬
+                                       tions
+                  ISO 5459:1981        Technical drawings — Geometrical tolerancing — Datums and datum systems for geometrical
+                                       tolerances
+                 ISO 8015:1985         Technical drawings — Fundamental tolerancing principles
+                 ISO 8062:1984         Castings — System of dimensional tolerances
+                  Frühere Ausgaben:
+                 DIN ISO 2768 Teil 1 : 04.91
+                 Änderungen
+                 Gegenüber der Ausgabe April 1991 wurden folgende Änderungen vorgenommen:
+                 — Druckfehlerberichtigung: In Tabelle 3, letzte Zeile, wurden die Werte in den beiden letzten Spalten berichtigt.
+                 internationale Patentliiassifil^ation
+                 G01 B 21/02
+                 G 01 B 21/22
+     BEST BeuthStandardsCollection - Stand 2016-11
+                                                                                                                                                         B974908A824A6748CAAAA99BAB349F63B2C88DD9B0D2BF8368C461B1CCB65CD15BE74F0686BD19CFC1FA2DEF1929
