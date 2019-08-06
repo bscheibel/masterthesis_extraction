@@ -2,8 +2,8 @@ import re
 import csv
 
 
-with open("drawings/5152166_Rev04.html", "r") as f:
-    with open('values.csv', 'w') as writeFile:
+with open("drawings/5129275_Rev01-GV12.html", "r") as f:
+    with open('values_fromhtml_GV12.csv', 'w') as writeFile:
         for line in f.readlines():
             #print(line)
             row = []

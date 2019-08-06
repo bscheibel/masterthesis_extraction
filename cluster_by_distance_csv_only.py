@@ -10,12 +10,12 @@
 
 import csv
 
-csvfile1 = open('values.csv', 'r')
+csvfile1 = open('values_LH.csv', 'r')
 spamreader1 = list(csv.reader(csvfile1, dialect='excel', delimiter=','))
 csvfile1.close()
 already_merged=False
 new_rows_list = []
-with open("values.csv", "r") as csvfile:
+with open("values_LH.csv", "r") as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
         #print(row)

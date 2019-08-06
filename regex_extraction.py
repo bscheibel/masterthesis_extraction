@@ -88,7 +88,7 @@ reg_all = re.compile(r"(ISO\s\d\d\d\d?\W?\d?\W?\d?\W?\d?|(EN\s\d*)|^[A-Z]{1}-?[A
 extracted_dimensions = []
 #text = csv_to_text.read_csv('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged_GV12.csv')
 
-file = open('text_merged.csv', 'r')
+file = open('values_clusteredfromPDF_GV12.csv', 'r')
 #text = file.read()
 #file.close()
 text_df = pandas.read_csv(file)

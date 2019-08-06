@@ -11,7 +11,7 @@ def printsection(buffer, file_out):
                 #print('{},{}'.format(obj['10'], obj['20']))
                 #print("\n")
 
-                row = [values,math.floor(float(obj['10'])),math.floor(float(obj['20']))]
+                row = [values, math.floor(float(obj['10'])),math.floor(float(obj['20']))]
                 with open(file_out, 'a') as csvFile:
                     writer = csv.writer(csvFile, delimiter =';')
                     if row[0] != '':
