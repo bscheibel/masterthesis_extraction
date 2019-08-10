@@ -1,5 +1,7 @@
 import numpy as np
 import pandas
+import csv
+import order_bounding_boxes_in_each_block
 
 from sklearn.cluster import DBSCAN
 from sklearn import metrics
@@ -8,15 +10,15 @@ from sklearn.preprocessing import StandardScaler
 
 def cluster(file_in, file_out):
     # #############################################################################
-    data_df = pandas.read_csv("values_fromhtml_GV12.csv", sep=",")
+    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_avg_points.csv", sep=";")
     data_df.head(3)
-    data = data_df[["X1","Y1","X2","Y2"]]
+    data = data_df[["xavg_elem","yavg_elem"]]
     print(data)
     data = StandardScaler().fit_transform(data)
 
     # #############################################################################
     # Compute DBSCAN
-    db = DBSCAN(eps=0.2, min_samples=1).fit(data)
+    db = DBSCAN(eps=0.1, min_samples=1).fit(data)
     core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
     core_samples_mask[db.core_sample_indices_] = True
     labels = db.labels_
@@ -58,9 +60,37 @@ def cluster(file_in, file_out):
     plt.title('Estimated number of clusters: %d' % n_clusters_)
     plt.show()"""
 
-    print(data_df.head(3))
+    #print(data_df.head(3))
     #data_df.to_csv("values_clusteredfromPDF_GV12.csv")
-    data_df.groupby('cluster')['Text'].apply(' '.join).reset_index().to_csv("values_clusteredfromPDF_GV12.csv")
+    data_df.groupby('cluster')['element'].apply(' '.join).reset_index().to_csv("values_clusteredfromHTML_layout_LH.csv", delimiter=";")
 
 
+def get_average_xy(list_input):
+    csv_name = "temporary/list_to_csv_with_avg_points.csv"
+    new_list = []
+    resultFile = open(csv_name, 'a')
+    wr = csv.writer(resultFile, delimiter=";")
+    wr.writerow(["element", "xavg_elem","yavg_elem"])
+    for element in list_input:
+        xavg_elem = 0
+        yavg_elem = 0
+        for blub in element:
+            xavg_elem += (float(blub[0]) + float(blub[2]))/2
+            yavg_elem += (float(blub[1]) + float(blub[3]))/2
+        xavg_elem = xavg_elem/len(element)
+        #print(xavg_elem)
+        yavg_elem = yavg_elem/len(element)
+        #element.extend([xavg_elem, yavg_elem])
+        #print(element)
+        #new_list.append(element)
+        wr.writerow([element,xavg_elem,yavg_elem])
+
+    resultFile.close()
+    #print(new_list)
+    return csv_name
+
+
+#cluster(33,33)
+#result = order_bounding_boxes_in_each_block.get_bound_box()
+#get_average_xy(result)
 cluster(33,33)
