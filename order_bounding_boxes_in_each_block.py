@@ -2,8 +2,8 @@
 
 from bs4 import BeautifulSoup
 
-def get_bound_box():
-    response = open('/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html')
+def get_bound_box(file):
+    response = open(file)
     html_doc = response.read()
     response.close()
     html_file = BeautifulSoup(html_doc, 'html.parser')
@@ -48,3 +48,6 @@ def get_bound_box():
         print("\n")
 
     return new_all_elements
+
+file="/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
+get_bound_box(file)
