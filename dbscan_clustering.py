@@ -8,19 +8,24 @@ from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
 from sklearn.preprocessing import StandardScaler
 
+def my_distance(x,y):
+    blub = "ddd"
+    return blub
+
+
 def cluster(file_in, file_out):
     # #############################################################################
     data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_avg_points.csv", sep=";")
     data_df.head(3)
     data = data_df[["xavg_elem","yavg_elem","ausrichtung"]]
-    print(data)
+    #print(data)
     data = StandardScaler().fit_transform(data)
 
     # #############################################################################
     # Compute DBSCAN
-    db = DBSCAN(eps=0.06, min_samples=1).fit(data)
-    core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
-    core_samples_mask[db.core_sample_indices_] = True
+    db = DBSCAN(eps=0.075, min_samples=1, metric="euclidean").fit(data)
+    #core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
+    #core_samples_mask[db.core_sample_indices_] = True
     labels = db.labels_
     print(data[labels == 0])
     data_df["cluster"] = labels
@@ -83,7 +88,7 @@ def get_average_xy(list_input):
             yavg_elem += (float(blub[1]) + float(blub[3]))/2
             if float(blub[1]) < y_min:
                 y_min = float(blub[1])
-                print("y_min:",y_min)
+                #print("y_min:",y_min)
             if float(blub[0]) < x_min:
                 x_min = float(blub[0])
             if float(blub[3]) > y_max:
@@ -110,6 +115,6 @@ def get_average_xy(list_input):
 #cluster(33,33)
 file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
 #file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
-result = order_bounding_boxes_in_each_block.get_bound_box(file)
-get_average_xy(result)
+#result = order_bounding_boxes_in_each_block.get_bound_box(file)
+#get_average_xy(result)
 cluster(33,33)
