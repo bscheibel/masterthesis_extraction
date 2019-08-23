@@ -49,5 +49,5 @@ def get_bound_box(file):
 
     return new_all_elements
 
-file="/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
-get_bound_box(file)
+#file="/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
+#get_bound_box(file)

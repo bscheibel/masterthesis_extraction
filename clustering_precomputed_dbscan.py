@@ -2,6 +2,8 @@ import numpy as np
 import pandas
 import csv
 from math import sqrt
+from sklearn.cluster import DBSCAN
+import order_bounding_boxes_in_each_block
 
 def get_average_xy(list_input):
     csv_name = "temporary/list_to_csv_with_corner_points.csv"
@@ -52,33 +54,47 @@ def get_average_xy(list_input):
 def dist(rectangle1, rectangle2):
  #get minimal distance between two rectangles
     distance = 100000000
-
-
-    print(rectangle1)
+    #print(rectangle1)
     for point1 in rectangle1:
+        point1 = eval(point1)
         #print(point1)
         for point2 in rectangle2:
             #print(point2)
+            point2 = eval(point2)
             dist = sqrt((float(point2[0]) - float(point1[0]))**2 + (float(point2[1]) - float(point1[1]))**2)
             if dist < distance:
                 distance = dist
-
     return distance
 
+def clustering(distance_matrix):
+    db = DBSCAN(eps=5, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel
+    labels = db.labels_
+    # Number of clusters in labels
+    n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
+
+    print('Estimated number of clusters: %d' % n_clusters_)
+    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv",
+                           sep=";")
+    data_df["cluster"] = labels
+    data_df.groupby('cluster')['element'].apply(' '.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";")
 
 
-file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
-#result = order_bounding_boxes_in_each_block.get_bound_box(file)
+file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
+result = order_bounding_boxes_in_each_block.get_bound_box(file)
 #print(result)
-#get_average_xy(result)
+get_average_xy(result)
 #rectangle1 = [[0,0],[2,0],[0,2],[2,2]]
 #rectangle2 = [[3,3],[4,3],[3,4],[4,4]]
 #print(compute_distance(rectangle1,rectangle2))
 data = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
-data = data[["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma"]]
-data.to_csv("blub.csv", sep=",", index=False, header=None)
-data_new = pandas.read_csv("blub.csv", sep=";",header=None)
-data_new = data_new.to_numpy()
-#print(data_new.to_string())
-#print(data.loc[:])
-dm = np.asarray([[dist(p1, p2) for p2 in data_new] for p1 in data_new])
+data = data[["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma"]].replace("'","")
+#print(data)
+data.to_csv("blub.csv", sep=";", index=False, header=None)
+result = []
+with open('blub.csv') as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=';')
+    result = list(readCSV)
+
+dm = np.asarray([[dist(p1, p2) for p2 in result] for p1 in result])
+#print(dm)
+clustering(dm)
