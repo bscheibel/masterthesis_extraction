@@ -41,11 +41,11 @@ def get_bound_box(file):
             new_all_elements.append(new_element)
 
 
-    for element in new_all_elements:
+    """for element in new_all_elements:
         for blub in element:
-            print(blub[4])
+            #print(blub[4])
 
-        print("\n")
+        #print("\n")"""
 
     return new_all_elements
 
