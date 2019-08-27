@@ -33,13 +33,13 @@ def get_average_xy(list_input):
                 xmax = float(blub[2])
         if float(xmax)-float(xmin) > 1.5*(float(ymax)-float(ymin)):
             ausrichtung = 0 #horizontal
-            print("horizontal")
+            #print("horizontal")
         if 1.5*(float(xmax)-float(xmin)) < float(ymax)-float(ymin):
             ausrichtung = 1 #vertikal
-            print("vertikal")
+            #print("vertikal")
         else:
             ausrichtung = 3 #sonstiges
-            print("sonstiges")
+            #print("sonstiges")
         xavg_elem = xavg_elem/len(element)
         #print(xavg_elem)
         yavg_elem = yavg_elem/len(element)
@@ -57,8 +57,26 @@ def get_average_xy(list_input):
     #print(new_list)
     return csv_name
 
-def intersects(self, other):
-    return not (self.top_right.x < other.bottom_left.x or self.bottom_left.x > other.top_right.x or self.top_right.y < other.bottom_left.y or self.bottom_left.y > other.top_right.y)
+def intersects(rectangle1, rectangle2): #using the separating axis theorem
+    #print(rectangle2[0])
+    #for rect in rectangle1:
+
+    rect_1_min = eval(rectangle1[0])
+    rect_1_max = eval(rectangle1[3])
+    rect1_bottom_left_x= rect_1_min[0]
+    rect1_top_right_x=rect_1_max[0]
+    rect1_bottom_left_y= rect_1_max[1]
+    rect1_top_right_y= rect_1_min[1]
+
+    rect_2_min = eval(rectangle2[0])
+    rect_2_max = eval(rectangle2[3])
+    rect2_bottom_left_x= rect_2_min[0]
+    rect2_top_right_x=rect_2_max[0]
+    rect2_bottom_left_y= rect_2_max[1]
+    rect2_top_right_y=rect_2_min[1]
+
+    return not (rect1_top_right_x < rect2_bottom_left_x or rect1_bottom_left_x > rect2_top_right_x or rect1_top_right_y > rect2_bottom_left_y or rect1_bottom_left_y < rect2_top_right_y)
+
 
 def dist(rectangle1, rectangle2):
  #get minimal distance between two rectangles
@@ -77,11 +95,14 @@ def dist(rectangle1, rectangle2):
                 distance = dist
         if rectangle1[4] != rectangle2[4]:
             distance = dist + 100
-            #print(rectangle2[4], "- ", rectangle1[4])
+        print(intersects(rectangle1,rectangle2))
+        if intersects(rectangle1, rectangle2):
+            distance = 0
+            #print(rectangle1)
     return distance
 
 def clustering(distance_matrix):
-    db = DBSCAN(eps=0.0001, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
+    db = DBSCAN(eps=0.001, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     #db = OPTICS(min_samples=1,xi=0.1, metric="precomputed").fit(dm)
     labels = db.labels_
     # Number of clusters in labels
@@ -97,10 +118,11 @@ def clustering(distance_matrix):
 #file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
 file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
 result = order_bounding_boxes_in_each_block.get_bound_box(file)
-print(result)
-"""get_average_xy(result)
+#print(result)
+get_average_xy(result)
 #rectangle1 = [[450,286],[464,286],[450,376],[464,376]]
 #rectangle2 = [[450,316],[456,316],[450,329],[456,329]]
+#rectangle3 = [[23,45],[35,45],[23,60],[35,60]]
 #print(dist(rectangle1,rectangle2))
 data = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
 data = data[["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma","ausrichtung"]].replace("'","")
@@ -112,5 +134,7 @@ with open('blub.csv') as csvfile:
     result = list(readCSV)
 
 dm = np.asarray([[dist(p1, p2) for p2 in result] for p1 in result])
-#print(dm)
-clustering(dm)"""
+
+with np.printoptions(threshold=np.inf):
+    print(dm)
+clustering(dm)
