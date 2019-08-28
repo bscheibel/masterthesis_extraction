@@ -95,14 +95,14 @@ def dist(rectangle1, rectangle2):
                 distance = dist
         if rectangle1[4] != rectangle2[4]:
             distance = dist + 100
-        print(intersects(rectangle1,rectangle2))
+        #print(intersects(rectangle1,rectangle2))
         if intersects(rectangle1, rectangle2):
             distance = 0
             #print(rectangle1)
     return distance
 
 def clustering(distance_matrix):
-    db = DBSCAN(eps=0.001, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
+    db = DBSCAN(eps=4, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     #db = OPTICS(min_samples=1,xi=0.1, metric="precomputed").fit(dm)
     labels = db.labels_
     # Number of clusters in labels
@@ -112,7 +112,7 @@ def clustering(distance_matrix):
     data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv",
                            sep=";")
     data_df["cluster"] = labels
-    data_df.groupby('cluster')['element'].apply(' '.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";")
+    data_df.groupby('cluster')['element'].apply(','.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
 
 
 #file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"

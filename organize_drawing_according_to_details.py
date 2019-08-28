@@ -14,7 +14,6 @@ def get_details(result):
             details_.append(element)
 
 
-
     for elem in details_:
         #print(elem)
         ymin = 100000000
