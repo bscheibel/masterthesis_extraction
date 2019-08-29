@@ -31,7 +31,7 @@ def get_average_xy(list_input):
                 ymax = float(blub[3])
             if float(blub[2]) > xmax:
                 xmax = float(blub[2])
-        if float(xmax)-float(xmin) > 1.5*(float(ymax)-float(ymin)):
+        if float(xmax)-float(xmin) > 1.3*(float(ymax)-float(ymin)):
             ausrichtung = 0 #horizontal
             #print("horizontal")
         if 1.5*(float(xmax)-float(xmin)) < float(ymax)-float(ymin):
@@ -102,7 +102,7 @@ def dist(rectangle1, rectangle2):
     return distance
 
 def clustering(distance_matrix):
-    db = DBSCAN(eps=4, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
+    db = DBSCAN(eps=3, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     #db = OPTICS(min_samples=1,xi=0.1, metric="precomputed").fit(dm)
     labels = db.labels_
     # Number of clusters in labels
@@ -112,7 +112,7 @@ def clustering(distance_matrix):
     data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv",
                            sep=";")
     data_df["cluster"] = labels
-    data_df.groupby('cluster')['element'].apply(','.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
+    data_df.groupby(['cluster','ausrichtung'])['element'].apply(','.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
 
 
 #file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
