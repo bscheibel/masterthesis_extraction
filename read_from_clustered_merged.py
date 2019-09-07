@@ -2,7 +2,6 @@ import csv
 
 with open("/home/bscheibel/PycharmProjects/dxf_reader/values_clusteredfrom_precomputed_dbscan.csv", "r") as f:
     reader = csv.reader(f, delimiter=";")
-    reg_search = []
     for row in reader:
         ausrichtung = row[1]
         row3 = row[2]
@@ -11,29 +10,27 @@ with open("/home/bscheibel/PycharmProjects/dxf_reader/values_clusteredfrom_preco
         merged_elements = []
         for blub in row3:
 
-            #print(row3)
-
             if len(row3) == 1:
                 print(blub[4])
-                #print("blub")
+
             else:
 
                 if isinstance(blub[0],list):
                     merged_elements += blub
-                    print(merged_elements)
-
+                    #print(merged_elements)
+                    if len(merged_elements) < len(row3):
+                        continue
                     if int(ausrichtung) == 1:
-                        blub = sorted(merged_elements, key=lambda k: [float(k[3])],reverse=True)
+                        blub = sorted(merged_elements, key=lambda k: [float(k[3])], reverse=True)
 
-                    for blubi in blub:
-                        element += blubi[4] + " "
+                    for elem in blub:
+                        element += elem[4] + " "
 
                 else:
                     element += blub[4] + " "
 
 
-        #print(element)
-
+        print(element)
 
         print("\n")
 
