@@ -8,26 +8,26 @@ with open("/home/bscheibel/PycharmProjects/dxf_reader/values_clusteredfrom_preco
         row3 = eval(row3)
         element = ""
         merged_elements = []
-        for blub in row3:
+        for elem in row3:
 
             if len(row3) == 1:
-                print(blub[4])
+                print(elem[4])
 
             else:
 
-                if isinstance(blub[0],list):
-                    merged_elements += blub
+                if isinstance(elem[0],list):
+                    merged_elements += elem
                     #print(merged_elements)
                     if len(merged_elements) < len(row3):
                         continue
                     if int(ausrichtung) == 1:
-                        blub = sorted(merged_elements, key=lambda k: [float(k[3])], reverse=True)
+                        elem = sorted(merged_elements, key=lambda k: [float(k[3])], reverse=True)
 
-                    for elem in blub:
+                    for elem in elem:
                         element += elem[4] + " "
 
                 else:
-                    element += blub[4] + " "
+                    element += elem[4] + " "
 
 
         print(element)

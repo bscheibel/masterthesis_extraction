@@ -13,6 +13,8 @@ def get_details(result): #search for all details in drawing and store it in list
             details_.append(element)
 
     details = []
+    xbiggest = 0
+    ybiggest = 0
     for elem in details_: #now go to newly created list of all details and get the min and max coordinates of the respective bbox around the detail
         #print(elem)
         ymin = 100000000
@@ -20,76 +22,90 @@ def get_details(result): #search for all details in drawing and store it in list
         xmin = 100000000
         xmax = 0
         text = ""
-        for blub in elem: #check if coordinates are bigger or smaller
-            text += blub[4]
+        for ele in elem: #check if coordinates are bigger or smaller
+            text += ele[4]
             #print(text)
-            if float(blub[1]) < ymin:
-                ymin = float(blub[1])
+            if float(ele[1]) < ymin:
+                ymin = float(ele[1])
                 # print("y_min:",y_min)
-            if float(blub[0]) < xmin:
-                xmin = float(blub[0])
-            if float(blub[3]) > ymax:
-                ymax = float(blub[3])
-            if float(blub[2]) > xmax:
-                xmax = float(blub[2])
+            if float(ele[0]) < xmin:
+                xmin = float(ele[0])
+            if float(ele[3]) > ymax:
+                ymax = float(ele[3])
+            if float(ele[2]) > xmax:
+                xmax = float(ele[2])
         details.append(list((xmin, ymin,xmax, ymax,text))) # create new list with the textual details and the min and max coordinates of these details
         number = len(details)
 
+    if ymax > ybiggest:  ###get biggest x and y values
+        ybiggest = ymax
+    if xmax > xbiggest:
+        xbiggest = xmax
+
     #print(details)
-    return details, number
+    return details, number, ybiggest, xbiggest
 
 
 file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
 result = order_bounding_boxes_in_each_block.get_bound_box(file)
-details, number = get_details(result)
-details = sorted(details, key=lambda x: sqrt((x[0] - 0)**2 + (x[1] - 0)**2)) #sort by distance from 0,0
-print(details, number)
+details, number, ybiggest, xbiggest = get_details(result)
+#details = sorted(details, key=lambda x: sqrt((x[0] - 0)**2 + (x[1] - 0)**2)) #sort by distance from 0,0
+details = sorted(details, key=lambda x: x[0]) #sort by distance from 0,0
 
-
+#print(details, number)
 
 sections = []
-max_x_last_element = 0
-max_y_last_element = 0
-border = 0
-i = 0
-overlapping = []
-for x in details:
-    min_x = x[0]
-    #print(min_x)
-    if max_x_last_element != 0: #start compare second and first element #check if min_x of new element is bigger than max_x of last element to see if they overlap in their xs
-        distance = min_x - max_x_last_element
-        if distance < 0: #if they overlap then there has to be segmentation of y as well
-            print("überschneidend")
-            ov = []
-            ov.append((x[0],))
-            ov.append(details[i-1])
-            ov = sorted(ov, key=lambda x: x[1])
-            print(ov)
-            y_lower_min = ov[1][1]
-            print(y_lower_min)
-            sections.append(details[i-1][x])
+for first in details:
+    x_min = -1
+    y_min = -1
+    x_max = -1
+    y_max = -1
+    firstx_max = first[2]
+    firstx_min = first[0]
+    firsty_max = first[3]
+    firsty_min = first[1]
 
+    distance_xmax = 100000000000
+    distance_xmin = 100000000000
+    distance_ymin = 100000000000
+    distance_ymax = 100000000000
 
-            overlapping.append((x,details[i-1]))
+    for second in details:
+        secondx_min = second[0]
+        secondx_max = second[2]
+        secondy_min = second[1]
+        secondy_max = second[3]
 
-        #print(distance)
-        else:
-            border_x = max_x_last_element+(distance/2)
-            sections.append((border_x, 100000000))
-    max_x_last_element = x[2]
-    i += 1
+        if secondx_max < firstx_min and abs(firsty_min-secondy_min) < 90 and first != second:  ###check for left side, are there any other details at the left side at a certain y-span
+            #print(first,second)
+            if abs(firstx_min - secondx_max)/2 < distance_xmax:
+                distance_xmax = abs(firstx_min - secondx_max)/2
+                x_min = secondx_max + distance_xmax
+        if secondx_min > firstx_max and abs(firsty_min-secondy_min) < 190 and first != second: ####check for right side
+            if abs(secondx_min - firstx_max)/2 < distance_xmin:
+                #print(first, second)
+                distance_xmin = abs(secondx_min - firstx_max)/2
+                x_max = firstx_max + distance_xmin
+        if firsty_min > secondy_max and abs(firstx_min-secondx_min) < 40 and first != second: ####check above
+            if abs(firsty_min - secondy_max)/2 < distance_ymin:
+                #print(first, second)
+                distance_ymin = abs(firsty_min - secondy_max)/2
+                y_min= firsty_min
+        if firsty_max < secondy_min and abs(firstx_min-secondx_min) < 40 and first != second: ####check below
+            if abs(firsty_max - secondy_min)/2 < distance_ymax:
+                #print(first, second)
+                distance_ymax = abs(firsty_max - secondy_min)/2
+                y_max= secondy_min
 
-#print(overlapping)
+    if y_min == -1:
+        y_min = firsty_min
+    if x_min == -1:
+        x_min = 0
+    if x_max == -1:
+        x_max = 1000000000
+    if y_max == -1:
+        y_max = 1000000000
+    sections.append((first,x_min, y_min,x_max,y_max))
 
-"""
-for y in details:
-    min_y = y[1]
-    if max_y_last_element != 0:
-        distance = min_y - max_y_last_element
-        border_y = max_y_last_element + (distance/2)
-        sections_y.append(border_y)
-    max_y_last_element = y[3]
-
-print(sections_y)"""
-
-#oben,links beginnen
+for section in sections:
+    print(section)

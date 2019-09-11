@@ -12,6 +12,7 @@ def get_average_xy(list_input):
     resultFile = open(csv_name, 'w')
     wr = csv.writer(resultFile, delimiter=";")
     wr.writerow(["element", "xmin","ymin","xmax","ymax", "ausrichtung","point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma"])
+
     for element in list_input:
         xavg_elem = 0
         yavg_elem = 0
@@ -46,12 +47,14 @@ def get_average_xy(list_input):
         #element.extend([xavg_elem, yavg_elem])
         #print(element)
         #new_list.append(element)
+
         ##### GET CORNER POINTS
         point_xmi_ymi = [xmin,ymin]
         point_xma_ymi = [xmax,ymin]
         point_xmi_yma = [xmin,ymax]
         point_xma_yma = [xmax,ymax]
         wr.writerow([element,xmin,ymin,xmax,ymax, ausrichtung,point_xmi_ymi,point_xma_ymi,point_xmi_yma,point_xma_yma])
+
 
     resultFile.close()
     #print(new_list)
@@ -102,7 +105,7 @@ def dist(rectangle1, rectangle2):
     return distance
 
 def clustering(distance_matrix):
-    db = DBSCAN(eps=5, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
+    db = DBSCAN(eps=3, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     #db = OPTICS(min_samples=1,xi=0.1, metric="precomputed").fit(dm)
     labels = db.labels_
     # Number of clusters in labels
@@ -115,8 +118,8 @@ def clustering(distance_matrix):
     data_df.groupby(['cluster','ausrichtung'])['element'].apply(','.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
 
 
-file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
-#file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
+#file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
+file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
 result = order_bounding_boxes_in_each_block.get_bound_box(file)
 #print(result)
 get_average_xy(result)
