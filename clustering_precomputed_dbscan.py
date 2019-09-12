@@ -118,8 +118,8 @@ def clustering(distance_matrix):
     data_df.groupby(['cluster','ausrichtung'])['element'].apply(','.join).reset_index().to_csv("values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
 
 
-#file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
-file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
+file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
+#file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
 result = order_bounding_boxes_in_each_block.get_bound_box(file)
 #print(result)
 get_average_xy(result)

@@ -90,19 +90,19 @@ for first in details:
             if abs(firsty_min - secondy_max)/2 < distance_ymin:
                 #print(first, second)
                 distance_ymin = abs(firsty_min - secondy_max)/2
-                y_min= firsty_min
+                y_min = firsty_min
         if firsty_max < secondy_min and abs(firstx_min-secondx_min) < 40 and first != second: ####check below
             if abs(firsty_max - secondy_min)/2 < distance_ymax:
                 #print(first, second)
                 distance_ymax = abs(firsty_max - secondy_min)/2
-                y_max= secondy_min
+                y_max = secondy_min
 
     if y_min == -1:
         y_min = firsty_min
     if x_min == -1:
         x_min = 0
     if x_max == -1:
-        x_max = 1000000000
+        x_max = firstx_max + distance_xmax
     if y_max == -1:
         y_max = 1000000000
     sections.append((first,x_min, y_min,x_max,y_max))
