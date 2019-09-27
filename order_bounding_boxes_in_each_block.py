@@ -1,6 +1,8 @@
 ### FIRST READ EACH BLOCK IN AN ARRAY
 
 from bs4 import BeautifulSoup
+import subprocess
+import re
 
 def get_bound_box(file):
     response = open(file)
@@ -49,5 +51,33 @@ def get_bound_box(file):
 
     return new_all_elements
 
+def pdf_to_html(uuid,filepath):
+    filename = str(uuid)+"out.html"
+    subprocess.call(['pdftotext', '-bbox-layout',
+                     filepath, filename])
+    return filename
+
+def extract_isos(result):
+    reg = r"(ISO\s\d\d\d\d*\W?\d?\W?\d?)|(EN\s\d*)"
+    details_ = []
+    for element in result:
+        new_arr = ""
+        #print(element)
+        for x in element:
+            new_arr += x[4] + " "
+        #print(new_arr)
+        if re.search(reg,new_arr):
+            #print(new_arr)
+            found = re.findall(reg, new_arr)
+            for f in found:
+                if len(f[0]) != 0:
+                    details_.append(f[0].replace(")",""))
+                if len(f[1]) != 0:
+                    details_.append(f[1])
+    return details_
+
+
+
 #file="/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
 #get_bound_box(file)
+#pdf_to_html("/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.pdf")

@@ -58,17 +58,17 @@ def print_clean(dims):
             dim = dim.replace('#', "↔")
         if "⌀" in dim:
             dim = dim.replace('⌀', "Ø")
-        reg12 = re.compile(r"(\d{1,2}\.?\d{0,2})\s\+\s-\s(\d{1,2}\.?\d{0,2})\s(\d{1,2}\.?\d{0,2})")
+        reg12 = re.compile(r"(\d{1,2}\.?\d{0,2})\s\+\s-\s(\d{1,2}\.?\d{0,2})\s(\d{1,2}\.?\d{0,2})") ##???? was machst du?? nach toleranzen suchen, mit +/- blabla
         g = re.search(reg12, dim)
         if g:
-            dim = re.sub(reg12, g.group(1) + " + " + g.group(2) + " - " + g.group(3), dim)
+            dim = re.sub(reg12, g.group(1) + " + " + g.group(2) + " - " + g.group(3), dim) # +/- toleranzen schön darstellen
         dims_new.append(dim.strip())
         dimms = []
         i = 0
         for dim in dims_new:
             last_item = i - 1
             next_item = i + 1
-            if not re.search(r"[a-zA-Z]{3,}|^\d\s\d$|^[a-zA-Z]{2,}\d.*$",dim):
+            if not re.search(r"[a-zA-Z]{3,}|^\d\s\d$|^[a-zA-Z]{2,}\d.*$",dim) and not dim == "-":
                 dimms.append(dim)
 
 
@@ -88,19 +88,32 @@ reg_all = re.compile(r"(ISO\s\d\d\d\d?\W?\d?\W?\d?\W?\d?|(EN\s\d*)|^[A-Z]{1}-?[A
 extracted_dimensions = []
 #text = csv_to_text.read_csv('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged_GV12.csv')
 
-file = open('values_clusteredfromPDF_GV12.csv', 'r')
+#file = open('values_clusteredfromPDF_GV12.csv', 'r')
 #text = file.read()
 #file.close()
-text_df = pandas.read_csv(file)
-text = text_df['Text']
-#print(text)
-#matches = re.findall(regex, text, re.MULTILINE)
-for line in text:
-    extracted_dimensions.append(line.strip())
+#text_df = pandas.read_csv(file)
 
-isos, dims = clean(extracted_dimensions)
-#print(isos)
-isos, dims = clean(dims)
-new_dims = print_clean(dims)
-for dim in new_dims:
-    print(dim)
+def extract_pretty(input):
+    #text = input['element']
+    text_all = []
+    for key, value in input:
+        text_combined = ""
+        #new_arr = ""
+       # print(element)
+        element=eval(element)
+        for x in element:
+            text_combined += x[4] + " "
+            #print(x[4])
+        text_all.append(text_combined)
+    #print(text_all)
+
+    #for line in text_combined:
+    #    extracted_dimensions.append(line.strip())
+
+    isos, dims = clean(text_all)
+    #print(isos)
+    #isos, dims = clean(dims)
+    new_dims = print_clean(dims)
+    #for dim in dims:
+    #    print(dim)
+    return new_dims
