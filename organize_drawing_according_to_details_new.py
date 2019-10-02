@@ -107,7 +107,7 @@ def main_function(result):
         section.append(list((coord_name,coord)))
     #print(section)
     if number == 0 | len(section)==0:
-        section.append(list(("No details",list((0,0,0,0)))))
+        section.append(list(("No details",list((000.000,000.000,100000000.000,10000000.000)))))
      #   print(section)
 
 

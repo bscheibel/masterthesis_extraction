@@ -37,13 +37,18 @@ def print_clean(dims): ##alles raus was nicht relevant ist! und zeichen ersetzen
                 dim = dim.replace('⌀', "Ø")
             reg12 = re.compile(r"(.*\d{1,4}\W?\d{0,4})\s?\+\s-\s?(\d{1,4}\W?\d{0,4})\s?(\d{1,4}\W?\d{0,3})") ##???? was machst du?? nach toleranzen suchen, mit +/- blabla
             reg13 = re.compile(r"(.*)\+\s\+\s(\d*\W\d*)\s(\d*\W\d*)(.*)")
+            reg14 = re.compile(r"(\+\s\d*\.?\d*)\s(\d*\.?\d*)\s(\+?\s?\-?\d*\.*\d*)")
             g = re.search(reg12, dim)
             f = re.search(reg13,dim)
+            e = re.search(reg14,dim)
             if g:
                 dim = re.sub(reg12, g.group(1) + " +" + g.group(2) + " -" + g.group(3), dim) # +/- toleranzen schön darstellen
                 #print(dim)
             if f:
                 dim = f.group(1) + "+" + f.group(2) + " +" + f.group(3) + f.group(4)
+            if e:
+                dim= e.group(2) +  + e.group(1) +  + e.group(3)
+            dim = dim.replace(" ,",".").replace(", ",".").replace(",",".")
             dims_new[dim] = coords
 
     #for dim in dims_new:

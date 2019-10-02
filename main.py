@@ -13,12 +13,12 @@ def write_redis(uuid, result, db_params):
     db.set(uuid, result)
 
 
-def main(uuid, filepath, db):
+def main(uuid, filepath, db, eps):
     filename = order_bounding_boxes_in_each_block.pdf_to_html(uuid, filepath)
     print(filename)
     result = order_bounding_boxes_in_each_block.get_bound_box(filename)  ##get coordinates+text out of html file into array of arrays
     isos = order_bounding_boxes_in_each_block.extract_isos(result)
-    res = clustering_precomputed_dbscan.cluster_and_preprocess(result)
+    res = clustering_precomputed_dbscan.cluster_and_preprocess(result,eps)
     clean_arrays = read_from_clustered_merged.read("/home/bscheibel/PycharmProjects/dxf_reader/temporary/values_clusteredfrom_precomputed_dbscan.csv")
     pretty = regex_clean_new.print_clean(clean_arrays)
     res = organize_drawing_according_to_details_new.main_function(pretty)
@@ -35,6 +35,7 @@ if __name__ == "__main__":
     uuid = sys.argv[1]
     filename = sys.argv[2]
     db = sys.argv[3]
-    main(uuid,filename, db)
+    eps = sys.argv[4]
+    main(uuid,filename, db, eps)
 
 #main("33333", "/home/bscheibel/PycharmProjects/dxf_reader/drawings/GV_12.PDF", "localhost")

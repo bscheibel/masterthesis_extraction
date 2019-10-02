@@ -112,8 +112,8 @@ def dist(rectangle1, rectangle2):
             #print(rectangle1)
     return distance
 
-def clustering(dm):
-    db = DBSCAN(eps=2, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
+def clustering(dm,eps):
+    db = DBSCAN(eps=eps, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     #db = OPTICS(min_samples=1,xi=0.1, metric="precomputed").fit(dm)
     labels = db.labels_
     # Number of clusters in labels
@@ -126,7 +126,7 @@ def clustering(dm):
     data_df.groupby(['cluster', 'ausrichtung'])['element'].apply(','.join).reset_index().to_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
     return data_df
 
-def cluster_and_preprocess(result):
+def cluster_and_preprocess(result,eps):
     result = get_average_xy(result) #input: array of arrays, output: either csv file or array of arrays
 
     #data = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
@@ -137,6 +137,6 @@ def cluster_and_preprocess(result):
         result = list(readCSV)
 
     dm = np.asarray([[dist(p1, p2) for p2 in result] for p1 in result])
-    clustering_result = clustering(dm)
+    clustering_result = clustering(dm,eps)
     return clustering_result
 
