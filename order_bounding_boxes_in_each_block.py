@@ -12,9 +12,12 @@ def get_bound_box(file):
 
     all_elements = []
     blocks = html_file.findAll('block')
+    number_blocks = len(blocks)
+    number_words = 0
     for block in blocks:
         list_elements = []
         words = block.findAll('word')
+        number_words += len(words)
         for word in words:
             word_list = []
             word_list.append(word["xmin"])
@@ -49,7 +52,7 @@ def get_bound_box(file):
 
         #print("\n")"""
 
-    return new_all_elements
+    return new_all_elements, number_blocks, number_words
 
 def pdf_to_html(uuid,filepath):
     filename = str(uuid)+"out.html"

@@ -1,117 +1,279 @@
-                 1                                        2                               3                                 4                                                5                                                                   6                                     7                                 8
+1
 
-                                                                                                                    A-A ( 5 : 1 )
-A                                                                                                                                                                                                                                                                                                                                               A
-                                         Z ( 20 : 1 )                                                                                        b 0,01 A
-                                                                                                                                                                                                                                        2x
-                                                                                                                    X                                                                                                                   r Ø0,05 CZ B
-                                                                                                                                           g 0,01
+3
 
+2
 
+4
 
-                                         R2                                                                                                                                                                                                                                  X ( 10 : 1 )
+5
 
+6
 
+Z ( 20 : 1 )
+R2
 
+X ( 10 : 1 )
 
-                                                                            5°
+n11
 
+1,65
 
+Y ( 10 : 1 )
 
+F
 
-                                                                                                                       ,8
-                                                                                                                     R0
+2 +- 0,1
+0
 
+Edge finish:
 
-                                                                                                                                   Ø 4,1
-B                                                                                                                                            Z                                                                                                                                         -0,1                                                     B
+-0,2
+-0,05
 
+Rz 16
+valid for machined surface
+according to DIN ISO 1302
 
++0,2
 
+9,3 +- 0,1
+0
 
-                                                                                                                                                                                                             2x Ø19,2 +- 00,05 CT
-                                                                                                                                                                                                                                                                                                          -0,05
+4,8 `0,05
 
+D
 
+B
 
+according to DIN ISO 13715
 
-                                                                                                                                                                                            Ø15,15 +- 0,05
-                                                   1,65                                                                                                                                                                                                                                -0,1
+Concepts, principales and rules according to:
+ISO 8015
+Dimensions according to:
+ISO 14405 1-3
+Tolerances of form, orientation, location and run-out: ISO 1101
+Edge finish according to:
+ISO 13715
+Surface texture according to:
+ISO 1302
+Limits according to:
+ISO 286-2
+not applicable
+16% - rule
+Nominal geometry (theoretically exact) defined by CAD file:
 
+1
 
+04.04.2018
+DESCRIPTION
 
+SECTION
 
-                                                                                                                                                                                                      0
-                                                                                                                                                                                 n11
-                                   Y ( 10 : 1 )                                                                                                                                                                                                                      ,5
-                                                                                                                                                                                                                                                                                                              R0,
-                                                                                                                                                                                                                                                                                                                  5
-                                                                                                                                                                                                                                                                   R0
-C                                              E                                                                                                                                                                                                                                                                                                C
-                                                               Rz 1,6
-                                                               Rpk 0,2
-                                                                                            °
-                                                                                          45
+A
 
-                                                    E #F
+A
 
+Weight:
 
+d 0,2 A B
 
+Scale:
 
-                                                                                                                                                      Ø4,5 x7 (++ 0,028) È
-                                                    f 0,01 A                              0,7                             Y                                                                                  b 0,01 A
-                                                    c 0,01                                                                                                                                                    r Ø0,05 B
+-
 
+2:1
 
+Unit:
 
+Projection:
+ISO 128
+Method 1
 
-                                                                                                                                                      0,04
-                                                                                      A
-                                               F                                       1,5 +- 0,1
-D                                                                                             0                                                                                                                                                                                                                                                 D
-    All dimensions apply to the finished part including surface/material                                                2 +- 0,1
-                                                                                                                             0
-    treatment.
-    Material: 1.4021                  Quality standard: EN 10095                   c 0,005                                      9,3 +- 0,1
+mm
 
+Document type:
+Description:
 
+HUM
 
+11.07.2018
 
-                                                                                                                                                    Ra 0,8
-    Surface/material treatment:
-                                                                                                        4,8 `0,05                      0
-                                       Hardened to 48 HRC +2/-0
-    Raw part No:                       -
-                                                                                              Rz 0,25
+-
 
+LKA
 
+-
 
+DRAWN BY INSP. DATE
 
-    Surface texture:                            Edge finish:
-                                                        -0,2
-              Rz 16                                     -0,05         +0,2
+INSP. BY
 
-E   valid for machined surface
-    according to DIN ISO 1302                         according to DIN ISO 13715
-                                                                                                                                                                         B                                                                                                                                                                      E
-    Concepts, principales and rules according to:          ISO 8015
-    Dimensions according to:                               ISO 14405 1-3                                                                                                     1   Start drawing                                                                                                   04.04.2018     LKA          -          -
-    Tolerances of form, orientation, location and run-out: ISO 1101                                                                                                    REV.                                                           DESCRIPTION                                      SECTION     DATE       DRAWN BY INSP. DATE    INSP. BY
-    Edge finish according to:                              ISO 13715
-    Surface texture according to:                          ISO 1302                                                                                                                                                                                                 REVISION HISTORY
-    Limits according to:                                   ISO 286-2                                                                                                    Copyright
-    16% - rule                                             not applicable                                                                                               The reproduction, distribution and utilization of this document as well as the communication of its contents to others without
-    Nominal geometry (theoretically exact) defined by CAD file:                                                                                                         express authorization is prohibited. Offenders will be held liable for the payment of damages. All rights reserved in the event
-                                 5129275_Rev01.stp                                                         A                                 A                          of the grant of a patent, utility model or design. (ISO 16016)
-                                                                                                                                                                        Weight:             Scale:                                  Unit:            Projection:                Document type:
-    Valid for all untoleranced dimensions:                                                                                                                                                                                                                                                       Component Drawing
-                                                d 0,2 A B                                                                                                                         -                      2:1                                mm       ISO 128
-                                                                                                                                                                                                                                                     Method 1
-                                                                                                                                                                                                                                                                                Description:
-F   Cleanliness:
-                                                                                                                                                                                   HUM                  11.07.2018                                                                               Valve Lifter GV12.2                            F
-    Part has to be degreased and free of deposits, detachable
-    burrs and visual detectable particles.                                                                                                                                   Design Freeze Release B1 -Sample                                                                   Part Number:                                        Page:
-    Delivery conditions:         tbd                                                                                                                                                   Drawing Approval Stamp                                         ENGINE Division                             5129275                            1/1
-                 1                                        2                               3                                 4                                                5                                                                   6                                     7                                A3
+4
+
+5
+
+Valve Lifter GV12.2
+
+6
+
+7
+
+F
+Page:
+
+5129275
+
+ENGINE Division
+
+Drawing Approval Stamp
+
+3
+
+Component Drawing
+
+Part Number:
+
+Design Freeze Release B1 -Sample
+
+tbd
+
+2
+
+DATE
+
+Copyright
+The reproduction, distribution and utilization of this document as well as the communication of its contents to others without
+express authorization is prohibited. Offenders will be held liable for the payment of damages. All rights reserved in the event
+of the grant of a patent, utility model or design. (ISO 16016)
+
+Cleanliness:
+
+1
+
+Start drawing
+
+REVISION HISTORY
+
+Part has to be degreased and free of deposits, detachable
+burrs and visual detectable particles.
+Delivery conditions:
+
+E
+
+REV.
+
+5129275_Rev01.stp
+Valid for all untoleranced dimensions:
+
+r Ø0,05 B
+
+Ra 0,8
+
+c 0,005
+
+Hardened to 48 HRC +2/-0
+-
+
+Rz 0,25
+
+Raw part No:
+
+b 0,01 A
+
+0,04
+
+1,5 +- 0,1
+0
+
+All dimensions apply to the finished part including surface/material
+treatment.
+Material: 1.4021
+Quality standard: EN 10095
+
+Surface texture:
+
+R0,
+5
+
+45
+°
+
+Y
+
+0,7
+A
+
+Surface/material treatment:
+
+-0,05
+
+-0,1
+
+C
+
+Rz 1,6
+Rpk 0,2
+E #F
+f 0,01 A
+c 0,01
+
+D
+
+B
+
+,5
+R0
+
+Ø4,5 x7 (++ 0,028) È
+
+E
+
+-0,1
+
+2x Ø19,2 +- 00,05 CT
+
+Z
+Ø15,15 +- 0,05
+0
+
+Ø 4,1
+
+R0
+,8
+
+5°
+
+r Ø0,05 CZ B
+
+g 0,01
+
+B
+
+C
+
+A
+
+2x
+
+b 0,01 A
+
+X
+
+F
+
+8
+
+A-A ( 5 : 1 )
+
+A
+
+E
+
+7
+
+1/1
+
+A3
+
 

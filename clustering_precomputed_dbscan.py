@@ -137,6 +137,6 @@ def cluster_and_preprocess(result,eps):
         result = list(readCSV)
 
     dm = np.asarray([[dist(p1, p2) for p2 in result] for p1 in result])
-    clustering_result = clustering(dm,eps)
+    clustering_result = clustering(dm,float(eps))
     return clustering_result
 

@@ -27,9 +27,11 @@ def clean(extracted_dimensions):
 def print_clean(dims):
     dims_new = []
     dimss = []
-    for dim in dims:
-        dim = re.split("CT",dim)
-        dimss.extend(dim)
+    #or dim in dims:
+    #    if "CT" in dim:
+    #        dim = re.split("CT",dim)
+    #        for di in dim:
+    #            dimss.extend(di)
     #print(dimss)
     for dim in dimss:
         if re.search(r"b\s\d*\W?\d*\s.",dim):
@@ -73,7 +75,7 @@ def print_clean(dims):
 
 
         ####nicht dabei: neigungswinkel und lauftoleranzen
-
+    print(dimms)
     return dimms
 
 
@@ -100,7 +102,7 @@ def extract_pretty(input):
         text_combined = ""
         #new_arr = ""
        # print(element)
-        element=eval(element)
+        element = eval(element)
         for x in element:
             text_combined += x[4] + " "
             #print(x[4])

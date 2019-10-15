@@ -4,11 +4,11 @@ import csv
 import clustering_precomputed_dbscan
 
 def get_details(result): #search for all details in drawing and store it in list details, first need to append all text elements of one line and then check if regular expression is found in this text element
-    reg = r"([A-Z])-\1|([A-Z]\W?[A-Z]?\s?\W\s?\d\d?\s?\s?:\s?\d\d?\s?\W)"
+    reg = r"([A-Z])-\1|([A-Z]\W?[A-Z]?\s?\W\s?\d\d?\s?\s?:\s?\d\d?\s?\W)|(Start drawing)|(All dimensions apply to the finished part including surface\/material treatment)"
     details = []
     for element in result:
         new = []
-        if re.match(reg,element):
+        if re.search(reg,element):
             new.extend(result[element])
             new.append(element)
             details.append(new)
@@ -95,19 +95,22 @@ def intersects(detail, rectangle): #using the separating axis theorem
 def main_function(result):
     reg = r"([A-Z])-\1|([A-Z]\W?[A-Z]?\s?\W\s?\d\d?\s?\s?:\s?\d\d?\s?\W)"
     details, number= get_details(result)
+    print(details)
     details = sorted(details, key=lambda x: x[0]) #sort by distance from 0,0
     sections = get_borders(details)
     section = []
+    details_dict = {}
 
     for sect in sections:
         coord = []
         coord_name = sect[0][4]
         for sec in sect[1:]:
             coord.append(sec)
+        details_dict[coord_name] = coord
         section.append(list((coord_name,coord)))
     #print(section)
-    if number == 0 | len(section)==0:
-        section.append(list(("No details",list((000.000,000.000,100000000.000,10000000.000)))))
+    if number == 0 | len(section) == 0:
+            section.append(list(("No details",list((000.000,000.000,100000000.000,10000000.000)))))
      #   print(section)
 
 
@@ -119,12 +122,12 @@ def main_function(result):
         for det in section:
             help_array = []
             help_dict = {}
-            if re.match(reg, res):
-                continue
+            if re.match(reg, res): ###damit nicht details zu details zugeordnet werden!!!
+                break
             if intersects(det,result[res]):
                 name = det[0]
-                help_array.append(res)
-                help_array.extend(result[res])
+                #help_array.append(res)
+                #help_array.extend(result[res])
                 help_dict[res] = result[res]
                 #print(name)
                 if name in dict:
@@ -138,5 +141,5 @@ def main_function(result):
     #    for d in dict[dic]:
     #        print(d)
 
-    return dict
+    return dict, details_dict
 
