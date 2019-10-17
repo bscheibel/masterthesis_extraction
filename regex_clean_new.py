@@ -1,6 +1,7 @@
 # coding=utf8
 import re
 
+
 def print_clean(dims): ##alles raus was nicht relevant ist! und zeichen ersetzen!
     dims_new = {}
     reg_clean = r"[a-zA-Z]{4,}|^\d\s\d$|^[a-zA-Z]{2,}\d.*$|^[A-Z]{1}$|^mm$|^\d{2}\.\d{2}\.\d{4}|^-$|A\d|^\d{1}$|^[A-Za-z]{3,}\.?$|^\d{5}|^\d{1}\s\W\s\d"
@@ -54,5 +55,5 @@ def print_clean(dims): ##alles raus was nicht relevant ist! und zeichen ersetzen
 
     #for dim in dims_new:
     #    print(dim)
-    print(dims_new)
+    #print(dims_new)
     return dims_new

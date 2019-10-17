@@ -62,6 +62,8 @@ def pdf_to_html(uuid,filepath):
 
 def extract_isos(result):
     reg = r"(ISO\s\d\d\d\d*\W?\d?\W?\d?)|(EN\s\d*)"
+    #reg1 = r""
+    #reg2 = r""
     details_ = []
     for element in result:
         new_arr = ""
@@ -79,6 +81,20 @@ def extract_isos(result):
                     details_.append(f[1])
     return details_
 
+
+def get_tables(result):
+    reg = r"(Start drawing)|(All dimensions)"
+    tables = []
+    for element in result:
+        new = []
+        #print(element)
+        if re.search(reg, element):
+            new.extend(result[element])
+            new.append(element)
+            tables.append(new)
+    number = len(tables)
+    #print(tables)
+    return tables
 
 
 #file="/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
