@@ -67,7 +67,7 @@ def extract_isos(result):
     details_ = []
     for element in result:
         new_arr = ""
-        #print(element)
+        print(element)
         for x in element:
             new_arr += x[4] + " "
         #print(new_arr)

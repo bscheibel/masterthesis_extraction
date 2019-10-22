@@ -38,7 +38,7 @@ def main(uuid, filepath, db, eps):
     write_redis(uuid+"isos",json_isos, db)
     write_redis(uuid+"eps", str(number_blocks)+","+str(number_words), db)
     write_redis(uuid+"details",json_details ,db)
-    print(json_details)
+    #print(json_details)
     #print(redis.Redis('localhost').get(uuid+"dims"))
     #print(result)
 
@@ -49,4 +49,4 @@ if __name__ == "__main__":
     eps = sys.argv[4]
     main(uuid,filename, db, eps)
 
-#main("33333", "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.pdf", "localhost",3)
+#main("33333", "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.pdf", "localhost",3)
