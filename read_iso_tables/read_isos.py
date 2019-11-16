@@ -1,10 +1,10 @@
 import nltk
 import re
 from tika import parser
-#einleitung = False
+einleitung = False
+raw = parser.from_file('/home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO2768-1.PDF')
 #raw = parser.from_file('iso_documents/ISO286-2.PDF')
-#raw = parser.from_file('iso_documents/ISO286-2.PDF')
-#print(raw['content'])
+print(raw['content'])
 #text = raw['content']
 #sent_text = nltk.sent_tokenize(text)
 #tokenized_text = nltk.word_tokenize(sent_text.split)
@@ -19,7 +19,7 @@ from tika import parser
 
 import subprocess
 #subprocess.check_output(['ls','-l']) #all that is technically needed...
-cmd = 'pdftotext -layout "home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO8015.PDF"'
+cmd = 'pdftotext -layout "/home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO8015.PDF"'
 print(subprocess.Popen(cmd, shell=True))
 
 #convert iso document to text

@@ -21,7 +21,7 @@ def main(uuid, filepath, db, eps):
         if number_words > 500:
             eps = 7
         else:
-            eps = 0.001
+            eps = 1
     #print(eps)
     isos = order_bounding_boxes_in_each_block.extract_isos(result)
     res = clustering_precomputed_dbscan.cluster_and_preprocess(result,eps)

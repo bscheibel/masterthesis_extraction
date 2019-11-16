@@ -3,13 +3,14 @@ from tika import parser
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk
+nltk.download('stopwords')
 
 
 #write a for-loop to open many files -- leave a comment if you'd #like to learn how
-filename = "GV_12.pdf"
+filename = "../drawings/GV_12.PDF"
 #open allows you to read the file
 pdfFileObj = open(filename,'rb')
-#The pdfReader variable is a readable object that will be parsed
+#The pdfReader variable is a reada2ble object that will be parsed
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 #discerning the number of pages will allow us to parse through all #the pages
 num_pages = pdfReader.numPages
@@ -25,11 +26,11 @@ if text != "":
    text = text
 #If the above returns as False, we run the OCR library textract to #convert scanned/image based PDF files into text
 else:
-    raw = parser.from_file("GV_12.pdf")
+    raw = parser.from_file("../drawings/GV_12.PDF")
     raw = str(raw)
     safe_text = raw.encode('utf-8', errors='ignore')
     text = str(safe_text).replace("\n", "").replace("\\", "")
-    print(text)
+    print(raw)
 
 #The word_tokenize() function will break our text phrases into #individual words
 tokens = word_tokenize(text)

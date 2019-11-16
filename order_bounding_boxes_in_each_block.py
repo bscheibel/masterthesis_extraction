@@ -62,23 +62,19 @@ def pdf_to_html(uuid,filepath):
 
 def extract_isos(result):
     reg = r"(ISO\s\d\d\d\d*\W?\d?\W?\d?)|(EN\s\d*)"
-    #reg1 = r""
-    #reg2 = r""
     details_ = []
     for element in result:
         new_arr = ""
-        print(element)
         for x in element:
             new_arr += x[4] + " "
-        #print(new_arr)
         if re.search(reg,new_arr):
-            #print(new_arr)
             found = re.findall(reg, new_arr)
             for f in found:
                 if len(f[0]) != 0:
                     details_.append(f[0].replace(")",""))
                 if len(f[1]) != 0:
                     details_.append(f[1])
+
     return details_
 
 

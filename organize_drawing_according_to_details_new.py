@@ -140,7 +140,7 @@ def main_function(result, tables):
     for table in tables:
         table[3] = 10000000
         coord = []
-        name = "Table"
+        name = "ZZZZZTable"
         for tab in table[:4]:
             coord.append(tab)
         details_dict[name] = coord

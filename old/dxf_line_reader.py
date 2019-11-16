@@ -9,25 +9,25 @@ def printpoint(b):
         pass
 
 buffer = ['0', 'fake']
-filepath = 'GV_12.DXF'
-with open(filepath,'r', errors="replace") as fp:
+filepath = '../drawings/GV_12.DXF'
+with open(filepath,'r') as fp:
     line = fp.readline()
     cnt = 1
-    #while line:
-        #line = fp.readline()
+    while line:
+        line = fp.readline()
     #line = line.rstrip()
-    print(line)
-    if line == '0':  # we've started a new section, so
-        print("Line {}: {}".format(cnt, line.strip()))
-            #try:
-            #    printpoint(buffer)  # handle the captured section
-            #except:
-            #    print("ERROR")
+        print(line)
+        if line == '0':  # we've started a new section, so
+            print("Line {}: {}".format(cnt, line.strip()))
+            try:
+                printpoint(buffer)  # handle the captured section
+            except:
+                print("ERROR")
 
     #buffer = []  # and start a new one
     #buffer.append(line)
     cnt += 1
-#f.close()
+fp.close()
 
 #printpoint(buffer)        # buffer left over from last pass through loop
 

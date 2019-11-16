@@ -11,11 +11,11 @@ def printpoint(b):
         print('{}'.format(obj['0']))
 
 
-print('Code','Text')# header line
+#print('Code','Text')# header line
 buffer = ['0', 'fake']    # give first pass through loop something to process
-for line in fileinput.input("GV_12.DXF", errors="replace"):
+for line in fileinput.input("../drawings/GV_12.DXF"):
     line = line.rstrip()
-    print(line)
+    #print(line)
     if line == '0':         # we've started a new section, so
         printpoint(buffer)      # handle the captured section
         buffer = []             # and start a new one

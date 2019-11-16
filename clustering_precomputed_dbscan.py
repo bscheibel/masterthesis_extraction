@@ -113,15 +113,12 @@ def dist(rectangle1, rectangle2):
     return distance
 
 def clustering(dm,eps):
-    db = DBSCAN(eps=eps, min_samples=1, metric="precomputed").fit(dm)  ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
-    #db = OPTICS(min_samples=1,xi=0.1, metric="precomputed").fit(dm)
+    db = DBSCAN(eps=eps, min_samples=1, metric="precomputed").fit(dm)                                                                                        ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     labels = db.labels_
-    # Number of clusters in labels
     n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
 
     print('Estimated number of clusters: %d' % n_clusters_)
-    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv",
-                           sep=";")
+    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
     data_df["cluster"] = labels
     data_df.groupby(['cluster', 'ausrichtung'])['element'].apply(','.join).reset_index().to_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
     return data_df

@@ -1,763 +1,1079 @@
-September 2011
-DEUTSCHE NORM
-Normenausschuss Technische Grundlagen (NATG) im DIN
-Preisgruppe 11
-DIN Deutsches Institut für Normung e. V. · Jede Art der Vervielfältigung, auch auszugsweise,
-nur mit Genehmigung des DIN Deutsches Institut für Normung e. V., Berlin, gestattet.
-ICS 17.040.30
-!$i|h"
-1708969
-www.din.de
-D
-DIN EN ISO 8015
-Geometrische Produktspezifikation (GPS) –
-Grundlagen –
-Konzepte, Prinzipien und Regeln (ISO 8015:2011);
-Deutsche Fassung EN ISO 8015:2011
-Geometrical product specifications (GPS) –
-Fundamentals –
-Concepts, principles and rules (ISO 8015:2011);
-German version EN ISO 8015:2011
-Spécification géométrique des produits (GPS) –
-Principes fondamentaux –
-Concepts, principes et règles (ISO 8015:2011);
-Version allemande EN ISO 8015:2011
-©
-Alleinverkauf der Normen durch Beuth Verlag GmbH, 10772 Berlin
-Ersatz für
-DIN ISO 8015:1986-06
-www.beuth.de
-Gesamtumfang 20 Seiten
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-DIN EN ISO 8015:2011-09
-Nationales Vorwort
-Dieses Dokument (EN ISO 8015:2011) wurde vom Technischen Komitee ISO/TC 213 „Dimensional and
-geometrical product specifications and verification“ (Sekretariat: Dänemark, DS) in Zusammenarbeit mit dem
-Technischen Komitee CEN/TC 290 „Geometrische Produktspezifikationen und -prüfung“ erarbeitet, dessen
-Sekretariat von AFNOR (Frankreich) gehalten wird.
-Auf nationaler Ebene ist der Arbeitsausschuss NA 152-03-02 AA „CEN/ISO Geometrische Produktspezifikation
-und -prüfung“ zuständig.
-Für die in diesem Dokument zitierten Internationalen Dokumente und Normen wird im Folgenden auf die
-entsprechenden Deutschen Dokumente und Normen hingewiesen:
-ISO 1 siehe DIN EN ISO 1
-ISO 1101 siehe DIN EN ISO 1101
-ISO 1302 siehe DIN EN ISO 1302
-ISO 2692 siehe DIN EN ISO 2692
-ISO 2768-1 siehe DIN ISO 2768-1
-ISO 7200 siehe DIN EN ISO 7200
-ISO 13715 siehe DIN ISO 13715
-ISO 14253-1 siehe DIN EN ISO 14253-1
-ISO 14253-2 siehe DIN EN ISO 14253-2∗)
-ISO 14405-1 siehe DIN EN ISO 14405-1
-ISO 14978 siehe DIN EN ISO 14978
-ISO 17450-1 siehe DIN EN ISO 17450-1∗∗)
-ISO 17450-2 siehe DIN EN ISO 17450-2∗∗∗)
-ISO/TR 14638 siehe DIN V 32950
-ISO/IEC Guide 98-3 siehe DIN V ENV 13005
-ISO/IEC Guide 99 siehe VIM (D)∗∗∗∗)
-Änderungen
-Gegenüber DIN ISO 8015:1986-06 wurden folgende Änderungen vorgenommen:
-a) die Norm wurde technisch überarbeitet.
-Frühere Ausgaben
-DIN 2300: 1980-11
-DIN ISO 8015: 1986-06
-∗ ) Wird veröffentlicht.
-∗∗ ) Wird veröffentlicht (Überarbeitung von ISO/TS 17450-1:2005).
-∗∗∗ ) Wird veröffentlicht (Überarbeitung von ISO/TS 17450-2:2002).
-∗∗∗∗ ) zu beziehen bei: Beuth Verlag GmbH, AuslandsNormen-Service (ANS), 10772 Berlin, ISBN 978-3-410-20070-3.
-2
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-DIN EN ISO 8015:2011-09
-Nationaler Anhang NA
-(informativ)
-Literaturhinweise
-DIN EN ISO 1, Geometrische Produktspezifikation (GPS) — Referenztemperatur für geometrische
-Produktspezifikation und –prüfung
-DIN EN ISO 1101, Geometrische Produktspezifikation (GPS) — Geometrische Tolerierung — Tolerierung von
-Form, Richtung, Ort und Lauf
-DIN EN ISO 1302, Geometrische Produktspezifikation (GPS) — Angabe der Oberflächenbeschaffenheit in der
-technischen Produktdokumentation
-DIN EN ISO 2692, Geometrische Produktspezifikation (GPS) — Form- und Lagetolerierung — Maximum-
-Material-Bedingung (MMR), Minimum-Material-Bedingung (LMR) und Reziprozitätsbedingung (RPR)
-DIN EN ISO 7200, Technische Produktdokumentation — Datenfelder in Schriftfeldern und
-Dokumentenstammdaten
-DIN EN ISO 14253-1, Geometrische Produktspezifikationen (GPS) — Prüfung von Werkstücken und
-Meßgeräten durch Messen — Teil 1: Entscheidungsregeln für die Feststellung von Übereinstimmung oder
-Nichtübereinstimmung mit Spezifikationen
-DIN EN ISO 14253-2, Geometrische Produktspezifikationen (GPS) — Prüfung von Werkstücken und
-Messgeräten durch Messen — Teil 2: Anleitung zur Schätzung der Unsicherheit bei GPS-Messungen, bei der
-Kalibrierung von Messgeräten und bei der Produktprüfung
-DIN EN ISO 14405-1, Geometrische Produktspezifikation (GPS) — Dimensionelle Tolerierung — Teil 1:
-Längenmaße
-DIN EN ISO 14978, Geometrische Produktspezifikation (GPS) — Allgemeine Begriffe und Anforderungen für
-GPS-Messeinrichtungen
-DIN EN ISO 17450-1, Geometrische Produktspezifikation (GPS) — Grundlagen — Teil 1: Modell für die
-geometrische Spezifikation und Prüfung
-DIN EN ISO 17450-2, Geometrische Produktspezifikation und -prüfung (GPS) — Allgemeine Begriffe —
-Teil 2: Grundlegende Lehrsätze, Spezifikationen, Operatoren und Unsicherheiten
-DIN ISO 2768-1, Allgemeintoleranzen; Toleranzen für Längen- und Winkelmaße ohne einzelne
-Toleranzeintragung
-DIN ISO 13715, Technische Zeichnungen — Werkstückkanten mit unbestimmter Form — Begriffe und
-Zeichnungsangaben
-DIN V 32950, Geometrische Produktspezifikation (GPS) — Übersicht
-DIN V ENV 13005, Leitfaden zur Angabe der Unsicherheit beim Messen
-VIM, Internationales Wörterbuch der Metrologie — Grundlegende und allgemeine Begriffe und zugeordnete
-Benennungen
-3
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-DIN EN ISO 8015:2011-09
-4
-— Leerseite —
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EUROPÄISCHENORM
-EUROPEANSTANDARD
-NORMEEUROPÉENNE
-EN ISO 8015
-Juni 2011
-ICS 01.100.20
-Deutsche Fassung
-Geometrische Produktspezifikation (GPS) - Grundlagen -
-Konzepte, Prinzipien und Regeln (ISO 8015:2011)
-Geometrical product specifications (GPS) - Fundamentals -
-Concepts, principles and rules (ISO 8015:2011)
-Spécification géométrique des produits (GPS) - Principes
-fondamentaux - Concepts, principes et règles
-(ISO 8015:2011)
-Diese Europäische Norm wurde vom CEN am 18. Mai 2011 angenommen.
-Die CEN-Mitglieder sind gehalten, die CEN/CENELEC-Geschäftsordnung zu erfüllen, in der die Bedingungen festgelegt sind, unter denen
-dieser Europäischen Norm ohne jede Änderung der Status einer nationalen Norm zu geben ist. Auf dem letzten Stand befindliche Listen
-dieser nationalen Normen mit ihren bibliographischen Angaben sind beim Management-Zentrum des CEN-CENELEC oder bei jedem CEN-
-Mitglied auf Anfrage erhältlich.
-Diese Europäische Norm besteht in drei offiziellen Fassungen (Deutsch, Englisch, Französisch). Eine Fassung in einer anderen Sprache,
-die von einem CEN-Mitglied in eigener Verantwortung durch Übersetzung in seine Landessprache gemacht und dem Management-
-Zentrum mitgeteilt worden ist, hat den gleichen Status wie die offiziellen Fassungen.
-CEN-Mitglieder sind die nationalen Normungsinstitute von Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich,
-Griechenland, Irland, Island, Italien, Kroatien, Lettland, Litauen, Luxemburg, Malta, den Niederlanden, Norwegen, Österreich, Polen,
-Portugal, Rumänien, Schweden, der Schweiz, der Slowakei, Slowenien, Spanien, der Tschechischen Republik, Ungarn, dem Vereinigten
-Königreich und Zypern.
-EUROPÄISCHES KOMITEE FÜR NORMUNG
-EUROPEAN COMMITTEE FOR STANDARDIZATION
-COMITÉ EUROPÉEN DE NORMALISATION
-Management-Zentrum: Avenue Marnix 17, B-1000 Brüssel
-© 2011 CEN Alle Rechte der Verwertung, gleich in welcher Form und in welchem
-Verfahren, sind weltweit den nationalen Mitgliedern von CEN vorbehalten.
-Ref. Nr. EN ISO 8015:2011 D
-BEST
-BeuthStandardsCollection
--
-Stand
+                                                                                                                  DEUTSCHE NORM                                        September 2011
 
-2016-11
-EN ISO 8015:2011 (D)
-2
-Inhalt Seite
-Vorwort ................................................................................................................................................................3
-Einleitung.............................................................................................................................................................4
-1 Anwendungsbereich .............................................................................................................................5
-2 Normative Verweisungen......................................................................................................................5
-3 Begriffe ...................................................................................................................................................5
-4 Grundlegende Annahmen für das Lesen von Spezifikationen auf Zeichnungen ...........................6
-4.1 Allgemeines............................................................................................................................................6
-4.2 Funktionsgrenzen..................................................................................................................................6
-4.3 Toleranzgrenzen ....................................................................................................................................6
-4.4 Funktionsniveau des Werkstücks........................................................................................................6
-5 Elementare Grundsätze.........................................................................................................................6
-5.1 Grundsatz des Aufrufens......................................................................................................................6
-5.2 Grundsatz der GPS-Normenhierarchie................................................................................................7
-5.3 Grundsatz der bestimmenden Zeichnung...........................................................................................7
-5.4 Grundsatz des Geometrieelementes ...................................................................................................8
-5.5 Grundsatz der Unabhängigkeit ............................................................................................................8
-5.6 Grundsatz der Dezimaldarstellung ......................................................................................................8
-5.7 Grundsatz der Standardfestlegung......................................................................................................8
-5.8 Grundsatz der Referenzbedingungen..................................................................................................9
-5.9 Grundsatz des starren Werkstücks .....................................................................................................9
-5.10 Grundsatz der Dualität ..........................................................................................................................9
-5.10.1 Operatorkonzept ....................................................................................................................................9
-5.10.2 Beschreibung des Grundsatzes der Dualität......................................................................................9
-5.11 Grundsatz der Funktionsbeherrschung ............................................................................................10
-5.12 Grundsatz der allgemeinen Spezifikation .........................................................................................10
-5.13 Grundsatz der Verantwortlichkeit ......................................................................................................10
-6 Regeln zur Angabe von Standardspezifikationsoperatoren ...........................................................11
-6.1 Allgemeines..........................................................................................................................................11
-6.2 Allgemeine standardmäßige GPS-Spezifikation der ISO.................................................................11
-6.3 Abgewandelte standardmäßige GPS-Spezifikation .........................................................................11
-7 Regeln zur Angabe von speziellen Spezifikationsoperatoren ........................................................12
-7.1 Allgemeines..........................................................................................................................................12
-7.2 Hinzugefügte ergänzende Information (Anforderungen) zu den grundlegenden
-Spezifikationen der ISO.......................................................................................................................13
-8 Regeln für eingeklammerte Angaben ................................................................................................13
-Anhang A (informativ) Zusammenhang mit dem GPS-Matrix-Modell..........................................................14
-A.1 Allgemeines..........................................................................................................................................14
-A.2 Informationen über diese Norm und ihre Anwendung ....................................................................14
-A.3 Position im GPS-Matrix-Modell ..........................................................................................................14
-A.4 Betroffene Internationale Normen......................................................................................................15
-Literaturhinweise ..............................................................................................................................................16
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-3
-Vorwort
-Dieses Dokument (EN ISO 8015:2011) wurde vom Technischen Komitee ISO/TC 213 „Dimensional and
-geometrical product specifications and verification“ in Zusammenarbeit mit dem Technischen Komitee
-CEN/TC 290 „Geometrische Produktspezifikationen und -prüfung“ erarbeitet, dessen Sekretariat vom AFNOR
-gehalten wird.
-Diese Europäische Norm muss den Status einer nationalen Norm erhalten, entweder durch Veröffentlichung
-eines identischen Textes oder durch Anerkennung bis Dezember 2011, und etwaige entgegenstehende
-nationale Normen müssen bis Dezember 2011 zurückgezogen werden.
-Es wird auf die Möglichkeit hingewiesen, dass einige Texte dieses Dokuments Patentrechte berühren können.
-CEN [und/oder CENELEC] sind nicht dafür verantwortlich, einige oder alle diesbezüglichen Patentrechte zu
-identifizieren.
-Entsprechend der CEN/CENELEC-Geschäftsordnung sind die nationalen Normungsinstitute der folgenden
-Länder gehalten, diese Europäische Norm zu übernehmen: Belgien, Bulgarien, Dänemark, Deutschland,
-Estland, Finnland, Frankreich, Griechenland, Irland, Island, Italien, Kroatien, Lettland, Litauen, Luxemburg,
-Malta, Niederlande, Norwegen, Österreich, Polen, Portugal, Rumänien, Schweden, Schweiz, Slowakei,
-Slowenien, Spanien, Tschechische Republik, Ungarn, Vereinigtes Königreich und Zypern.
-Anerkennungsnotiz
-Der Text von ISO 8015:2011 wurde vom CEN als EN ISO 8015:2011 ohne irgendeine Abänderung
-genehmigt.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-4
-Einleitung
-Dieses internationale Dokument ist eine Norm für die geometrische Produktspezifikation (GPS) und ist als
-fundamentale GPS Norm (siehe ISO/TR 14638) anzusehen. Sie beeinflusst alle anderen Normen im
-GPS-Matrix-System, d. h. sowohl alle globalen, allgemeinen und ergänzenden Normen, als auch jede
-beliebige andere Art von Dokumenten innerhalb des GPS-Matrix-Systems.
-Für eine weitergehende ausführliche Information über den Zusammenhang dieser Norm mit anderen Normen
-und mit dem GPS-Matrix-Modell siehe Anhang A.
-Diese Internationale Norm deckt eine Anzahl grundlegender Prinzipien ab, die auf alle GPS-Normen und auf
-jede technische Produktspezifikation, welche auf dem GPS-Matrix-Modell beruht, angewendet werden
-können. Bis zur Veröffentlichung dieser Norm waren diese Prinzipien nur implizit und nicht explizit formuliert
-worden.
-Diese Internationale Norm deckt auch die Angabe der Spezifikationsoperatoren nach ISO und insbesondere
-auch die Angabe der Spezifikationsoperatoren in denjenigen anderen Fällen, die entweder durch unmittelbare
-Angabe oder durch Verwendung von firmenspezifischen oder zeichnungsspezifischen Festlegungen gegeben
-sind.
-Dem Zweck dieser Internationalen Norm entsprechend, wird ein Konzept als eine abstrakte Idee, ein Prinzip
-als eine genormte, allgemein anerkannte Wahrheit, beruhend auf Konzepten, auf welchen wiederum Regeln
-beruhen, und eine Regel als genormtes Verfahren (des Handelns) angesehen.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-5
-1 Anwendungsbereich
-Diese Internationale Norm legt die grundlegenden Konzepte, Prinzipien und Regeln fest, die für die Erstellung,
-Interpretation und Anwendung aller anderen Internationalen Normen, technischen Spezifikationen und
-technischen Berichten gelten, soweit sie die geometrische Produktspezifikation (GPS) und –prüfung betreffen.
-Diese Internationale Norm gilt für die Interpretation von GPS-Angaben auf allen Zeichnungsausführungen.
-Für den Zweck dieser Internationalen Norm ist der Begriff „Zeichnung“ im weitest möglichen Sinne zu
-interpretieren und schließt das gesamte Paket von Dokumentationen zur Spezifikation des Werkstücks mit
-ein.
-2 Normative Verweisungen
-Die folgenden zitierten Dokumente sind für die Anwendung dieses Dokuments erforderlich. Bei datierten
-Verweisungen gilt nur die in Bezug genommene Ausgabe. Bei undatierten Verweisungen gilt die letzte
-Ausgabe des in Bezug genommenen Dokuments (einschließlich aller Änderungen).
-ISO 17450-1:—1) Geometrical product specifications (GPS) — General concepts — Part 1: Model for
-geometrical specification and verification
-ISO 17450-2:—2) Geometrical product specifications (GPS) — General concepts — Part 2: Basic
-tenets,specifications, operators and uncertainties
-ISO/IEC Guide 98-3:2008, Uncertainty of measurement — Guide to the expression of uncertainty in
-measurement (GUM:1995)
-ISO/IEC Guide 99:2007, International vocabulary of metrology — Basic and general concepts and associated
-terms (VIM)
-3 Begriffe
-Für die Anwendung dieses Dokuments gelten die Begriffe nach ISO 17450-1, ISO 17450-2,
-ISO/IEC Guide 98-3, ISO/IEC Guide 99 und die folgenden Begriffe.
-3.1
-ISO GPS
-GPS
-System der geometrischen Produktspezifikation und –prüfung, entwickelt durch das ISO/TC 213
-3.2
-standardgemäße GPS-Spezifikation
-GPS-Spezifikation, für die der Spezifikationsoperator durch Normen oder Regelwerke festgelegt ist
-ANMERKUNG Wenn sie festgelegt sind, dann sind standardgemäße Spezifikationen üblicherweise an den
-einführenden Worten: „wenn nicht anders festgelegt...” zu erkennen.
-3.3
-standardmäßige GPS-Spezifikation der ISO
-durch eine ISO-Norm festgelegte standardmäßige GPS-Spezifikation
-1) Wird veröffentlicht. (Überarbeitung von ISO/TS 17450-1:2005).
-2) Wird veröffentlicht. (Überarbeitung von ISO/TS 17450-2:2002).
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-6
-3.4
-abgewandelte standardmäßige GPS-Spezifikation
-auf andere Art und Weise festgelegte standardmäßige GPS-Spezifikation
-3.5
-standardmäßiger GPS-Spezifikationsoperator der ISO
-Spezifikationsoperator, der nur standardmäßige Spezifikationsoperationen enthält, die durch ISO-Normen in
-der standardmäßigen Reihenfolge festgelegt sind
-4 Grundlegende Annahmen für das Lesen von Spezifikationen auf Zeichnungen
-4.1 Allgemeines
-Die folgenden Annahmen bezüglich der Interpretation der Toleranzgrenzen sind die Grundlage für die
-übergreifenden Regeln des GPS-Systems.
-Allgemeine und individuelle auf der Zeichnung eingetragene Spezifikationen müssen immer beachtet werden
-und sind standardmäßig mit den in 4.2 bis 4.4 angegebenen Annahmen verbunden.
-4.2 Funktionsgrenzen
-Für die Interpretation wird angenommen, dass die Funktionsgrenzen auf einer vollständigen Untersuchung
-beruhen, die experimentell oder theoretisch oder als eine Kombination von beidem durchgeführt worden ist,
-so dass die Funktionsgrenzen ohne Unsicherheit bekannt sind.
-4.3 Toleranzgrenzen
-Für die Interpretation wird angenommen, dass die Toleranzgrenzen mit den Funktionsgrenzen
-übereinstimmen.
-4.4 Funktionsniveau des Werkstücks
-Für die Interpretation wird angenommen, dass das Werkstück innerhalb der Toleranzgrenzen zu 100 %
-funktioniert und außerhalb der Toleranzgrenzen zu 0 %.
-5 Elementare Grundsätze
-5.1 Grundsatz des Aufrufens
-Sobald ein Teilbereich des ISO-GPS-Systems in einer Produktspezifikation des Maschinenbaus aufgerufen
-wird, gilt das gesamte ISO-GPS-System als aufgerufen, wenn es nicht anders in der Dokumentation
-gekennzeichnet ist, z. B. durch Bezugnahme auf ein entsprechendes Dokument.
-„Wenn nichts anderes in der Dokumentation eingetragen ist" bedeutet z. B., dass, wenn in der
-Dokumentation angegeben ist, dass diese in Übereinstimmung mit einer regionalen oder nationalen Norm
-oder einem firmeneigenen Regelwerk erstellt worden ist und dass dann diese Norm und nicht das
-ISO-GPS-System verwendet werden soll, um diejenigen Elemente der Spezifikation zu interpretieren, die
-durch diese Norm abgedeckt sind.
-„Tolerierung ISO 8015" kann wahlweise zur Information im oder in der Nähe des Titelfeldes angegeben
-werden, ist aber nicht erforderlich, um das ISO-GPS-System aufzurufen.
-ANMERKUNG 1 Der am meisten übliche Weg um das ISO-GPS-System aufzurufen ist die Verwendung von einer oder
-mehreren GPS-Spezifikationen auf einer Zeichnung.
-ANMERKUNG 2 Das ISO-GPS-System ist in den durch das ISO/TC 213 veröffentlichten Internationalen Normen
-festgelegt. Siehe auch ISO/TR 14638.
-ANMERKUNG 3 Der Satz „das gesamte ISO-GPS-System wird aufgerufen" bedeutet, dass zum Beispiel fundamentale
-und globale GPS-Normen gelten und konsequenterweise zum Beispiel die Referenztemperatur nach ISO 1 oder die
-Entscheidungsregeln nach ISO 14253-1 gelten, sofern nichts anderes angegeben ist. Der Sinn des Grundsatz des
-Aufrufens ist es, die formale Nachverfolgbarkeit für diese GPS-Normen und Regeln zu gewährleisten.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-7
-5.2 Grundsatz der GPS-Normenhierarchie
-Das ISO-GPS-System ist in einer Hierarchie von Normen festgelegt, welche die folgenden Arten von Normen
-in der gegebenen Reihenfolge einschließt:
-⎯ GPS-Grundnormen;
-⎯ globale GPS-Normen;
-⎯ allgemeine GPS-Normen;
-⎯ ergänzende GPS-Normen.
-Die in den Normen eines höheren Niveaus der Hierarchie angegebenen Regeln gelten in allen Fällen, es sei
-denn, dass Regeln in Normen eines niedrigeren Niveaus in der Hierarchie eigens andere Regeln angeben.
-Die in den GPS-Grundnormen, z. B. in dieser Norm, angegebenen Regeln gelten in allen Fällen, es sei denn,
-dass die Regeln in einer speziellen Norm auf einem niedrigeren Niveau andere Regeln angeben, die
-innerhalb ihres Geltungsbereiches gültig sind.
-Die in globalen GPS-Normen angegebenen Regeln, z. B. in ISO 1, gelten in allen Fällen, es sei denn, dass
-die Regeln in einer speziellen allgemeinen oder ergänzenden Norm andere Regeln angeben, die innerhalb
-ihres Geltungsbereiches gültig sind.
-Alle in GPS-Grundnormen und globalen GPS-Normen angegebenen Regeln gelten zusätzlich zu den in den
-allgemeinen GPS-Normen, z. B. ISO 1101, besonders angegebenen Regeln, außer in den Fällen, in denen
-die Regeln in der allgemeinen GPS-Norm ausdrücklich von den in den GPS-Grundnormen und den globalen
-GPS-Normen angegebenen Regeln verschieden sind und falls die Regeln in einer bestimmten ergänzenden
-Norm keine anderen Regeln angeben, die innerhalb ihres Geltungsbereiches gültig sind.
-Alle in GPS-Grundnormen, globalen und allgemeinen GPS-Normen angegebenen Regeln gelten zusätzlich zu
-den in den ergänzenden GPS-Normen, z. B. ISO 2768-1, besonders angegebenen Regeln, mit Ausnahme der
-Fälle, bei denen die in den ergänzenden GPS-Normen angegebenen Regeln ausdrücklich von den in
-GPS-Grundnormen, globalen und allgemeinen GPS-Normen angegebenen Regeln verschieden sind.
-5.3 Grundsatz der bestimmenden Zeichnung
-Die Zeichnung ist bestimmend. Alle Anforderungen sollen auf der Zeichnung unter Verwendung von
-GPS-Symbolen (mit oder ohne Spezifikations-Modifikationssymbole), zugeordneten Standardregeln oder
-besonderen Regeln und Verweisungen auf eine dazu in Beziehung stehende Dokumentation, z. B. regionale,
-nationale oder firmeneigene Regelwerke, angegeben werden. Infolgedessen können Anforderungen, die nicht
-auf der Zeichnung angegeben sind, nicht geltend gemacht werden.
-Eine Zeichnung kann Anforderungen enthalten, die sich auf unterschiedliche Zustände der Fertigstellung des
-Produktes beziehen. In diesem Fall muss angegeben werden, auf welchen Zustand sich jede der Angaben
-bezieht, es sei denn, es ist der endgültige Zustand.
-Als Teil des ISO-GPS-Systems gilt diese Internationale Norm und die in ihr festgelegten Grundsätze und
-Regeln für alle Produktspezifikationen, bei denen das ISO-GPS-System aufgerufen wird (siehe 5.1), selbst
-dann, wenn auf der Zeichnung nicht ausdrücklich auf sie verwiesen wird.
-ANMERKUNG Wie im Anwendungsbereich ausgewiesen, ist der Begriff „Zeichnung" für den Zweck dieser
-Internationalen Norm im weitest möglichen Sinne zu interpretieren und schließt das gesamte Paket von Dokumentationen
-zur Spezifikation des Werkstücks mit ein.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-8
-5.4 Grundsatz des Geometrieelementes
-Ein Werkstück muss als aus einer Anzahl von Geometrieelementen, begrenzt durch natürliche Begrenzungen,
-bestehend angesehen werden. Standardmäßig gilt jede GPS-Spezifikation für ein Geometrieelement oder
-eine Beziehung zwischen Geometrieelementen für das gesamte Geometrieelement und jede
-GPS-Spezifikation gilt nur für ein einziges Geometrieelement oder eine einzige Beziehung zwischen
-Geometrieelementen.
-Diese Standard-Festlegung kann nur durch eine ausdrückliche Angabe auf der Zeichnung außer Kraft gesetzt
-werden.
-ANMERKUNG 1 Die natürlichen Begrenzungen eines Geometrieelements sind in den meisten Fällen Kanten, an denen
-eine plötzliche Änderung der Flächennormale auftritt. Dies ist allerdings nicht immer der Fall. Man überlege sich ein
-Werkstück, das aus einem zylindrischen Geometrieelement zwischen zwei halbkugelförmigen Geometrieelementen mit
-dem gleichen Durchmesser besteht. In diesem Fall gibt es keine plötzliche Änderung der Flächennormale an den
-natürlichen Begrenzungen zwischen den Geometrieelementen.
-ANMERKUNG 2 Es stehen Angaben zur Verfügung, um festzulegen, dass eine Anforderung nicht für das gesamte
-Geometrieelement gilt, z. B. wenn ein Teilbereich eines Geometrieelementes mit einer lang-gestrichelten punktierten
-breiten Linie gekennzeichnet ist oder wenn die Angabe ACS (jeder beliebige Querschnitt; en: any cross section)
-verwendet wird.
-ANMERKUNG 3 Es stehen Angaben zur Verfügung, um festzulegen, dass eine Anforderung für mehr als ein
-Geometrieelement gilt, z. B. wenn die Angabe CZ (gemeinsame Zone; en: common zone) verwendet wird.
-ANMERKUNG 4 Eine allgemeine GPS-Spezifikation wird, falls nicht anders festgelegt, als eine Menge von
-GPS-Spezifikationen angesehen. Jede GPS-Spezifikation in der Menge gilt nur für ein Merkmal eines
-Geometrieelementes oder eine Beziehung zwischen Geometrieelementen (siehe auch 5.12).
-5.5 Grundsatz der Unabhängigkeit
-Standardmäßig muss jede GPS-Anforderung an ein Geometrieelement oder eine Beziehung zwischen
-Geometrieelementen unabhängig von anderen Anforderungen erfüllt werden, außer wenn sie in einer Norm
-oder durch eine besondere Angabe (z. B. die Modifikationssymbole Ⓜ nach ISO 2692, CZ nach ISO 1101
-oder Ⓔ nach ISO 14405-1) als Teil der gegenwärtigen Spezifikation ausgewiesen ist.
-5.6 Grundsatz der Dezimaldarstellung
-Nicht angegebene Dezimalstellen sind Nullen. Dieser Grundsatz gilt sowohl für Zeichnungen, als auch für
-GPS-Normen.
-BEISPIEL 1 ± 0,2 bedeutet das Gleiche wie ± 0,200 000 … usw.
-BEISPIEL 2 10 bedeutet das Gleiche wie 10,000 000 … usw.
-5.7 Grundsatz der Standardfestlegung
-Ein vollständiger Spezifikationsoperator kann unter Verwendung der grundlegenden GPS-Spezifikationen der
-ISO angegeben werden. Die grundlegende GPS-Spezifikation der ISO gibt an, dass die Anforderung auf dem
-Standardspezifikationsoperator beruht.
-ANMERKUNG 1 Die GPS-Normen der ISO legen den standardmäßigen GPS-Operator der ISO für jede grundlegende
-GPS-Spezifikation fest. Dies ist nicht unmittelbar in der Zeichnung sichtbar.
-BEISPIEL Die Maßanforderung „∅30 H6” besagt, dass der Standardspezifikationsoperator (örtliches Maß) nach
-ISO 14405-1 anzuwenden ist.
-ANMERKUNG 2 Spezielle GPS-Spezifikationen können in der technischen Produktdokumentation durch die
-Verwendung von Modifikationssymbolen oder Kurzbezeichnungen oder beides angegeben werden. Diese
-Modifikationssymbole oder Kurzbezeichnungen oder beides sind in der Zeichnung sichtbar.
-ANMERKUNG 3 Modifikationssymbole werden verwendet, um den Spezifikationsoperator zu ändern, wenn der
-standardmäßige Spezifikationsoperator nicht gilt.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-9
-ANMERKUNG 4 Standardmäßige GPS-Spezifikationen können durch Verwendung von zeichnungsspezifischen
-standardmäßigen GPS-Spezifikationen oder firmenspezifische standardmäßige GPS-Spezifikationen geändert werden.
-Beide werden in der Zeichnung entweder unmittelbar angegeben oder durch Verweisung auf ein Dokument, z. B. ein
-regionales, nationales oder firmeneigenes Regelwerk (siehe 6.3).
-5.8 Grundsatz der Referenzbedingungen
-Standardmäßig gelten alle GPS-Spezifikationen bei Referenzbedingungen. Diese schließen die in ISO 1
-festgelegte Referenztemperatur von 20 °C ein und dass das Werkstück frei von Verunreinigungen sein soll.
-Jede beliebige zusätzliche Bedingung oder andere Bedingungen, die gelten sollen, z. B.
-Feuchtigkeitsbedingungen, müssen auf der Zeichnung festgelegt werden.
-5.9 Grundsatz des starren Werkstücks
-Standardmäßig muss ein Werkstück so angesehen werden, als hätte es eine unendlich große Steifigkeit und
-alle GPS-Spezifikationen gelten für den freien Zustand, unverformt durch irgendwelche äußere Kräfte,
-einschließlich der Schwerkraft. Jede beliebige zusätzliche Bedingung oder andere Bedingungen, die gelten
-sollen, müssen auf der Zeichnung festgelegt werden; siehe zum Beispiel ISO 10579.
-5.10 Grundsatz der Dualität
-5.10.1 Operatorkonzept
-Spezifikationen für Geometrieelemente von Werkstücken werden in GPS-Normen als
-Spezifikationsoperatoren formuliert. Ein Spezifikationsoperator ist eine Menge von vorgeschriebenen
-Operationen in einer vorgegebenen Reihenfolge.
-Dieses Konzept ermöglicht die Anpassungsfähigkeit in den Spezifikationen. Die Menge der Operationen in
-einer Spezifikation kann darauf zugeschnitten werden, besondere funktionelle Anforderungen nachzubilden,
-wodurch jede Mehrdeutigkeit in der Beschreibung der Funktion in der Spezifikation eingeschränkt oder
-beseitigt wird.
-Ein vollständiger Spezifikationsoperator legt die Messgröße für die Spezifikation in allen wesentlichen
-Einzelheiten fest. Dies beseitigt die Mehrdeutigkeit der Spezifikation.
-Der Verifikationsoperator ist die physikalische Implementierung des Spezifikationsoperators. Er kann genau
-dieselben Operationen in derselben Reihenfolge besitzen (in diesem Fall ist die Verfahrensunsicherheit gleich
-Null) oder er kann unterschiedliche Operationen besitzen oder die Operationen in einer anderen Reihenfolge
-durchführen (in diesem Fall ist die Verfahrensunsicherheit nicht gleich Null).
-Der Verifikationsoperator ist nicht in der Zeichnung festgelegt. Vielmehr wird während der Verifikation
-entschieden, dass er dem Spezifikationsoperator ausreichend nahe kommt, um die Verfahrensunsicherheit
-auf einem annehmbaren Niveau zu halten.
-5.10.2 Beschreibung des Grundsatzes der Dualität
-Der Grundsatz der Dualität sagt aus:
-1) eine GPS-Spezifikation legt einen GPS-Spezifikationsoperator unabhängig von irgend einem
-Messverfahren oder einer Messeinrichtung fest und
-2) der GPS-Spezifikationsoperator wird durch einen Verifikationsoperator in die Praxis umgesetzt, der
-zwar von der GPS-Spezifikation selbst unabhängig ist, aber dafür gedacht ist den
-GPS-Spezifikationsoperator wiederzuspiegeln.
-Die GPS-Spezifikation schreibt nicht vor, welche Verifikationsoperatoren zulässig sind. Die Zulässigkeit eines
-Verifikationsoperators wird unter Verwendung der Messunsicherheit und jeder beliebigen Mehrdeutigkeit der
-Spezifikation bewertet.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-10
-5.11 Grundsatz der Funktionsbeherrschung
-Die Funktion jedes Werkstückes wird durch einen Funktionsoperator ausgedrückt und kann durch eine Menge
-von Spezifikationsoperatoren nachgebildet werden, die wiederum eine Menge von Messgrößen und die
-diesen Messgrößen zugeordneten Toleranzen festlegen.
-Die Spezifikation eines Werkstückes ist vollständig, wenn alle beabsichtigten Funktionen des Werkstückes
-beschrieben sind und durch GPS-Spezifikationen kontrolliert werden. In den meisten Fällen wird die
-Spezifikation unvollständig sein, weil einige Funktionen unvollkommen oder überhaupt nicht
-beschrieben/kontrolliert werden. Folglich kann es eine gute oder schlechte Korrelation zwischen der Funktion
-und der verwendeten Menge der GPS-Spezifikationen geben.
-Jeder Mangel einer Korrelation zwischen den funktionellen Anforderungen und den Anforderungen der
-GPS-Spezifikationen führt zu einer Mehrdeutigkeit in der Beschreibung der Funktion.
-5.12 Grundsatz der allgemeinen Spezifikation
-Standardmäßig gilt eine allgemeine GPS-Spezifikation nur für das Merkmal eines Geometrieelementes oder
-eine Beziehung zwischen Geometrieelementen für die keine individuelle GPS-Spezifikation der gleichen Art
-angegeben worden ist. Allgemeine GPS-Spezifikationen gelten für jedes Merkmal eines Geometrieelementes
-und jede Beziehung zwischen Geometrieelementen einzeln betrachtet.
-Wenn keine allgemeinen GPS-Spezifikationen im oder in der Nähe des Titelfeldes angegeben werden, dann
-gelten nur die in der technischen Produktdokumentation im einzelnen angegebenen GPS-Spezifikationen.
-Wenn mehr als eine allgemeine GPS-Spezifikation im oder in der Nähe des Titelfeldes angegeben ist und
-diese Angaben widersprüchlich zueinander sind, dann müssen sie durch eine Erklärung ergänzt werden, um
-klar zu machen, für welches Merkmal jede der allgemeinen GPS-Spezifikationen gilt, um Mehrdeutigkeiten in
-der Spezifikation zu vermeiden.
-Im Falle von widersprüchlichen allgemeinen GPS-Spezifikationen, d. h. bei zwei oder mehr allgemeinen
-GPS-Spezifikationen für dasselbe Merkmal, fordern die allgemeinen Regeln für eine Mehrdeutigkeit der
-Spezifikation nur die Einhaltung einer allgemeinen GPS-Spezifikation, d. h. die toleranteste.
-ANMERKUNG 1 Eine individuelle GPS-Spezifikation kann mehr oder weniger einschränkend sein, als die in der
-Zeichnung angegebene allgemeine GPS-Spezifikation.
-ANMERKUNG 2 Die Normen ISO 1302, ISO 2768 und ISO 13715 stellen zum Beispiel Werkzeuge zur
-Zeichnungseintragung von Allgemeintoleranzen zur Verfügung.
-5.13 Grundsatz der Verantwortlichkeit
-In Anbetracht des Grundsatzes der Dualität und des Grundsatzes der Funktionsbeherrschung ist es
-notwendig, die Genauigkeit der Annäherung eines Spezifikationsoperators an den Funktionsoperator und
-Genauigkeit der Annäherung eines Verifikationsoperators an den Spezifikationsoperator zu beschreiben. Die
-Mehrdeutigkeit der Beschreibung der Funktion und die Mehrdeutigkeit der Spezifikation beschreiben
-gemeinsam die Genauigkeit der Annäherung des Spezifikationsoperators an den Funktionsoperator. Diese
-Mehrdeutigkeiten liegen in der Verantwortung des Konstrukteurs. Die Messunsicherheit bestimmt quantitativ
-die Annäherung des Verifikationsoperators an den Spezifikationsoperator. Falls nicht anders angegeben, liegt
-die Messunsicherheit in der Verantwortung derjenigen Partei, welche den Nachweis der Übereinstimmung
-oder Nichtübereinstimmung mit den Spezifikationen führt; siehe ISO 14253-1.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-11
-6 Regeln zur Angabe von Standardspezifikationsoperatoren
-6.1 Allgemeines
-Standardmäßige GPS-Spezifikationen werden allgemein dazu verwendet, die Tolerierung auf der technischen
-Zeichnung zu vereinfachen. Ein Standard-Spezifikationsoperator kann auf eine von zwei Arten festgelegt
-werden, entweder durch Angabe einer allgemeinen standardmäßigen GPS-Spezifikation der ISO oder eine
-allgemeine abgewandelte standardmäßige GPS-Spezifikation.
-6.2 Allgemeine standardmäßige GPS-Spezifikation der ISO
-Wenn
-⎯ die grundlegende GPS-Spezifikation der ISO nach ISO 1101, ISO 1302, ISO 5459, usw. die
-gegenwärtige Spezifikation für irgendein geometrisches Merkmal auf der Zeichnung ist, und
-⎯ keine allgemeine abgewandelte standardmäßige GPS-Spezifikation in oder in der Nähe des Titelfeldes
-angegeben ist,
-dann ist der standardmäßige Spezifikationsoperator der ISO derjenige, welcher durch die gegenwärtige
-ISO-Norm gefordert wird, die den fraglichen standardmäßigen Spezifikationsoperator festlegt. Die ISO-Norm,
-die den fraglichen standardmäßigen Spezifikationsoperator festlegt, entspricht immer der zum Zeitpunkt der
-Zeichnungserstellung letzten verfügbaren Ausgabe. Wenn eine Verweisung auf vorhergehende Ausgaben
-dieser ISO-Norm erforderlich ist, dann soll dies eindeutig angegeben werden.
-ANMERKUNG Derzeit bieten die GPS-Normen der ISO nicht für alle Spezifikationsoperationen bei allen
-standardmäßigen Spezifikationsoperatoren Standards an. Folglich sind viele Standard-Spezifikationsoperatoren der ISO
-nicht vollständig.
-6.3 Abgewandelte standardmäßige GPS-Spezifikation
-Ein abgewandelter Standard-Spezifikationsoperator muss in einem maßgeblichen Dokument festgelegt sein.
-Der abgewandelte Standard-Spezifikationsoperator muss genau, eindeutig und vollständig festgelegt sein,
-damit er als ein vollständiger Spezifikationsoperator angesehen werden kann.
-Der abgewandelte standardmäßige Spezifikationsoperator soll in oder in der Nähe des Zeichnungskopfes in
-die Zeichnung eingetragen werden. Wenn Normen angewendet werden, die nicht ISO-GPS-Normen sind,
-dann soll die Zeichnungseintragung mindestens das Folgende einschließen:
-⎯ das Wort „Tolerierung" oder „Tolerierung ISO 8015";
-⎯ das Symbol ;
-⎯ eine vollständige Bezeichnung des maßgeblichen Dokumentes und andere notwendige Information.
-ANMERKUNG AD steht für „abgewandelter Standard-…" (Altered Default).
-Wenn mehr als ein abgewandelter Standard-Spezifikationsoperator auf der Zeichnung verwendet wird, dann
-sollte jedem Symbol eine Zahl folgen.
-Einige ISO-Normen stellen Mittel zur Verfügung, um den ISO-Standard abzuwandeln, z. B. beim Maß eines
-Maßelementes nach ISO 14405 GG.
-Das Symbol wird nur dann verwendet, wenn GPS-Normen angewendet werden, die keine ISO-Normen
-sind.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-12
-Siehe auch das Beispiel in Bild 1.
-Bild 1 — Eintragung eines abgewandelten standardmäßigen GPS-Spezifikationsoperators
-7 Regeln zur Angabe von speziellen Spezifikationsoperatoren
-7.1 Allgemeines
-Spezielle Spezifikationsoperatoren für irgendein geometrisches Merkmal müssen durch Hinzufügen
-ergänzender Information (Anforderungen) zu den grundlegenden ISO-Spezifikationen angegeben werden. Die
-hinzugefügte ergänzende Information ändert die Operationen im festgelegten
-Standard-Spezifikationsoperator.
-ANMERKUNG 1 Diese Art von hinzugefügter ergänzender Information (Anforderung) wird als
-Spezifikations-Modifikationssymbol festgelegt (siehe ISO 17450-2:— , 3.5.2).
-Operationen, denen keine ergänzenden Anforderungen in dem angegebenen speziellen
-Spezifikationsoperator zugewiesen worden sind, bleiben so wie es durch die Standard-Spezifikation nach der
-grundlegenden ISO-Spezifikation festgelegt ist.
-ANMERKUNG 2 Derzeit bieten die GPS-Normen der ISO nicht für alle Spezifikationsoperationen bei allen
-standardmäßigen Spezifikationsoperatoren Standards an. Folglich sind viele Standard-Spezifikationsoperatoren der ISO
-nicht vollständig.
-Das in 7.2 beschriebene Verfahren muss für die Angabe von speziellen Spezifikationsoperatoren angewendet
-werden,
-⎯ sowohl für individuell tolerierte Geometrieelemente in Übereinstimmung mit ISO 1101, ISO 1302,
-ISO 5459, usw.,
-⎯ als auch beim Zeichnen eindeutiger Standard-Spezifikationen.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-13
-7.2 Hinzugefügte ergänzende Information (Anforderungen) zu den grundlegenden
-Spezifikationen der ISO
-Hinzugefügte ergänzende Information (Anforderungen) zu den grundlegenden Spezifikationen der ISO
-können, falls notwendig, die Standardoperationen der grundlegenden Spezifikationen der ISO ändern.
-Beispiele für diese Information sind
-a) Zuordnungsregel,
-b) Filtertyp,
-c) Übertragungsband,
-d) Tasterelement und
-e) Erfassungsstrategie.
-Wenn irgendeine dieser Standard-Operationen dem besonderen Bedürfnis der Konstruktion entsprechend
-geändert wird, dann müssen die grundlegenden Spezifikationen wie folgt modifiziert werden:
-⎯ im Falle einer Spezifikation nach ISO 1101, durch Hinzufügen von Information zur zweiten Abteilung des
-Toleranzrahmens;
-⎯ im Falle einer Spezifikation nach ISO 1302, durch Hinzufügen von Information zu den Bereichen a bis e
-des vollständigen graphischen Symbols für die Oberflächenbeschaffenheit;
-⎯ im Falle einer Spezifikation nach ISO 14405-1, durch Hinzufügen von Modifikationssymbolen zur
-Toleranzangabe.
-Siehe die entsprechenden Internationalen Normen für die Einzelheiten.
-ANMERKUNG Derzeit legen die GPS-Normen der ISO nicht alle notwendigen Spezifikations-Modifikationssymbole
-fest.
-8 Regeln für eingeklammerte Angaben
-Eingeklammerte Angaben dienen nur zur Information und stellen keinen wesentlichen Teil der
-Spezifikation/Anforderung dar.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-14
-Anhang A
-(informativ)
-Zusammenhang mit dem GPS-Matrix-Modell
-A.1 Allgemeines
-Zu den vollständigen Einzelheiten des GPS-Matrix-Modells siehe ISO/TR 14638.
-A.2 Informationen über diese Norm und ihre Anwendung
-Diese Internationale Norm behandelt eine Anzahl von grundlegenden Annahmen und Prinzipien, die für alle
-GPS-Normen und technischen Produktdokumentationen gelten, welche auf dem GPS-Matrix-System
-beruhen.
-Diese Internationale Norm behandelt auch die Angabe von nicht standardmäßigen Operatoren, entweder
-durch direkte Angabe oder durch die Verwendung maßgeblicher Dokumente oder zeichnungsspezifischer
-Vorgaben.
-A.3 Position im GPS-Matrix-Modell
-Diese Internationale Norm ist eine GPS-Grundnorm, die alle anderen Normen im GPS-Matrix-System
-beeinflusst, wie im Bild A.1 graphisch dargestellt.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-15
-Globale GPS-Normen
-Matrix allgemeiner GPS-Normen
-Kettenglieder 1 2 3 4 5 6
-Größenmaßelement X X X X X X
-Abstand X X X X X X
-Radius X X X X X X
-Winkel X X X X X X
-Form einer bezugsunabhängigen Linie X X X X X X
-Form einer bezugsabhängigen Linie X X X X X X
-GPS-
-Grundnormen Form einer bezugsunabhängigen Oberfläche X X X X X X
-Form einer bezugsabhängigen Oberfläche X X X X X X
-Richtung X X X X X X
-Lage X X X X X X
-Lauf X X X X X X
-Gesamtlauf X X X X X X
-Bezüge X X X X X X
-Rauheitsprofil X X X X X X
-Welligkeitsprofil X X X X X X
-Primärprofil X X X X X X
-Oberflächenunvollkommenheit X X X X X X
-Kanten X X X X X X
-Bild A.1 — Position im GPS-Matrix-Modell
-A.4 Betroffene Internationale Normen
-Die betroffenen Internationalen Normen sind diejenigen, welche aus den Kettengliedern der in Bild A.1
-gekennzeichneten Normen hervorgehen.
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
-EN ISO 8015:2011 (D)
-16
-Literaturhinweise
-[1] ISO 1:2002, Geometrical Product Specifications (GPS) — Standard reference temperature for
-geometrical product specification and verification
-[2] ISO 1101:2004, Geometrical Product Specifications (GPS) — Geometrical tolerancing — Tolerances
-of form, orientation, location and run-out
-[3] ISO 1302:2002, Geometrical Product Specifications (GPS) — Indication of surface texture in technical
-product documentation
-[4] ISO 2692:2006, Geometrical product specifications (GPS) — Geometrical tolerancing — Maximum
-material requirement (MMR), least material requirement (LMR) and reciprocity requirement (RPR)
-[5] ISO 2768-1:1989, General tolerances — Part 1: Tolerances for linear and angular dimensions without
-individual tolerance indications
-[6] ISO 5459:—3), Geometrical product specifications (GPS) — Geometrical tolerancing — Datums and
-datum systems
-[7] ISO 7200:2004, Technical product documentation — Data fields in title blocks and document headers
-[8] ISO 10579:2010, Geometrical product specifications (GPS) — Dimensioning and tolerancing — Non-
-rigid parts
-[9] ISO 13715:2000, Technical drawings — Edges of undefined shape — Vocabulary and indications
-[10] ISO 14253-1:1998, Geometrical Product Specifications (GPS) — Inspection by measurement of
-workpieces and measuring equipment — Part 1: Decision rules for proving conformance or
-nonconformance with specifications
-[11] ISO 14253-2:2011, Geometrical product specifications (GPS) — Inspection by measurement of
-workpieces and measuring equipment — Part 2: Guidance for the estimation of uncertainty in GPS
-measurement, in calibration of measuring equipment and in product verification
-[12] ISO 14405-1:2010, Geometrical product specifications (GPS) — Dimensional tolerancing — Part 1:
-Linear sizes
-[13] ISO/TR 14638:1995, Geometrical product specification (GPS) — Masterplan
-[14] ISO 14978:2006, Geometrical product specifications (GPS) — General concepts and requirements for
-GPS measuring equipment
-3) Wird veröffentlicht (Überarbeitung von ISO 5459:1981).
-DIN EN ISO 8015:2011-09
-BEST
-BeuthStandardsCollection
--
-Stand
-2016-11
+
+                                                                                                           DIN EN ISO 8015
+                                                                                                                                                                       D
+                                                    ICS 17.040.30                                                                                   Ersatz für
+                                                                                                                                                    DIN ISO 8015:1986-06
+
+
+
+
+                                                    Geometrische Produktspezifikation (GPS) –
+                                                    Grundlagen –
+                                                    Konzepte, Prinzipien und Regeln (ISO 8015:2011);
+                                                    Deutsche Fassung EN ISO 8015:2011
+                                                    Geometrical product specifications (GPS) –
+                                                    Fundamentals –
+                                                    Concepts, principles and rules (ISO 8015:2011);
+                                                    German version EN ISO 8015:2011
+                                                    Spécification géométrique des produits (GPS) –
+                                                    Principes fondamentaux –
+                                                    Concepts, principes et règles (ISO 8015:2011);
+                                                    Version allemande EN ISO 8015:2011
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                                                                                                                            Gesamtumfang 20 Seiten
+
+
+
+
+                                                                                       Normenausschuss Technische Grundlagen (NATG) im DIN
+
+
+
+                                                ©    DIN Deutsches Institut für Normung e. V. · Jede Art der Vervielfältigung, auch auszugsweise,
+                                                     nur mit Genehmigung des DIN Deutsches Institut für Normung e. V., Berlin, gestattet.
+                                                Alleinverkauf der Normen durch Beuth Verlag GmbH, 10772 Berlin
+                                                                                                                                                      Preisgruppe 11
+                                                                                                                                                         www.din.de      !$i|h"
+                                                                                                                                                       www.beuth.de             1708969
+                                                DIN EN ISO 8015:2011-09
+
+
+
+                                                Nationales Vorwort
+
+                                                Dieses Dokument (EN ISO 8015:2011) wurde vom Technischen Komitee ISO/TC 213 „Dimensional and
+                                                geometrical product specifications and verification“ (Sekretariat: Dänemark, DS) in Zusammenarbeit mit dem
+                                                Technischen Komitee CEN/TC 290 „Geometrische Produktspezifikationen und -prüfung“ erarbeitet, dessen
+                                                Sekretariat von AFNOR (Frankreich) gehalten wird.
+
+                                                Auf nationaler Ebene ist der Arbeitsausschuss NA 152-03-02 AA „CEN/ISO Geometrische Produktspezifikation
+                                                und -prüfung“ zuständig.
+
+                                                Für die in diesem Dokument zitierten Internationalen Dokumente und Normen wird im Folgenden auf die
+                                                entsprechenden Deutschen Dokumente und Normen hingewiesen:
+
+                                                ISO 1                       siehe DIN EN ISO 1
+                                                ISO 1101                    siehe DIN EN ISO 1101
+                                                ISO 1302                    siehe DIN EN ISO 1302
+                                                ISO 2692                    siehe DIN EN ISO 2692
+                                                ISO 2768-1                  siehe DIN ISO 2768-1
+                                                ISO 7200                    siehe DIN EN ISO 7200
+                                                ISO 13715                   siehe DIN ISO 13715
+                                                ISO 14253-1                 siehe DIN EN ISO 14253-1
+                                                ISO 14253-2                 siehe DIN EN ISO 14253-2 ∗)
+                                                ISO 14405-1                 siehe DIN EN ISO 14405-1
+                                                ISO 14978                   siehe DIN EN ISO 14978
+                                                ISO 17450-1                 siehe DIN EN ISO 17450-1 ∗∗)
+                                                ISO 17450-2                 siehe DIN EN ISO 17450-2 ∗∗∗)
+                                                ISO/TR 14638                siehe DIN V 32950
+                                                ISO/IEC Guide 98-3          siehe DIN V ENV 13005
+                                                ISO/IEC Guide 99            siehe VIM (D) ∗∗∗∗)
+
+                                                Änderungen
+
+                                                Gegenüber DIN ISO 8015:1986-06 wurden folgende Änderungen vorgenommen:
+
+                                                a)      die Norm wurde technisch überarbeitet.
+
+                                                Frühere Ausgaben
+
+                                                DIN 2300: 1980-11
+                                                DIN ISO 8015: 1986-06
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                ∗)          Wird veröffentlicht.
+                                                ∗∗ )        Wird veröffentlicht (Überarbeitung von ISO/TS 17450-1:2005).
+                                                ∗∗∗ )       Wird veröffentlicht (Überarbeitung von ISO/TS 17450-2:2002).
+                                                ∗∗∗∗ )      zu beziehen bei: Beuth Verlag GmbH, AuslandsNormen-Service (ANS), 10772 Berlin, ISBN 978-3-410-20070-3.
+
+
+                                                2
+                                                                                                                             DIN EN ISO 8015:2011-09
+
+
+
+                                                                                       Nationaler Anhang NA
+                                                                                            (informativ)
+
+                                                                                         Literaturhinweise
+
+                                                DIN EN ISO 1, Geometrische Produktspezifikation      (GPS)   —     Referenztemperatur     für   geometrische
+                                                Produktspezifikation und –prüfung
+
+                                                DIN EN ISO 1101, Geometrische Produktspezifikation (GPS) — Geometrische Tolerierung — Tolerierung von
+                                                Form, Richtung, Ort und Lauf
+
+                                                DIN EN ISO 1302, Geometrische Produktspezifikation (GPS) — Angabe der Oberflächenbeschaffenheit in der
+                                                technischen Produktdokumentation
+
+                                                DIN EN ISO 2692, Geometrische Produktspezifikation (GPS) — Form- und Lagetolerierung — Maximum-
+                                                Material-Bedingung (MMR), Minimum-Material-Bedingung (LMR) und Reziprozitätsbedingung (RPR)
+
+                                                DIN EN ISO 7200, Technische       Produktdokumentation       —   Datenfelder    in      Schriftfeldern   und
+                                                Dokumentenstammdaten
+
+                                                DIN EN ISO 14253-1, Geometrische Produktspezifikationen (GPS) — Prüfung von Werkstücken und
+                                                Meßgeräten durch Messen — Teil 1: Entscheidungsregeln für die Feststellung von Übereinstimmung oder
+                                                Nichtübereinstimmung mit Spezifikationen
+
+                                                DIN EN ISO 14253-2, Geometrische Produktspezifikationen (GPS) — Prüfung von Werkstücken und
+                                                Messgeräten durch Messen — Teil 2: Anleitung zur Schätzung der Unsicherheit bei GPS-Messungen, bei der
+                                                Kalibrierung von Messgeräten und bei der Produktprüfung
+
+                                                DIN EN ISO 14405-1, Geometrische Produktspezifikation (GPS) — Dimensionelle Tolerierung — Teil 1:
+                                                Längenmaße
+
+                                                DIN EN ISO 14978, Geometrische Produktspezifikation (GPS) — Allgemeine Begriffe und Anforderungen für
+                                                GPS-Messeinrichtungen
+
+                                                DIN EN ISO 17450-1, Geometrische Produktspezifikation (GPS) — Grundlagen — Teil 1: Modell für die
+                                                geometrische Spezifikation und Prüfung
+
+                                                DIN EN ISO 17450-2, Geometrische Produktspezifikation und -prüfung (GPS) — Allgemeine Begriffe —
+                                                Teil 2: Grundlegende Lehrsätze, Spezifikationen, Operatoren und Unsicherheiten
+
+                                                DIN ISO 2768-1, Allgemeintoleranzen;    Toleranzen   für   Längen-    und   Winkelmaße      ohne    einzelne
+                                                Toleranzeintragung
+
+                                                DIN ISO 13715, Technische Zeichnungen — Werkstückkanten mit unbestimmter Form — Begriffe und
+                                                Zeichnungsangaben
+
+                                                DIN V 32950, Geometrische Produktspezifikation (GPS) — Übersicht
+
+                                                DIN V ENV 13005, Leitfaden zur Angabe der Unsicherheit beim Messen
+
+                                                VIM, Internationales Wörterbuch der Metrologie — Grundlegende und allgemeine Begriffe und zugeordnete
+                                                Benennungen
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                                                                                                                          3
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+          4
+                                                                DIN EN ISO 8015:2011-09
+
+
+
+
+                                                — Leerseite —
+                                                EUROPÄISCHE NORM                                                            EN ISO 8015
+                                                EUROPEAN STANDARD
+                                                NORME EUROPÉENNE                                                            Juni 2011
+
+
+                                                ICS 01.100.20
+
+
+
+
+                                                                                                        Deutsche Fassung
+
+                                                                   Geometrische Produktspezifikation (GPS) - Grundlagen -
+                                                                     Konzepte, Prinzipien und Regeln (ISO 8015:2011)
+
+                                                Geometrical product specifications (GPS) - Fundamentals -                     Spécification géométrique des produits (GPS) - Principes
+                                                    Concepts, principles and rules (ISO 8015:2011)                                 fondamentaux - Concepts, principes et règles
+                                                                                                                                                 (ISO 8015:2011)
+
+
+
+                                                Diese Europäische Norm wurde vom CEN am 18. Mai 2011 angenommen.
+
+                                                Die CEN-Mitglieder sind gehalten, die CEN/CENELEC-Geschäftsordnung zu erfüllen, in der die Bedingungen festgelegt sind, unter denen
+                                                dieser Europäischen Norm ohne jede Änderung der Status einer nationalen Norm zu geben ist. Auf dem letzten Stand befindliche Listen
+                                                dieser nationalen Normen mit ihren bibliographischen Angaben sind beim Management-Zentrum des CEN-CENELEC oder bei jedem CEN-
+                                                Mitglied auf Anfrage erhältlich.
+
+                                                Diese Europäische Norm besteht in drei offiziellen Fassungen (Deutsch, Englisch, Französisch). Eine Fassung in einer anderen Sprache,
+                                                die von einem CEN-Mitglied in eigener Verantwortung durch Übersetzung in seine Landessprache gemacht und dem Management-
+                                                Zentrum mitgeteilt worden ist, hat den gleichen Status wie die offiziellen Fassungen.
+
+                                                CEN-Mitglieder sind die nationalen Normungsinstitute von Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich,
+                                                Griechenland, Irland, Island, Italien, Kroatien, Lettland, Litauen, Luxemburg, Malta, den Niederlanden, Norwegen, Österreich, Polen,
+                                                Portugal, Rumänien, Schweden, der Schweiz, der Slowakei, Slowenien, Spanien, der Tschechischen Republik, Ungarn, dem Vereinigten
+                                                Königreich und Zypern.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                                                          EUROPÄISCHES KOMITEE FÜR NORMUNG
+                                                                                          EUROPEAN COMMITTEE FOR STANDARDIZATION
+                                                                                          COMITÉ EUROPÉEN DE NORMALISATION
+
+
+
+                                                                                     Management-Zentrum: Avenue Marnix 17, B-1000 Brüssel
+
+
+
+                                                © 2011 CEN     Alle Rechte der Verwertung, gleich in welcher Form und in welchem                          Ref. Nr. EN ISO 8015:2011 D
+                                                               Verfahren, sind weltweit den nationalen Mitgliedern von CEN vorbehalten.
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+
+                                                Inhalt                                                                                                                                                           Seite
+
+
+                                                Vorwort ................................................................................................................................................................3
+                                                Einleitung.............................................................................................................................................................4
+                                                1           Anwendungsbereich .............................................................................................................................5
+                                                2           Normative Verweisungen ......................................................................................................................5
+                                                3           Begriffe ...................................................................................................................................................5
+                                                4           Grundlegende Annahmen für das Lesen von Spezifikationen auf Zeichnungen ...........................6
+                                                4.1         Allgemeines............................................................................................................................................6
+                                                4.2         Funktionsgrenzen ..................................................................................................................................6
+                                                4.3         Toleranzgrenzen ....................................................................................................................................6
+                                                4.4         Funktionsniveau des Werkstücks........................................................................................................6
+                                                5           Elementare Grundsätze.........................................................................................................................6
+                                                5.1         Grundsatz des Aufrufens......................................................................................................................6
+                                                5.2         Grundsatz der GPS-Normenhierarchie................................................................................................7
+                                                5.3         Grundsatz der bestimmenden Zeichnung...........................................................................................7
+                                                5.4         Grundsatz des Geometrieelementes ...................................................................................................8
+                                                5.5         Grundsatz der Unabhängigkeit ............................................................................................................8
+                                                5.6         Grundsatz der Dezimaldarstellung ......................................................................................................8
+                                                5.7         Grundsatz der Standardfestlegung......................................................................................................8
+                                                5.8         Grundsatz der Referenzbedingungen..................................................................................................9
+                                                5.9         Grundsatz des starren Werkstücks .....................................................................................................9
+                                                5.10        Grundsatz der Dualität ..........................................................................................................................9
+                                                5.10.1      Operatorkonzept ....................................................................................................................................9
+                                                5.10.2      Beschreibung des Grundsatzes der Dualität......................................................................................9
+                                                5.11        Grundsatz der Funktionsbeherrschung ............................................................................................10
+                                                5.12        Grundsatz der allgemeinen Spezifikation .........................................................................................10
+                                                5.13        Grundsatz der Verantwortlichkeit ......................................................................................................10
+                                                6           Regeln zur Angabe von Standardspezifikationsoperatoren ...........................................................11
+                                                6.1         Allgemeines..........................................................................................................................................11
+                                                6.2         Allgemeine standardmäßige GPS-Spezifikation der ISO.................................................................11
+                                                6.3         Abgewandelte standardmäßige GPS-Spezifikation .........................................................................11
+                                                7           Regeln zur Angabe von speziellen Spezifikationsoperatoren ........................................................12
+                                                7.1         Allgemeines..........................................................................................................................................12
+                                                7.2         Hinzugefügte ergänzende Information (Anforderungen) zu den grundlegenden
+                                                            Spezifikationen der ISO.......................................................................................................................13
+                                                8           Regeln für eingeklammerte Angaben ................................................................................................13
+                                                Anhang A (informativ) Zusammenhang mit dem GPS-Matrix-Modell ..........................................................14
+                                                A.1   Allgemeines..........................................................................................................................................14
+                                                A.2   Informationen über diese Norm und ihre Anwendung ....................................................................14
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                A.3   Position im GPS-Matrix-Modell ..........................................................................................................14
+                                                A.4   Betroffene Internationale Normen......................................................................................................15
+                                                Literaturhinweise ..............................................................................................................................................16
+
+
+
+
+                                                2
+                                                                                                                               DIN EN ISO 8015:2011-09
+                                                                                                                                  EN ISO 8015:2011 (D)
+
+
+
+                                                Vorwort
+                                                Dieses Dokument (EN ISO 8015:2011) wurde vom Technischen Komitee ISO/TC 213 „Dimensional and
+                                                geometrical product specifications and verification“ in Zusammenarbeit mit dem Technischen Komitee
+                                                CEN/TC 290 „Geometrische Produktspezifikationen und -prüfung“ erarbeitet, dessen Sekretariat vom AFNOR
+                                                gehalten wird.
+
+                                                Diese Europäische Norm muss den Status einer nationalen Norm erhalten, entweder durch Veröffentlichung
+                                                eines identischen Textes oder durch Anerkennung bis Dezember 2011, und etwaige entgegenstehende
+                                                nationale Normen müssen bis Dezember 2011 zurückgezogen werden.
+
+                                                Es wird auf die Möglichkeit hingewiesen, dass einige Texte dieses Dokuments Patentrechte berühren können.
+                                                CEN [und/oder CENELEC] sind nicht dafür verantwortlich, einige oder alle diesbezüglichen Patentrechte zu
+                                                identifizieren.
+
+                                                Entsprechend der CEN/CENELEC-Geschäftsordnung sind die nationalen Normungsinstitute der folgenden
+                                                Länder gehalten, diese Europäische Norm zu übernehmen: Belgien, Bulgarien, Dänemark, Deutschland,
+                                                Estland, Finnland, Frankreich, Griechenland, Irland, Island, Italien, Kroatien, Lettland, Litauen, Luxemburg,
+                                                Malta, Niederlande, Norwegen, Österreich, Polen, Portugal, Rumänien, Schweden, Schweiz, Slowakei,
+                                                Slowenien, Spanien, Tschechische Republik, Ungarn, Vereinigtes Königreich und Zypern.
+
+
+                                                                                            Anerkennungsnotiz
+
+                                                Der Text von ISO 8015:2011 wurde vom CEN als EN ISO 8015:2011 ohne irgendeine Abänderung
+                                                genehmigt.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                                                                                                                           3
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+                                                Einleitung
+                                                Dieses internationale Dokument ist eine Norm für die geometrische Produktspezifikation (GPS) und ist als
+                                                fundamentale GPS Norm (siehe ISO/TR 14638) anzusehen. Sie beeinflusst alle anderen Normen im
+                                                GPS-Matrix-System, d. h. sowohl alle globalen, allgemeinen und ergänzenden Normen, als auch jede
+                                                beliebige andere Art von Dokumenten innerhalb des GPS-Matrix-Systems.
+
+                                                Für eine weitergehende ausführliche Information über den Zusammenhang dieser Norm mit anderen Normen
+                                                und mit dem GPS-Matrix-Modell siehe Anhang A.
+
+                                                Diese Internationale Norm deckt eine Anzahl grundlegender Prinzipien ab, die auf alle GPS-Normen und auf
+                                                jede technische Produktspezifikation, welche auf dem GPS-Matrix-Modell beruht, angewendet werden
+                                                können. Bis zur Veröffentlichung dieser Norm waren diese Prinzipien nur implizit und nicht explizit formuliert
+                                                worden.
+
+                                                Diese Internationale Norm deckt auch die Angabe der Spezifikationsoperatoren nach ISO und insbesondere
+                                                auch die Angabe der Spezifikationsoperatoren in denjenigen anderen Fällen, die entweder durch unmittelbare
+                                                Angabe oder durch Verwendung von firmenspezifischen oder zeichnungsspezifischen Festlegungen gegeben
+                                                sind.
+
+                                                Dem Zweck dieser Internationalen Norm entsprechend, wird ein Konzept als eine abstrakte Idee, ein Prinzip
+                                                als eine genormte, allgemein anerkannte Wahrheit, beruhend auf Konzepten, auf welchen wiederum Regeln
+                                                beruhen, und eine Regel als genormtes Verfahren (des Handelns) angesehen.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                4
+                                                                                                                                DIN EN ISO 8015:2011-09
+                                                                                                                                   EN ISO 8015:2011 (D)
+
+
+
+                                                1    Anwendungsbereich
+                                                Diese Internationale Norm legt die grundlegenden Konzepte, Prinzipien und Regeln fest, die für die Erstellung,
+                                                Interpretation und Anwendung aller anderen Internationalen Normen, technischen Spezifikationen und
+                                                technischen Berichten gelten, soweit sie die geometrische Produktspezifikation (GPS) und –prüfung betreffen.
+
+                                                Diese Internationale Norm gilt für die Interpretation von GPS-Angaben auf allen Zeichnungsausführungen.
+
+                                                Für den Zweck dieser Internationalen Norm ist der Begriff „Zeichnung“ im weitest möglichen Sinne zu
+                                                interpretieren und schließt das gesamte Paket von Dokumentationen zur Spezifikation des Werkstücks mit
+                                                ein.
+
+
+                                                2    Normative Verweisungen
+                                                Die folgenden zitierten Dokumente sind für die Anwendung dieses Dokuments erforderlich. Bei datierten
+                                                Verweisungen gilt nur die in Bezug genommene Ausgabe. Bei undatierten Verweisungen gilt die letzte
+                                                Ausgabe des in Bezug genommenen Dokuments (einschließlich aller Änderungen).
+
+                                                ISO 17450-1:— 1) Geometrical product specifications (GPS) — General concepts — Part 1: Model for
+                                                geometrical specification and verification
+
+                                                ISO 17450-2:— 2) Geometrical product specifications (GPS) — General concepts — Part 2: Basic
+                                                tenets,specifications, operators and uncertainties
+
+                                                ISO/IEC Guide 98-3:2008, Uncertainty of measurement — Guide to the expression of uncertainty in
+                                                measurement (GUM:1995)
+
+                                                ISO/IEC Guide 99:2007, International vocabulary of metrology — Basic and general concepts and associated
+                                                terms (VIM)
+
+
+                                                3    Begriffe
+                                                Für die Anwendung dieses Dokuments gelten die Begriffe                   nach   ISO 17450-1,    ISO 17450-2,
+                                                ISO/IEC Guide 98-3, ISO/IEC Guide 99 und die folgenden Begriffe.
+
+                                                3.1
+                                                ISO GPS
+                                                GPS
+                                                System der geometrischen Produktspezifikation und –prüfung, entwickelt durch das ISO/TC 213
+
+                                                3.2
+                                                standardgemäße GPS-Spezifikation
+                                                GPS-Spezifikation, für die der Spezifikationsoperator durch Normen oder Regelwerke festgelegt ist
+
+                                                ANMERKUNG       Wenn sie festgelegt sind, dann sind standardgemäße Spezifikationen üblicherweise an den
+                                                einführenden Worten: „wenn nicht anders festgelegt...” zu erkennen.
+
+                                                3.3
+                                                standardmäßige GPS-Spezifikation der ISO
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                durch eine ISO-Norm festgelegte standardmäßige GPS-Spezifikation
+
+
+
+
+                                                1)   Wird veröffentlicht. (Überarbeitung von ISO/TS 17450-1:2005).
+                                                2)   Wird veröffentlicht. (Überarbeitung von ISO/TS 17450-2:2002).
+
+
+
+
+                                                                                                                                                            5
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+                                                3.4
+                                                abgewandelte standardmäßige GPS-Spezifikation
+                                                auf andere Art und Weise festgelegte standardmäßige GPS-Spezifikation
+                                                3.5
+                                                standardmäßiger GPS-Spezifikationsoperator der ISO
+                                                Spezifikationsoperator, der nur standardmäßige Spezifikationsoperationen enthält, die durch ISO-Normen in
+                                                der standardmäßigen Reihenfolge festgelegt sind
+                                                4     Grundlegende Annahmen für das Lesen von Spezifikationen auf Zeichnungen
+                                                4.1    Allgemeines
+                                                Die folgenden Annahmen bezüglich der Interpretation der Toleranzgrenzen sind die Grundlage für die
+                                                übergreifenden Regeln des GPS-Systems.
+
+                                                Allgemeine und individuelle auf der Zeichnung eingetragene Spezifikationen müssen immer beachtet werden
+                                                und sind standardmäßig mit den in 4.2 bis 4.4 angegebenen Annahmen verbunden.
+
+                                                4.2    Funktionsgrenzen
+                                                Für die Interpretation wird angenommen, dass die Funktionsgrenzen auf einer vollständigen Untersuchung
+                                                beruhen, die experimentell oder theoretisch oder als eine Kombination von beidem durchgeführt worden ist,
+                                                so dass die Funktionsgrenzen ohne Unsicherheit bekannt sind.
+
+                                                4.3    Toleranzgrenzen
+                                                Für die Interpretation   wird angenommen, dass         die Toleranzgrenzen mit den Funktionsgrenzen
+                                                übereinstimmen.
+
+                                                4.4    Funktionsniveau des Werkstücks
+                                                Für die Interpretation wird angenommen, dass das Werkstück innerhalb der Toleranzgrenzen zu 100 %
+                                                funktioniert und außerhalb der Toleranzgrenzen zu 0 %.
+
+                                                5     Elementare Grundsätze
+
+                                                5.1    Grundsatz des Aufrufens
+                                                Sobald ein Teilbereich des ISO-GPS-Systems in einer Produktspezifikation des Maschinenbaus aufgerufen
+                                                wird, gilt das gesamte ISO-GPS-System als aufgerufen, wenn es nicht anders in der Dokumentation
+                                                gekennzeichnet ist, z. B. durch Bezugnahme auf ein entsprechendes Dokument.
+
+                                                „Wenn nichts anderes in der Dokumentation eingetragen ist" bedeutet z. B., dass, wenn          in der
+                                                Dokumentation angegeben ist, dass diese in Übereinstimmung mit einer regionalen oder nationalen Norm
+                                                oder einem firmeneigenen Regelwerk erstellt worden ist und dass dann diese Norm und nicht das
+                                                ISO-GPS-System verwendet werden soll, um diejenigen Elemente der Spezifikation zu interpretieren, die
+                                                durch diese Norm abgedeckt sind.
+
+                                                „Tolerierung ISO 8015" kann wahlweise zur Information im oder in der Nähe des Titelfeldes angegeben
+                                                werden, ist aber nicht erforderlich, um das ISO-GPS-System aufzurufen.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                ANMERKUNG 1 Der am meisten übliche Weg um das ISO-GPS-System aufzurufen ist die Verwendung von einer oder
+                                                mehreren GPS-Spezifikationen auf einer Zeichnung.
+
+                                                ANMERKUNG 2 Das ISO-GPS-System ist in den durch das ISO/TC 213 veröffentlichten Internationalen Normen
+                                                festgelegt. Siehe auch ISO/TR 14638.
+
+                                                ANMERKUNG 3 Der Satz „das gesamte ISO-GPS-System wird aufgerufen" bedeutet, dass zum Beispiel fundamentale
+                                                und globale GPS-Normen gelten und konsequenterweise zum Beispiel die Referenztemperatur nach ISO 1 oder die
+                                                Entscheidungsregeln nach ISO 14253-1 gelten, sofern nichts anderes angegeben ist. Der Sinn des Grundsatz des
+                                                Aufrufens ist es, die formale Nachverfolgbarkeit für diese GPS-Normen und Regeln zu gewährleisten.
+
+
+
+                                                6
+                                                                                                                                    DIN EN ISO 8015:2011-09
+                                                                                                                                       EN ISO 8015:2011 (D)
+
+
+
+                                                5.2    Grundsatz der GPS-Normenhierarchie
+
+                                                Das ISO-GPS-System ist in einer Hierarchie von Normen festgelegt, welche die folgenden Arten von Normen
+                                                in der gegebenen Reihenfolge einschließt:
+
+                                                ⎯     GPS-Grundnormen;
+
+                                                ⎯     globale GPS-Normen;
+
+                                                ⎯     allgemeine GPS-Normen;
+
+                                                ⎯     ergänzende GPS-Normen.
+
+                                                Die in den Normen eines höheren Niveaus der Hierarchie angegebenen Regeln gelten in allen Fällen, es sei
+                                                denn, dass Regeln in Normen eines niedrigeren Niveaus in der Hierarchie eigens andere Regeln angeben.
+
+                                                Die in den GPS-Grundnormen, z. B. in dieser Norm, angegebenen Regeln gelten in allen Fällen, es sei denn,
+                                                dass die Regeln in einer speziellen Norm auf einem niedrigeren Niveau andere Regeln angeben, die
+                                                innerhalb ihres Geltungsbereiches gültig sind.
+
+                                                Die in globalen GPS-Normen angegebenen Regeln, z. B. in ISO 1, gelten in allen Fällen, es sei denn, dass
+                                                die Regeln in einer speziellen allgemeinen oder ergänzenden Norm andere Regeln angeben, die innerhalb
+                                                ihres Geltungsbereiches gültig sind.
+
+                                                Alle in GPS-Grundnormen und globalen GPS-Normen angegebenen Regeln gelten zusätzlich zu den in den
+                                                allgemeinen GPS-Normen, z. B. ISO 1101, besonders angegebenen Regeln, außer in den Fällen, in denen
+                                                die Regeln in der allgemeinen GPS-Norm ausdrücklich von den in den GPS-Grundnormen und den globalen
+                                                GPS-Normen angegebenen Regeln verschieden sind und falls die Regeln in einer bestimmten ergänzenden
+                                                Norm keine anderen Regeln angeben, die innerhalb ihres Geltungsbereiches gültig sind.
+
+                                                Alle in GPS-Grundnormen, globalen und allgemeinen GPS-Normen angegebenen Regeln gelten zusätzlich zu
+                                                den in den ergänzenden GPS-Normen, z. B. ISO 2768-1, besonders angegebenen Regeln, mit Ausnahme der
+                                                Fälle, bei denen die in den ergänzenden GPS-Normen angegebenen Regeln ausdrücklich von den in
+                                                GPS-Grundnormen, globalen und allgemeinen GPS-Normen angegebenen Regeln verschieden sind.
+
+                                                5.3    Grundsatz der bestimmenden Zeichnung
+
+                                                Die Zeichnung ist bestimmend. Alle Anforderungen sollen auf der Zeichnung unter Verwendung von
+                                                GPS-Symbolen (mit oder ohne Spezifikations-Modifikationssymbole), zugeordneten Standardregeln oder
+                                                besonderen Regeln und Verweisungen auf eine dazu in Beziehung stehende Dokumentation, z. B. regionale,
+                                                nationale oder firmeneigene Regelwerke, angegeben werden. Infolgedessen können Anforderungen, die nicht
+                                                auf der Zeichnung angegeben sind, nicht geltend gemacht werden.
+
+                                                Eine Zeichnung kann Anforderungen enthalten, die sich auf unterschiedliche Zustände der Fertigstellung des
+                                                Produktes beziehen. In diesem Fall muss angegeben werden, auf welchen Zustand sich jede der Angaben
+                                                bezieht, es sei denn, es ist der endgültige Zustand.
+
+                                                Als Teil des ISO-GPS-Systems gilt diese Internationale Norm und die in ihr festgelegten Grundsätze und
+                                                Regeln für alle Produktspezifikationen, bei denen das ISO-GPS-System aufgerufen wird (siehe 5.1), selbst
+                                                dann, wenn auf der Zeichnung nicht ausdrücklich auf sie verwiesen wird.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                ANMERKUNG          Wie im Anwendungsbereich ausgewiesen, ist der Begriff „Zeichnung" für den Zweck dieser
+                                                Internationalen Norm im weitest möglichen Sinne zu interpretieren und schließt das gesamte Paket von Dokumentationen
+                                                zur Spezifikation des Werkstücks mit ein.
+
+
+
+
+                                                                                                                                                                  7
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+                                                5.4   Grundsatz des Geometrieelementes
+                                                Ein Werkstück muss als aus einer Anzahl von Geometrieelementen, begrenzt durch natürliche Begrenzungen,
+                                                bestehend angesehen werden. Standardmäßig gilt jede GPS-Spezifikation für ein Geometrieelement oder
+                                                eine Beziehung zwischen Geometrieelementen für das gesamte Geometrieelement und jede
+                                                GPS-Spezifikation gilt nur für ein einziges Geometrieelement oder eine einzige Beziehung zwischen
+                                                Geometrieelementen.
+
+                                                Diese Standard-Festlegung kann nur durch eine ausdrückliche Angabe auf der Zeichnung außer Kraft gesetzt
+                                                werden.
+                                                ANMERKUNG 1 Die natürlichen Begrenzungen eines Geometrieelements sind in den meisten Fällen Kanten, an denen
+                                                eine plötzliche Änderung der Flächennormale auftritt. Dies ist allerdings nicht immer der Fall. Man überlege sich ein
+                                                Werkstück, das aus einem zylindrischen Geometrieelement zwischen zwei halbkugelförmigen Geometrieelementen mit
+                                                dem gleichen Durchmesser besteht. In diesem Fall gibt es keine plötzliche Änderung der Flächennormale an den
+                                                natürlichen Begrenzungen zwischen den Geometrieelementen.
+
+                                                ANMERKUNG 2 Es stehen Angaben zur Verfügung, um festzulegen, dass eine Anforderung nicht für das gesamte
+                                                Geometrieelement gilt, z. B. wenn ein Teilbereich eines Geometrieelementes mit einer lang-gestrichelten punktierten
+                                                breiten Linie gekennzeichnet ist oder wenn die Angabe ACS (jeder beliebige Querschnitt; en: any cross section)
+                                                verwendet wird.
+
+                                                ANMERKUNG 3 Es stehen Angaben zur Verfügung, um festzulegen, dass eine Anforderung für mehr als ein
+                                                Geometrieelement gilt, z. B. wenn die Angabe CZ (gemeinsame Zone; en: common zone) verwendet wird.
+
+                                                ANMERKUNG 4 Eine allgemeine GPS-Spezifikation wird, falls nicht anders festgelegt, als eine Menge von
+                                                GPS-Spezifikationen angesehen. Jede GPS-Spezifikation in der Menge gilt nur für ein Merkmal eines
+                                                Geometrieelementes oder eine Beziehung zwischen Geometrieelementen (siehe auch 5.12).
+
+                                                5.5   Grundsatz der Unabhängigkeit
+                                                Standardmäßig muss jede GPS-Anforderung an ein Geometrieelement oder eine Beziehung zwischen
+                                                Geometrieelementen unabhängig von anderen Anforderungen erfüllt werden, außer wenn sie in einer Norm
+                                                oder durch eine besondere Angabe (z. B. die Modifikationssymbole Ⓜ nach ISO 2692, CZ nach ISO 1101
+                                                oder Ⓔ nach ISO 14405-1) als Teil der gegenwärtigen Spezifikation ausgewiesen ist.
+
+                                                5.6   Grundsatz der Dezimaldarstellung
+                                                Nicht angegebene Dezimalstellen sind Nullen. Dieser Grundsatz gilt sowohl für Zeichnungen, als auch für
+                                                GPS-Normen.
+
+                                                BEISPIEL 1      ± 0,2 bedeutet das Gleiche wie ± 0,200 000 … usw.
+
+                                                BEISPIEL 2      10 bedeutet das Gleiche wie 10,000 000 … usw.
+
+                                                5.7   Grundsatz der Standardfestlegung
+                                                Ein vollständiger Spezifikationsoperator kann unter Verwendung der grundlegenden GPS-Spezifikationen der
+                                                ISO angegeben werden. Die grundlegende GPS-Spezifikation der ISO gibt an, dass die Anforderung auf dem
+                                                Standardspezifikationsoperator beruht.
+                                                ANMERKUNG 1 Die GPS-Normen der ISO legen den standardmäßigen GPS-Operator der ISO für jede grundlegende
+                                                GPS-Spezifikation fest. Dies ist nicht unmittelbar in der Zeichnung sichtbar.
+
+                                                BEISPIEL       Die Maßanforderung „∅30 H6” besagt, dass der Standardspezifikationsoperator (örtliches Maß) nach
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                ISO 14405-1 anzuwenden ist.
+
+                                                ANMERKUNG 2        Spezielle GPS-Spezifikationen können in der technischen Produktdokumentation durch die
+                                                Verwendung von Modifikationssymbolen oder Kurzbezeichnungen oder beides angegeben werden. Diese
+                                                Modifikationssymbole oder Kurzbezeichnungen oder beides sind in der Zeichnung sichtbar.
+
+                                                ANMERKUNG 3 Modifikationssymbole werden verwendet, um den Spezifikationsoperator zu ändern, wenn der
+                                                standardmäßige Spezifikationsoperator nicht gilt.
+
+
+
+
+                                                8
+                                                                                                                                DIN EN ISO 8015:2011-09
+                                                                                                                                   EN ISO 8015:2011 (D)
+
+
+
+                                                ANMERKUNG 4 Standardmäßige GPS-Spezifikationen können durch Verwendung von zeichnungsspezifischen
+                                                standardmäßigen GPS-Spezifikationen oder firmenspezifische standardmäßige GPS-Spezifikationen geändert werden.
+                                                Beide werden in der Zeichnung entweder unmittelbar angegeben oder durch Verweisung auf ein Dokument, z. B. ein
+                                                regionales, nationales oder firmeneigenes Regelwerk (siehe 6.3).
+
+                                                5.8    Grundsatz der Referenzbedingungen
+                                                Standardmäßig gelten alle GPS-Spezifikationen bei Referenzbedingungen. Diese schließen die in ISO 1
+                                                festgelegte Referenztemperatur von 20 °C ein und dass das Werkstück frei von Verunreinigungen sein soll.
+                                                Jede beliebige zusätzliche Bedingung oder andere Bedingungen, die gelten sollen, z. B.
+                                                Feuchtigkeitsbedingungen, müssen auf der Zeichnung festgelegt werden.
+
+                                                5.9    Grundsatz des starren Werkstücks
+                                                Standardmäßig muss ein Werkstück so angesehen werden, als hätte es eine unendlich große Steifigkeit und
+                                                alle GPS-Spezifikationen gelten für den freien Zustand, unverformt durch irgendwelche äußere Kräfte,
+                                                einschließlich der Schwerkraft. Jede beliebige zusätzliche Bedingung oder andere Bedingungen, die gelten
+                                                sollen, müssen auf der Zeichnung festgelegt werden; siehe zum Beispiel ISO 10579.
+
+                                                5.10 Grundsatz der Dualität
+
+                                                5.10.1 Operatorkonzept
+
+                                                Spezifikationen    für   Geometrieelemente     von    Werkstücken    werden   in  GPS-Normen     als
+                                                Spezifikationsoperatoren formuliert. Ein Spezifikationsoperator ist eine Menge von vorgeschriebenen
+                                                Operationen in einer vorgegebenen Reihenfolge.
+
+                                                Dieses Konzept ermöglicht die Anpassungsfähigkeit in den Spezifikationen. Die Menge der Operationen in
+                                                einer Spezifikation kann darauf zugeschnitten werden, besondere funktionelle Anforderungen nachzubilden,
+                                                wodurch jede Mehrdeutigkeit in der Beschreibung der Funktion in der Spezifikation eingeschränkt oder
+                                                beseitigt wird.
+
+                                                Ein vollständiger Spezifikationsoperator legt die Messgröße für die Spezifikation in allen wesentlichen
+                                                Einzelheiten fest. Dies beseitigt die Mehrdeutigkeit der Spezifikation.
+
+                                                Der Verifikationsoperator ist die physikalische Implementierung des Spezifikationsoperators. Er kann genau
+                                                dieselben Operationen in derselben Reihenfolge besitzen (in diesem Fall ist die Verfahrensunsicherheit gleich
+                                                Null) oder er kann unterschiedliche Operationen besitzen oder die Operationen in einer anderen Reihenfolge
+                                                durchführen (in diesem Fall ist die Verfahrensunsicherheit nicht gleich Null).
+
+                                                Der Verifikationsoperator ist nicht in der Zeichnung festgelegt. Vielmehr wird während der Verifikation
+                                                entschieden, dass er dem Spezifikationsoperator ausreichend nahe kommt, um die Verfahrensunsicherheit
+                                                auf einem annehmbaren Niveau zu halten.
+
+                                                5.10.2 Beschreibung des Grundsatzes der Dualität
+
+                                                Der Grundsatz der Dualität sagt aus:
+
+                                                      1)   eine GPS-Spezifikation legt einen GPS-Spezifikationsoperator unabhängig von irgend einem
+                                                           Messverfahren oder einer Messeinrichtung fest und
+
+                                                      2)   der GPS-Spezifikationsoperator wird durch einen Verifikationsoperator in die Praxis umgesetzt, der
+                                                           zwar von der GPS-Spezifikation selbst unabhängig ist, aber dafür gedacht ist den
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                           GPS-Spezifikationsoperator wiederzuspiegeln.
+
+                                                Die GPS-Spezifikation schreibt nicht vor, welche Verifikationsoperatoren zulässig sind. Die Zulässigkeit eines
+                                                Verifikationsoperators wird unter Verwendung der Messunsicherheit und jeder beliebigen Mehrdeutigkeit der
+                                                Spezifikation bewertet.
+
+
+
+
+                                                                                                                                                            9
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+                                                5.11 Grundsatz der Funktionsbeherrschung
+
+                                                Die Funktion jedes Werkstückes wird durch einen Funktionsoperator ausgedrückt und kann durch eine Menge
+                                                von Spezifikationsoperatoren nachgebildet werden, die wiederum eine Menge von Messgrößen und die
+                                                diesen Messgrößen zugeordneten Toleranzen festlegen.
+
+                                                Die Spezifikation eines Werkstückes ist vollständig, wenn alle beabsichtigten Funktionen des Werkstückes
+                                                beschrieben sind und durch GPS-Spezifikationen kontrolliert werden. In den meisten Fällen wird die
+                                                Spezifikation unvollständig sein, weil einige Funktionen unvollkommen oder überhaupt nicht
+                                                beschrieben/kontrolliert werden. Folglich kann es eine gute oder schlechte Korrelation zwischen der Funktion
+                                                und der verwendeten Menge der GPS-Spezifikationen geben.
+
+                                                Jeder Mangel einer Korrelation zwischen den funktionellen Anforderungen und den Anforderungen der
+                                                GPS-Spezifikationen führt zu einer Mehrdeutigkeit in der Beschreibung der Funktion.
+
+                                                5.12 Grundsatz der allgemeinen Spezifikation
+
+                                                Standardmäßig gilt eine allgemeine GPS-Spezifikation nur für das Merkmal eines Geometrieelementes oder
+                                                eine Beziehung zwischen Geometrieelementen für die keine individuelle GPS-Spezifikation der gleichen Art
+                                                angegeben worden ist. Allgemeine GPS-Spezifikationen gelten für jedes Merkmal eines Geometrieelementes
+                                                und jede Beziehung zwischen Geometrieelementen einzeln betrachtet.
+
+                                                Wenn keine allgemeinen GPS-Spezifikationen im oder in der Nähe des Titelfeldes angegeben werden, dann
+                                                gelten nur die in der technischen Produktdokumentation im einzelnen angegebenen GPS-Spezifikationen.
+
+                                                Wenn mehr als eine allgemeine GPS-Spezifikation im oder in der Nähe des Titelfeldes angegeben ist und
+                                                diese Angaben widersprüchlich zueinander sind, dann müssen sie durch eine Erklärung ergänzt werden, um
+                                                klar zu machen, für welches Merkmal jede der allgemeinen GPS-Spezifikationen gilt, um Mehrdeutigkeiten in
+                                                der Spezifikation zu vermeiden.
+
+                                                Im Falle von widersprüchlichen allgemeinen GPS-Spezifikationen, d. h. bei zwei oder mehr allgemeinen
+                                                GPS-Spezifikationen für dasselbe Merkmal, fordern die allgemeinen Regeln für eine Mehrdeutigkeit der
+                                                Spezifikation nur die Einhaltung einer allgemeinen GPS-Spezifikation, d. h. die toleranteste.
+
+                                                ANMERKUNG 1 Eine individuelle GPS-Spezifikation kann mehr oder weniger einschränkend sein, als die in der
+                                                Zeichnung angegebene allgemeine GPS-Spezifikation.
+
+                                                ANMERKUNG 2 Die Normen ISO 1302, ISO 2768 und                 ISO 13715   stellen   zum   Beispiel   Werkzeuge   zur
+                                                Zeichnungseintragung von Allgemeintoleranzen zur Verfügung.
+
+
+                                                5.13 Grundsatz der Verantwortlichkeit
+
+                                                In Anbetracht des Grundsatzes der Dualität und des Grundsatzes der Funktionsbeherrschung ist es
+                                                notwendig, die Genauigkeit der Annäherung eines Spezifikationsoperators an den Funktionsoperator und
+                                                Genauigkeit der Annäherung eines Verifikationsoperators an den Spezifikationsoperator zu beschreiben. Die
+                                                Mehrdeutigkeit der Beschreibung der Funktion und die Mehrdeutigkeit der Spezifikation beschreiben
+                                                gemeinsam die Genauigkeit der Annäherung des Spezifikationsoperators an den Funktionsoperator. Diese
+                                                Mehrdeutigkeiten liegen in der Verantwortung des Konstrukteurs. Die Messunsicherheit bestimmt quantitativ
+                                                die Annäherung des Verifikationsoperators an den Spezifikationsoperator. Falls nicht anders angegeben, liegt
+                                                die Messunsicherheit in der Verantwortung derjenigen Partei, welche den Nachweis der Übereinstimmung
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                oder Nichtübereinstimmung mit den Spezifikationen führt; siehe ISO 14253-1.
+
+
+
+
+                                                10
+                                                                                                                                    DIN EN ISO 8015:2011-09
+                                                                                                                                       EN ISO 8015:2011 (D)
+
+
+
+                                                6     Regeln zur Angabe von Standardspezifikationsoperatoren
+
+                                                6.1    Allgemeines
+
+                                                Standardmäßige GPS-Spezifikationen werden allgemein dazu verwendet, die Tolerierung auf der technischen
+                                                Zeichnung zu vereinfachen. Ein Standard-Spezifikationsoperator kann auf eine von zwei Arten festgelegt
+                                                werden, entweder durch Angabe einer allgemeinen standardmäßigen GPS-Spezifikation der ISO oder eine
+                                                allgemeine abgewandelte standardmäßige GPS-Spezifikation.
+
+                                                6.2    Allgemeine standardmäßige GPS-Spezifikation der ISO
+
+                                                Wenn
+
+                                                ⎯     die grundlegende GPS-Spezifikation der ISO nach ISO 1101, ISO 1302, ISO 5459, usw. die
+                                                      gegenwärtige Spezifikation für irgendein geometrisches Merkmal auf der Zeichnung ist, und
+
+                                                ⎯     keine allgemeine abgewandelte standardmäßige GPS-Spezifikation in oder in der Nähe des Titelfeldes
+                                                      angegeben ist,
+
+                                                dann ist der standardmäßige Spezifikationsoperator der ISO derjenige, welcher durch die gegenwärtige
+                                                ISO-Norm gefordert wird, die den fraglichen standardmäßigen Spezifikationsoperator festlegt. Die ISO-Norm,
+                                                die den fraglichen standardmäßigen Spezifikationsoperator festlegt, entspricht immer der zum Zeitpunkt der
+                                                Zeichnungserstellung letzten verfügbaren Ausgabe. Wenn eine Verweisung auf vorhergehende Ausgaben
+                                                dieser ISO-Norm erforderlich ist, dann soll dies eindeutig angegeben werden.
+
+                                                ANMERKUNG          Derzeit bieten die GPS-Normen der ISO nicht für alle Spezifikationsoperationen bei allen
+                                                standardmäßigen Spezifikationsoperatoren Standards an. Folglich sind viele Standard-Spezifikationsoperatoren der ISO
+                                                nicht vollständig.
+
+
+                                                6.3    Abgewandelte standardmäßige GPS-Spezifikation
+
+                                                Ein abgewandelter Standard-Spezifikationsoperator muss in einem maßgeblichen Dokument festgelegt sein.
+
+                                                Der abgewandelte Standard-Spezifikationsoperator muss genau, eindeutig und vollständig festgelegt sein,
+                                                damit er als ein vollständiger Spezifikationsoperator angesehen werden kann.
+
+                                                Der abgewandelte standardmäßige Spezifikationsoperator soll in oder in der Nähe des Zeichnungskopfes in
+                                                die Zeichnung eingetragen werden. Wenn Normen angewendet werden, die nicht ISO-GPS-Normen sind,
+                                                dann soll die Zeichnungseintragung mindestens das Folgende einschließen:
+
+                                                ⎯     das Wort „Tolerierung" oder „Tolerierung ISO 8015";
+
+                                                ⎯     das Symbol      ;
+
+                                                ⎯     eine vollständige Bezeichnung des maßgeblichen Dokumentes und andere notwendige Information.
+
+                                                ANMERKUNG        AD steht für „abgewandelter Standard-…" (Altered Default).
+
+                                                Wenn mehr als ein abgewandelter Standard-Spezifikationsoperator auf der Zeichnung verwendet wird, dann
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                sollte jedem Symbol   eine Zahl folgen.
+
+                                                Einige ISO-Normen stellen Mittel zur Verfügung, um den ISO-Standard abzuwandeln, z. B. beim Maß eines
+                                                Maßelementes nach ISO 14405 GG.
+
+                                                Das Symbol         wird nur dann verwendet, wenn GPS-Normen angewendet werden, die keine ISO-Normen
+                                                sind.
+
+
+
+
+                                                                                                                                                                 11
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+
+                                                Siehe auch das Beispiel in Bild 1.
+
+
+
+
+                                                        Bild 1 — Eintragung eines abgewandelten standardmäßigen GPS-Spezifikationsoperators
+
+
+                                                7     Regeln zur Angabe von speziellen Spezifikationsoperatoren
+
+                                                7.1    Allgemeines
+
+                                                Spezielle Spezifikationsoperatoren für irgendein geometrisches Merkmal müssen durch Hinzufügen
+                                                ergänzender Information (Anforderungen) zu den grundlegenden ISO-Spezifikationen angegeben werden. Die
+                                                hinzugefügte     ergänzende       Information    ändert    die    Operationen       im     festgelegten
+                                                Standard-Spezifikationsoperator.
+
+                                                ANMERKUNG 1 Diese           Art   von     hinzugefügter     ergänzender      Information   (Anforderung)   wird   als
+                                                Spezifikations-Modifikationssymbol festgelegt (siehe ISO 17450-2:— , 3.5.2).
+
+                                                Operationen,    denen     keine  ergänzenden     Anforderungen     in   dem    angegebenen       speziellen
+                                                Spezifikationsoperator zugewiesen worden sind, bleiben so wie es durch die Standard-Spezifikation nach der
+                                                grundlegenden ISO-Spezifikation festgelegt ist.
+
+                                                ANMERKUNG 2 Derzeit bieten die GPS-Normen der ISO nicht für alle Spezifikationsoperationen bei allen
+                                                standardmäßigen Spezifikationsoperatoren Standards an. Folglich sind viele Standard-Spezifikationsoperatoren der ISO
+                                                nicht vollständig.
+
+                                                Das in 7.2 beschriebene Verfahren muss für die Angabe von speziellen Spezifikationsoperatoren angewendet
+                                                werden,
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                ⎯     sowohl für individuell tolerierte Geometrieelemente in Übereinstimmung mit ISO 1101, ISO 1302,
+                                                      ISO 5459, usw.,
+
+                                                ⎯     als auch beim Zeichnen eindeutiger Standard-Spezifikationen.
+
+
+
+
+                                                12
+                                                                                                                                 DIN EN ISO 8015:2011-09
+                                                                                                                                    EN ISO 8015:2011 (D)
+
+
+
+                                                7.2 Hinzugefügte ergänzende Information (Anforderungen) zu den grundlegenden
+                                                Spezifikationen der ISO
+
+                                                Hinzugefügte ergänzende Information (Anforderungen) zu den grundlegenden Spezifikationen der ISO
+                                                können, falls notwendig, die Standardoperationen der grundlegenden Spezifikationen der ISO ändern.
+                                                Beispiele für diese Information sind
+
+                                                a) Zuordnungsregel,
+
+                                                b) Filtertyp,
+
+                                                c) Übertragungsband,
+
+                                                d) Tasterelement und
+
+                                                e) Erfassungsstrategie.
+
+                                                Wenn irgendeine dieser Standard-Operationen dem besonderen Bedürfnis der Konstruktion entsprechend
+                                                geändert wird, dann müssen die grundlegenden Spezifikationen wie folgt modifiziert werden:
+
+                                                ⎯   im Falle einer Spezifikation nach ISO 1101, durch Hinzufügen von Information zur zweiten Abteilung des
+                                                    Toleranzrahmens;
+
+                                                ⎯   im Falle einer Spezifikation nach ISO 1302, durch Hinzufügen von Information zu den Bereichen a bis e
+                                                    des vollständigen graphischen Symbols für die Oberflächenbeschaffenheit;
+
+                                                ⎯   im Falle einer Spezifikation nach ISO 14405-1, durch Hinzufügen von Modifikationssymbolen zur
+                                                    Toleranzangabe.
+
+                                                Siehe die entsprechenden Internationalen Normen für die Einzelheiten.
+
+                                                ANMERKUNG       Derzeit legen die GPS-Normen der ISO nicht alle notwendigen Spezifikations-Modifikationssymbole
+                                                fest.
+
+
+
+                                                8   Regeln für eingeklammerte Angaben
+                                                Eingeklammerte Angaben dienen nur zur Information und stellen keinen wesentlichen Teil der
+                                                Spezifikation/Anforderung dar.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                                                                                                                            13
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+                                                                                            Anhang A
+                                                                                            (informativ)
+
+                                                                    Zusammenhang mit dem GPS-Matrix-Modell
+
+
+
+                                                A.1 Allgemeines
+                                                Zu den vollständigen Einzelheiten des GPS-Matrix-Modells siehe ISO/TR 14638.
+
+
+                                                A.2 Informationen über diese Norm und ihre Anwendung
+                                                Diese Internationale Norm behandelt eine Anzahl von grundlegenden Annahmen und Prinzipien, die für alle
+                                                GPS-Normen und technischen Produktdokumentationen gelten, welche auf dem GPS-Matrix-System
+                                                beruhen.
+
+                                                Diese Internationale Norm behandelt auch die Angabe von nicht standardmäßigen Operatoren, entweder
+                                                durch direkte Angabe oder durch die Verwendung maßgeblicher Dokumente oder zeichnungsspezifischer
+                                                Vorgaben.
+
+
+                                                A.3 Position im GPS-Matrix-Modell
+                                                Diese Internationale Norm ist eine GPS-Grundnorm, die alle anderen Normen im GPS-Matrix-System
+                                                beeinflusst, wie im Bild A.1 graphisch dargestellt.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                14
+                                                                                                                         DIN EN ISO 8015:2011-09
+                                                                                                                            EN ISO 8015:2011 (D)
+
+
+
+                                                                                                  Globale GPS-Normen
+
+
+                                                                                            Matrix allgemeiner GPS-Normen
+                                                                         Kettenglieder                                   1   2   3   4   5   6
+                                                                           Größenmaßelement                              X   X   X   X   X    X
+                                                                           Abstand                                       X   X   X   X   X    X
+                                                                           Radius                                        X   X   X   X   X    X
+                                                                           Winkel                                        X   X   X   X   X    X
+                                                                           Form einer bezugsunabhängigen Linie           X   X   X   X   X    X
+                                                          GPS-             Form einer bezugsabhängigen Linie             X   X   X   X   X    X
+                                                      Grundnormen          Form einer bezugsunabhängigen Oberfläche      X   X   X   X   X    X
+                                                                           Form einer bezugsabhängigen Oberfläche        X   X   X   X   X    X
+                                                                           Richtung                                      X   X   X   X   X    X
+                                                                           Lage                                          X   X   X   X   X    X
+                                                                           Lauf                                          X   X   X   X   X    X
+                                                                           Gesamtlauf                                    X   X   X   X   X    X
+                                                                           Bezüge                                        X   X   X   X   X    X
+                                                                           Rauheitsprofil                                X   X   X   X   X    X
+                                                                           Welligkeitsprofil                             X   X   X   X   X    X
+                                                                           Primärprofil                                  X   X   X   X   X    X
+                                                                           Oberflächenunvollkommenheit                   X   X   X   X   X    X
+                                                                           Kanten                                        X   X   X   X   X    X
+
+
+                                                                             Bild A.1 — Position im GPS-Matrix-Modell
+
+
+                                                A.4 Betroffene Internationale Normen
+                                                Die betroffenen Internationalen Normen sind diejenigen, welche aus den Kettengliedern der in Bild A.1
+                                                gekennzeichneten Normen hervorgehen.
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                                                                                                                  15
+                                                DIN EN ISO 8015:2011-09
+                                                EN ISO 8015:2011 (D)
+
+
+
+                                                                                                Literaturhinweise
+
+
+                                                [1]       ISO 1:2002, Geometrical Product Specifications (GPS) — Standard reference temperature for
+                                                          geometrical product specification and verification
+
+                                                [2]       ISO 1101:2004, Geometrical Product Specifications (GPS) — Geometrical tolerancing — Tolerances
+                                                          of form, orientation, location and run-out
+
+                                                [3]       ISO 1302:2002, Geometrical Product Specifications (GPS) — Indication of surface texture in technical
+                                                          product documentation
+
+                                                [4]       ISO 2692:2006, Geometrical product specifications (GPS) — Geometrical tolerancing — Maximum
+                                                          material requirement (MMR), least material requirement (LMR) and reciprocity requirement (RPR)
+
+                                                [5]       ISO 2768-1:1989, General tolerances — Part 1: Tolerances for linear and angular dimensions without
+                                                          individual tolerance indications
+
+                                                [6]       ISO 5459:— 3), Geometrical product specifications (GPS) — Geometrical tolerancing — Datums and
+                                                          datum systems
+
+                                                [7]       ISO 7200:2004, Technical product documentation — Data fields in title blocks and document headers
+
+                                                [8]       ISO 10579:2010, Geometrical product specifications (GPS) — Dimensioning and tolerancing — Non-
+                                                          rigid parts
+
+                                                [9]       ISO 13715:2000, Technical drawings — Edges of undefined shape — Vocabulary and indications
+
+                                                [10]      ISO 14253-1:1998, Geometrical Product Specifications (GPS) — Inspection by measurement of
+                                                          workpieces and measuring equipment — Part 1: Decision rules for proving conformance or
+                                                          nonconformance with specifications
+
+                                                [11]      ISO 14253-2:2011, Geometrical product specifications (GPS) — Inspection by measurement of
+                                                          workpieces and measuring equipment — Part 2: Guidance for the estimation of uncertainty in GPS
+                                                          measurement, in calibration of measuring equipment and in product verification
+
+                                                [12]      ISO 14405-1:2010, Geometrical product specifications (GPS) — Dimensional tolerancing — Part 1:
+                                                          Linear sizes
+
+                                                [13]      ISO/TR 14638:1995, Geometrical product specification (GPS) — Masterplan
+
+                                                [14]      ISO 14978:2006, Geometrical product specifications (GPS) — General concepts and requirements for
+                                                          GPS measuring equipment
+BEST BeuthStandardsCollection - Stand 2016-11
+
+
+
+
+                                                3)     Wird veröffentlicht (Überarbeitung von ISO 5459:1981).
+
+
+
+
+                                                16
 

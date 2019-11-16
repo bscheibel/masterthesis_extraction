@@ -23,10 +23,11 @@ def file_read(fname):
 
 
 #file_read('drawings/5129275_Rev01-GV12.txt')
-tables = camelot.read_pdf("iso_documents/ISO2768-1.PDF", pages="3")
+tables = camelot.read_pdf("/home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO2768-1.PDF", pages="3")
 tables.export('output_mit_camelot.csv', f='csv')
 
-output = subprocess.check_output(["less","iso_documents/ISO2768-1.PDF"])
+output = subprocess.check_output(["less","/home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO2768-1.PDF"])
+print(output)
 
 re_data_prefix = re.compile("^[0-9]+[.].*$")
 re_data_fields = re.compile("(([^ ]+[ ]?)+)")

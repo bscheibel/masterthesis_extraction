@@ -13,4 +13,5 @@
 
 
 import textract
-text = textract.process("GV_12.pdf")
+text = textract.process("../drawings/GV_12.PDF")
+print(text)
