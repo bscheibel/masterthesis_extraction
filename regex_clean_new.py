@@ -38,7 +38,7 @@ def print_clean(dims): ##alles raus was nicht relevant ist! und zeichen ersetzen
                 dim = dim.replace('⌀', "Ø")
             reg12 = re.compile(r"(.*\d{1,4}\W?\d{0,4})\s?\+\s-\s?(\d{1,4}\W?\d{0,4})\s?(\d{1,4}\W?\d{0,3})") ##???? was machst du?? nach toleranzen suchen, mit +/- blabla
             reg13 = re.compile(r"(.*)\+\s\+\s(\d*\W\d*)\s(\d*\W\d*)(.*)")
-            reg14 = re.compile(r"(\+\s\d*,?\d*)\s(\d*,?\d*)\s(\+?\s?\-?\d*,?\d*)")
+            reg14 = re.compile(r"(\+\s?\d*,?.?\d*)\s*(\d*,?.?\d*)\s*(\+?\s?\-?\s?\d*,?.?\d*)")
             g = re.search(reg12, dim)
             f = re.search(reg13, dim)
             e = re.search(reg14, dim)
