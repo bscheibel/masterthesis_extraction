@@ -63,6 +63,8 @@ def pdf_to_html(uuid,filepath):
 def extract_isos(result):
     reg = r"(ISO\s\d\d\d\d*\W?\d?\W?\d?)|(EN\s\d*)"
     details_ = []
+    reg_general = r"ISO\s?\d*\s*\W\s*[fmcv][HKL]"
+    general_tol = ""
     for element in result:
         new_arr = ""
         for x in element:
@@ -74,8 +76,10 @@ def extract_isos(result):
                     details_.append(f[0].replace(")",""))
                 if len(f[1]) != 0:
                     details_.append(f[1])
+        if re.search(reg_general, new_arr):
+            general_tol = new_arr
 
-    return details_
+    return details_, str(general_tol)
 
 
 def get_tables(result):

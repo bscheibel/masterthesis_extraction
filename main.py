@@ -23,7 +23,8 @@ def main(uuid, filepath, db, eps):
         else:
             eps = 1
     #print(eps)
-    isos = order_bounding_boxes_in_each_block.extract_isos(result)
+    isos, general_tol = order_bounding_boxes_in_each_block.extract_isos(result)
+    print(general_tol)
     res = clustering_precomputed_dbscan.cluster_and_preprocess(result,eps)
     clean_arrays = read_from_clustered_merged.read("/home/bscheibel/PycharmProjects/dxf_reader/temporary/values_clusteredfrom_precomputed_dbscan.csv")
     tables = order_bounding_boxes_in_each_block.get_tables(clean_arrays)
@@ -34,6 +35,7 @@ def main(uuid, filepath, db, eps):
     json_isos = json.dumps(isos)
     json_result = json.dumps(res)
     json_details =json.dumps(details_dict)
+    write_redis(uuid+"tol", general_tol,db)
     write_redis(uuid+"dims", json_result, db)
     write_redis(uuid+"isos",json_isos, db)
     write_redis(uuid+"eps", str(number_blocks)+","+str(number_words), db)
