@@ -6,6 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+bs4 = "*"
+numpy = "*"
+pandas = "*"
+sklearn = "*"
+redis = "*"
+pdftotext = "*"
 
 [requires]
 python_version = "3.7"
