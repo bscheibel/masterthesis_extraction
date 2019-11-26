@@ -6,7 +6,7 @@ from math import sqrt
 from sklearn.cluster import DBSCAN
 
 def get_average_xy(list_input):
-    csv_name = "/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv"
+    csv_name = "/home/centurio/Projects/engineering_drawings_extraction/temporary/ist_to_csv_with_corner_points.csv"
     resultFile = open(csv_name, 'w')
     wr = csv.writer(resultFile, delimiter=";")
     wr.writerow(["element", "xmin","ymin","xmax","ymax", "ausrichtung","point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma"])
@@ -118,9 +118,9 @@ def clustering(dm,eps):
     n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
 
     print('Estimated number of clusters: %d' % n_clusters_)
-    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
+    data_df = pandas.read_csv("/home/centurio/Projects/engineering_drawings_extraction/temporary/list_to_csv_with_corner_points.csv", sep=";")
     data_df["cluster"] = labels
-    data_df.groupby(['cluster', 'ausrichtung'])['element'].apply(','.join).reset_index().to_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
+    data_df.groupby(['cluster', 'ausrichtung'])['element'].apply(','.join).reset_index().to_csv("//home/centurio/Projects/engineering_drawings_extraction/temporary/values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
     return data_df
 
 def cluster_and_preprocess(result,eps):
@@ -128,8 +128,8 @@ def cluster_and_preprocess(result,eps):
 
     #data = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
     #data = data[["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma","ausrichtung"]]
-    result.to_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/blub.csv", sep=";", index=False, header=None)
-    with open('/home/bscheibel/PycharmProjects/dxf_reader/temporary/blub.csv') as csvfile:
+    result.to_csv("/home/centurio/Projects/engineering_drawings_extraction/temporary/blub.csv", sep=";", index=False, header=None)
+    with open('/home/centurio/Projects/engineering_drawings_extraction/temporary/blub.csv') as csvfile:
         readCSV = csv.reader(csvfile, delimiter=';')
         result = list(readCSV)
 
