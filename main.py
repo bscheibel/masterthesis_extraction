@@ -14,7 +14,9 @@ def write_redis(uuid, result, db_params):
 
 
 def main(uuid, filepath, db, eps):
-    filename = order_bounding_boxes_in_each_block.pdf_to_html(uuid, filepath)
+    #path_centurio = "/home/centurio/Projects/engineering_drawings_extraction"
+    path = "/home/bscheibel/PycharmProjects/dxf_reader"
+    filename = order_bounding_boxes_in_each_block.pdf_to_html(uuid, filepath, path)
     #print(filename)
     result, number_blocks, number_words= order_bounding_boxes_in_each_block.get_bound_box(filename)  ##get coordinates+text out of html file into array of arrays
     if eps == '0':
@@ -25,8 +27,8 @@ def main(uuid, filepath, db, eps):
     #print(eps)
     isos, general_tol = order_bounding_boxes_in_each_block.extract_isos(result)
     print(general_tol)
-    res = clustering_precomputed_dbscan.cluster_and_preprocess(result,eps)
-    clean_arrays = read_from_clustered_merged.read("/home/centurio/Projects/engineering_drawings_extraction/temporary/values_clusteredfrom_precomputed_dbscan.csv")
+    res = clustering_precomputed_dbscan.cluster_and_preprocess(result,eps, path)
+    clean_arrays = read_from_clustered_merged.read(path+"/temporary/values_clusteredfrom_precomputed_dbscan.csv")
     tables = order_bounding_boxes_in_each_block.get_tables(clean_arrays)
     pretty = regex_clean_new.print_clean(clean_arrays)
     res, details_dict = organize_drawing_according_to_details_new.main_function(pretty, tables)
@@ -44,11 +46,10 @@ def main(uuid, filepath, db, eps):
     #print(redis.Redis('localhost').get(uuid+"dims"))
     #print(result)
 
-"""if __name__ == "__main__":
+"""#if __name__ == "__main__":
     uuid = sys.argv[1]
     filename = sys.argv[2]
     db = sys.argv[3]
     eps = sys.argv[4]
-    main(uuid,filename, db, eps)
-"""
+    main(uuid,filename, db, eps)"""
 main("33333", "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.pdf", "localhost",3)

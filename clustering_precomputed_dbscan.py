@@ -5,9 +5,9 @@ import csv
 from math import sqrt
 from sklearn.cluster import DBSCAN
 
-def get_average_xy(list_input):
-    csv_name = "/home/centurio/Projects/engineering_drawings_extraction/temporary/ist_to_csv_with_corner_points.csv"
-    resultFile = open(csv_name, 'w')
+def get_average_xy(list_input, path):
+    csv_name = path+"/temporary/list_to_csv_with_corner_points.csv"
+    resultFile = open(csv_name, 'w+')
     wr = csv.writer(resultFile, delimiter=";")
     wr.writerow(["element", "xmin","ymin","xmax","ymax", "ausrichtung","point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma"])
     result_df = pandas.DataFrame(columns=["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma","ausrichtung"])
@@ -112,28 +112,28 @@ def dist(rectangle1, rectangle2):
             #print(rectangle1)
     return distance
 
-def clustering(dm,eps):
+def clustering(dm,eps,path):
     db = DBSCAN(eps=eps, min_samples=1, metric="precomputed").fit(dm)                                                                                        ##3.93 until now, bei 5 shon mehr erkannt, 7 noch mehr erkannt aber auch schon zu viel; GV12 ist 4.5 gut für LH zu wenig
     labels = db.labels_
     n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
 
     print('Estimated number of clusters: %d' % n_clusters_)
-    data_df = pandas.read_csv("/home/centurio/Projects/engineering_drawings_extraction/temporary/list_to_csv_with_corner_points.csv", sep=";")
+    data_df = pandas.read_csv(path +"/temporary/list_to_csv_with_corner_points.csv", sep=";")
     data_df["cluster"] = labels
-    data_df.groupby(['cluster', 'ausrichtung'])['element'].apply(','.join).reset_index().to_csv("//home/centurio/Projects/engineering_drawings_extraction/temporary/values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
+    data_df.groupby(['cluster', 'ausrichtung'])['element'].apply(','.join).reset_index().to_csv(path+"/temporary/values_clusteredfrom_precomputed_dbscan.csv",sep=";", header=False, index=False)
     return data_df
 
-def cluster_and_preprocess(result,eps):
-    result = get_average_xy(result) #input: array of arrays, output: either csv file or array of arrays
+def cluster_and_preprocess(result,eps,path):
+    result = get_average_xy(result, path) #input: array of arrays, output: either csv file or array of arrays
 
     #data = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
     #data = data[["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma","ausrichtung"]]
-    result.to_csv("/home/centurio/Projects/engineering_drawings_extraction/temporary/blub.csv", sep=";", index=False, header=None)
-    with open('/home/centurio/Projects/engineering_drawings_extraction/temporary/blub.csv') as csvfile:
+    result.to_csv(path+"/temporary/blub.csv", sep=";", index=False, header=None)
+    with open(path+"/temporary/blub.csv") as csvfile:
         readCSV = csv.reader(csvfile, delimiter=';')
         result = list(readCSV)
 
     dm = np.asarray([[dist(p1, p2) for p2 in result] for p1 in result])
-    clustering_result = clustering(dm,float(eps))
+    clustering_result = clustering(dm,float(eps), path)
     return clustering_result
 

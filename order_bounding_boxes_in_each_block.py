@@ -54,8 +54,8 @@ def get_bound_box(file):
 
     return new_all_elements, number_blocks, number_words
 
-def pdf_to_html(uuid,filepath):
-    filename = "temporary/" +str(uuid)+"out.html" #to app/temporary later
+def pdf_to_html(uuid,filepath, path):
+    filename = path +"/temporary/" +str(uuid)+"out.html" #to app/temporary later
     subprocess.call(['pdftotext', '-bbox-layout',
                      filepath, filename])
     return filename
