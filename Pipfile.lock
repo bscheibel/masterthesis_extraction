@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ee3243d7339bb338000aab519e3cc0313391b97c6dd556c363dc1ce60a42454e"
+            "sha256": "d3049a4774aee96ad8f4b61b6c2c8ddbf88879362c000f6e9511bd0cdb89561d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -89,13 +89,6 @@
             ],
             "index": "pypi",
             "version": "==0.25.3"
-        },
-        "pdftotext": {
-            "hashes": [
-                "sha256:c8bdc47b08baa17b8e03ba1f960fc6335b183d2644eaf7300e088516758a6090"
-            ],
-            "index": "pypi",
-            "version": "==2.1.2"
         },
         "python-dateutil": {
             "hashes": [
