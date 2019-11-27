@@ -9,13 +9,16 @@ import redis
 import sys
 
 def write_redis(uuid, result, db_params):
-    db = redis.Redis(db_params)
+    db = redis.Redis(unix_socket_path='/tmp/redis.sock',db=7)
     db.set(uuid, result)
 
 
 def main(uuid, filepath, db, eps):
-    #path_centurio = "/home/centurio/Projects/engineering_drawings_extraction"
-    path = "/home/bscheibel/PycharmProjects/dxf_reader"
+    #db = redis.ConnectionPool(connection_class=redis.UnixDomainSocketConnection, path="/tmp/redis.sock")
+
+    #db  = redis.Redis(unix_socket_path='/tmp/redis.sock')
+    path = "/home/centurio/Projects/engineering_drawings_extraction"
+    #path = "/home/bscheibel/PycharmProjects/dxf_reader"
     filename = order_bounding_boxes_in_each_block.pdf_to_html(uuid, filepath, path)
     #print(filename)
     result, number_blocks, number_words= order_bounding_boxes_in_each_block.get_bound_box(filename)  ##get coordinates+text out of html file into array of arrays
@@ -52,4 +55,4 @@ def main(uuid, filepath, db, eps):
     db = sys.argv[3]
     eps = sys.argv[4]
     main(uuid,filename, db, eps)"""
-main("33333", "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.pdf", "localhost",3)
+main("33333", "/home/centurio/Projects/engineering_drawings_extraction/drawings/5152166_Rev04.pdf", "'/tmp/redis.sock', db=7",3)
