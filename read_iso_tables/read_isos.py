@@ -2,7 +2,7 @@ import nltk
 import re
 from tika import parser
 einleitung = False
-raw = parser.from_file('/home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO2768-1.PDF')
+raw = parser.from_file('/home/bscheibel/PycharmProjects/engineering_drawings_extraction/iso_documents/ISO2768-1.PDF')
 #raw = parser.from_file('iso_documents/ISO286-2.PDF')
 print(raw['content'])
 #text = raw['content']
@@ -19,7 +19,7 @@ print(raw['content'])
 
 import subprocess
 #subprocess.check_output(['ls','-l']) #all that is technically needed...
-cmd = 'pdftotext -layout "/home/bscheibel/PycharmProjects/dxf_reader/iso_documents/ISO8015.PDF"'
+cmd = 'pdftotext -layout "/home/bscheibel/PycharmProjects/engineering_drawings_extraction/iso_documents/ISO8015.PDF"'
 print(subprocess.Popen(cmd, shell=True))
 
 #convert iso document to text

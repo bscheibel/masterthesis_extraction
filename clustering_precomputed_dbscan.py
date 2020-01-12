@@ -126,7 +126,7 @@ def clustering(dm,eps,path):
 def cluster_and_preprocess(result,eps,path):
     result = get_average_xy(result, path) #input: array of arrays, output: either csv file or array of arrays
 
-    #data = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_corner_points.csv", sep=";")
+    #data = pandas.read_csv("/home/bscheibel/PycharmProjects/engineering_drawings_extraction/temporary/list_to_csv_with_corner_points.csv", sep=";")
     #data = data[["point_xmi_ymi","point_xma_ymi","point_xmi_yma","point_xma_yma","ausrichtung"]]
     result.to_csv(path+"/temporary/blub.csv", sep=";", index=False, header=None)
     with open(path+"/temporary/blub.csv") as csvfile:

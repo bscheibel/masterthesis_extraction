@@ -15,7 +15,7 @@ def my_distance(x,y):
 
 def cluster(file_in, file_out):
     # #############################################################################
-    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/dxf_reader/temporary/list_to_csv_with_avg_points.csv", sep=";")
+    data_df = pandas.read_csv("/home/bscheibel/PycharmProjects/engineering_drawings_extraction/temporary/list_to_csv_with_avg_points.csv", sep=";")
     data_df.head(3)
     data = data_df[["xavg_elem","yavg_elem","ausrichtung"]]
     #print(data)
@@ -113,8 +113,8 @@ def get_average_xy(list_input):
 
 
 #cluster(33,33)
-file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
-#file = "/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.html"
+file = "/home/bscheibel/PycharmProjects/engineering_drawings_extraction/drawings/5152166_Rev04.html"
+#file = "/home/bscheibel/PycharmProjects/engineering_drawings_extraction/drawings/5129275_Rev01-GV12.html"
 #result = order_bounding_boxes_in_each_block.get_bound_box(file)
 #get_average_xy(result)
 cluster(33,33)

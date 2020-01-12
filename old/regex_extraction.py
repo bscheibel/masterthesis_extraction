@@ -88,7 +88,7 @@ reg = r"(^\d{1}$)" #einzelne Zahlen raus #checked
 reg1 = r"(^[A-Z]{1}-?[A-Z]?$)" #einzelne Buchstaben raus #checked
 reg_all = re.compile(r"(ISO\s\d\d\d\d?\W?\d?\W?\d?\W?\d?|(EN\s\d*)|^[A-Z]{1}-?[A-Z]?\s*$)|([A-Z]\W?[A-Z]?\s?\W\s?\d\d?\s?\s?:\s?\d\d?\s?\W)|((?!\d)(?!Rpk)[a-zA-Z]{3,}?\W)|(?!0)(^\d{1}\s*$|A\d{1}|\d\s\d\s\d\s\d\s\d)|BY|to:?|of|or|is|in|as|be|by |\d\d\d\d\d\d\d|\d\s\/\s\d")
 extracted_dimensions = []
-#text = csv_to_text.read_csv('/home/bscheibel/PycharmProjects/dxf_reader/temporary/text_merged_GV12.csv')
+#text = csv_to_text.read_csv('/home/bscheibel/PycharmProjects/engineering_drawings_extraction/temporary/text_merged_GV12.csv')
 
 #file = open('values_clusteredfromPDF_GV12.csv', 'r')
 #text = file.read()

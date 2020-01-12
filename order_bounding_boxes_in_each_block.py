@@ -97,6 +97,6 @@ def get_tables(result):
     return tables
 
 
-#file="/home/bscheibel/PycharmProjects/dxf_reader/drawings/5152166_Rev04.html"
+#file="/home/bscheibel/PycharmProjects/engineering_drawings_extraction/drawings/5152166_Rev04.html"
 #get_bound_box(file)
-#pdf_to_html("/home/bscheibel/PycharmProjects/dxf_reader/drawings/5129275_Rev01-GV12.pdf")
+#pdf_to_html("/home/bscheibel/PycharmProjects/engineering_drawings_extraction/drawings/5129275_Rev01-GV12.pdf")
