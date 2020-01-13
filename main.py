@@ -1,4 +1,3 @@
-import organize_drawing_according_to_details_new
 import order_bounding_boxes_in_each_block
 import clustering_precomputed_dbscan
 import read_from_clustered_merged
@@ -11,7 +10,6 @@ import sys
 def write_redis(uuid, result, db_params):
     #db = redis.Redis(unix_socket_path='/tmp/redis.sock',db=7)
     db = redis.Redis("localhost")
-    #db = redis.Redis('localhost')
     db.set(uuid, result)
 
 
@@ -19,6 +17,8 @@ def main(uuid, filepath, db, eps):
     #db = redis.ConnectionPool(connection_class=redis.UnixDomainSocketConnection, path="/tmp/redis.sock")
 
     #db  = redis.Redis(unix_socket_path='/tmp/redis.sock')
+
+
     #path = "/home/centurio/Projects/engineering_drawings_extraction"
     path = "/home/bscheibel/PycharmProjects/engineering_drawings_extraction"
     filename = order_bounding_boxes_in_each_block.pdf_to_html(uuid, filepath, path)
@@ -30,7 +30,6 @@ def main(uuid, filepath, db, eps):
             eps = 7
         else:
             eps = 1
-    #print(eps)
     isos, general_tol = order_bounding_boxes_in_each_block.extract_isos(result)
     print(general_tol)
     res = clustering_precomputed_dbscan.cluster_and_preprocess(result,eps, path)
@@ -38,7 +37,6 @@ def main(uuid, filepath, db, eps):
     tables = order_bounding_boxes_in_each_block.get_tables(clean_arrays)
     pretty = regex_clean_new.print_clean(clean_arrays)
     res, details_dict = organize_drawing_according_to_details_new.main_function(pretty, tables)
-    #print(res)
 
     json_isos = json.dumps(isos)
     json_result = json.dumps(res)
@@ -48,15 +46,13 @@ def main(uuid, filepath, db, eps):
     write_redis(uuid+"isos",json_isos, db)
     write_redis(uuid+"eps", str(number_blocks)+","+str(number_words), db)
     write_redis(uuid+"details",json_details ,db)
-    #print(json_details)
-    #print(redis.Redis('localhost').get(uuid+"dims"))
-    #print(result)
+
 
 if __name__ == "__main__":
     uuid = sys.argv[1]
     filename = sys.argv[2]
     db = sys.argv[3]
     eps = sys.argv[4]
-    #eps
     main(uuid,filename, db, eps)
+
 #main("33333", "/home/centurio/Projects/engineering_drawings_extraction/drawings/5152166_Rev04.pdf", "'/tmp/redis.sock', db=7",3)

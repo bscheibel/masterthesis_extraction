@@ -39,23 +39,14 @@ def get_bound_box(file):
         abstand_x = abs(float(element[-1][0])-(float(element[0][2])))
         abstand_y = abs(float(element[-1][3])-float(element[0][1]))
         if later_bigger >= -5:
-            #print(abstand_x-abstand_y)
             new_all_elements.append(element)
         else:
             new_element = sorted(element, key=lambda k: [float(k[0])])
             new_all_elements.append(new_element)
-
-
-    """for element in new_all_elements:
-        for blub in element:
-            #print(blub[4])
-
-        #print("\n")"""
-
     return new_all_elements, number_blocks, number_words
 
 def pdf_to_html(uuid,filepath, path):
-    filename = path +"/temporary/" +str(uuid)+"out.html" #to app/temporary later
+    filename = path +"/temporary/" +str(uuid)+"out.html"
     subprocess.call(['pdftotext', '-bbox-layout',
                      filepath, filename])
     return filename
@@ -87,16 +78,10 @@ def get_tables(result):
     tables = []
     for element in result:
         new = []
-        #print(element)
         if re.search(reg, element):
             new.extend(result[element])
             new.append(element)
             tables.append(new)
     number = len(tables)
-    #print(tables)
     return tables
 
-
-#file="/home/bscheibel/PycharmProjects/engineering_drawings_extraction/drawings/5152166_Rev04.html"
-#get_bound_box(file)
-#pdf_to_html("/home/bscheibel/PycharmProjects/engineering_drawings_extraction/drawings/5129275_Rev01-GV12.pdf")

@@ -23,8 +23,6 @@ def read(file):
 
             for elem in row3:
 
-                #print("start")
-                #print(len(elem))
                 if len(row3) == 1:
                     element = elem[4]
                     xmin = float(elem[0])
@@ -37,20 +35,14 @@ def read(file):
                     if isinstance(elem[0],list):
                         merged_elements += elem
 
-                        #print(length, len(merged_elements))
-                        if len(merged_elements) < length:   ####woher weiß ich die länge????
-                            #print("bb", len(merged_elements), len(elem))
+                        if len(merged_elements) < length:
                             continue
 
                         if int(ausrichtung) == 1:
-                            #print(elem)
                             merged_elements = sorted(merged_elements, key=lambda k: [float(k[3])], reverse=True)
 
-                        #print(merged_elements)
 
                         for elemt in merged_elements:
-                            #print(merged_elements)
-                            #print(elem)
                             element += elemt[4] + " "
                             if float(elemt[0]) < xmin:
                                 xmin = float(elemt[0])
@@ -73,13 +65,11 @@ def read(file):
                         if float(elem[3]) > ymax:
                             ymax = float(elem[3])
 
-            #print(element)
             result.append(element)
             coords.append(xmin)
             coords.append(ymin)
             coords.append(xmax)
             coords.append(ymax)
             dict[element] = coords
-            #print("\n")
 
     return dict
